@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#062844" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.svg" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=8" />
+    <title>Lane Lines — Swim Set Builder</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Lane Lines home"><span class="mark">≋</span><span>Lane Lines</span></a>
+      <div class="header-actions"><button class="ghost" id="new-set">New set</button><button class="ghost" id="log-workout">Log workout</button><button class="primary" id="view-deck">View deck sheet</button></div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div><p class="eyebrow">HIGH SCHOOL SWIM</p><h1>Build a practice your swimmers can follow.</h1><p class="lede">Create a clear set, adjust it on deck, and keep your favorite workouts ready for the next practice.</p></div>
+        <div class="summary-card"><span>SESSION TOTAL</span><strong id="total-yards">0 yd</strong><small id="total-time">Add intervals to estimate time</small></div>
+      </section>
+
+      <section class="workspace">
+        <aside class="library">
+          <div class="section-heading"><h2>Set library</h2><button id="save-set" class="icon-text">＋ Save</button></div>
+          <input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search set library" />
+          <p id="library-count" class="library-count"></p>
+          <div id="saved-sets" class="saved-sets"></div>
+          <section class="workout-log" aria-labelledby="log-title"><div class="section-heading"><h2 id="log-title">Workout log</h2><span id="log-count" class="log-count"></span></div><div id="log-entries" class="log-entries"></div></section>
+          <div class="library-tip"><span>⌁</span><p>Sets are saved on this device. Export a deck sheet as a PDF when you want to share it.</p></div>
+        </aside>
+
+        <section class="builder" aria-label="Set builder">
+          <div class="set-meta">
+            <label>Set name<input id="set-title" value="Tuesday Threshold" maxlength="80" /></label>
+            <label>Focus<input id="set-focus" value="Aerobic endurance" maxlength="80" /></label>
+            <label>Pool<select id="pool-length"><option value="25">25 yd pool</option><option value="50">50 m pool</option></select></label>
+            <label>Tags<input id="set-tags" placeholder="e.g. threshold, sprint" maxlength="100" /></label>
+          </div>
+          <div class="builder-heading"><div><p class="eyebrow">TODAY'S WORKOUT</p><h2 id="display-title">Tuesday Threshold</h2></div><button class="outline" id="add-block">+ Add block</button></div>
+          <div id="blocks" class="blocks"></div>
+          <button id="add-block-bottom" class="add-block-wide">+ Add another block</button>
+        </section>
+      </section>
+    </main>
+
+    <section id="deck-view" class="deck-view" aria-hidden="true" aria-label="Consolidated deck sheet">
+      <div class="deck-toolbar"><button class="ghost" id="close-deck">← Back to editor</button><div><button class="outline" id="refresh-deck">Refresh</button><button class="primary" id="print-deck">Print / Save PDF</button></div></div>
+      <article id="deck-sheet" class="deck-sheet"></article>
+    </section>
+    <template id="block-template">
+      <article class="block">
+        <div class="block-top"><input class="block-name" value="Main set" aria-label="Block name" /><div class="block-controls"><button class="duplicate" title="Duplicate block">⧉</button><button class="delete-block" title="Delete block">×</button></div></div>
+        <textarea class="block-note" rows="1" placeholder="Coaching note (optional)"></textarea>
+        <div class="reps" aria-label="Repetitions"></div>
+        <button class="add-rep">+ Add repeat</button>
+      </article>
+    </template>
+    <template id="rep-template">
+      <div class="rep">
+        <label><span>REPS</span><input class="count" type="number" min="1" value="4" /></label>
+        <span class="times">×</span>
+        <label><span>DISTANCE</span><input class="distance" type="number" min="0" step="25" value="100" /></label>
+        <span class="unit">yd</span>
+        <label class="stroke-wrap"><span>STROKE</span><select class="stroke"><option>Freestyle</option><option>Backstroke</option><option>Breaststroke</option><option>Butterfly</option><option>IM</option><option>Choice</option><option>Kick</option><option>Drill</option></select></label>
+        <label><span>INTERVAL</span><input class="interval" value="1:30" placeholder="1:30" /></label>
+        <button class="delete-rep" title="Delete repeat">×</button>
+        <p class="rep-detail"><input class="detail" placeholder="e.g. descend 1–4" /></p>
+      </div>
+    </template>
+    <dialog id="save-dialog"><form method="dialog"><h2>Save to library</h2><p>Save this complete workout so it is ready to load and adapt at a future practice.</p><label class="dialog-label">SET NAME<input id="save-name" maxlength="80" /></label><label class="dialog-label">TAGS <small>Separate tags with commas</small><input id="save-tags" maxlength="100" placeholder="threshold, aerobic" /></label><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-save">Save set</button></div></form></dialog>
+    <dialog id="log-dialog"><form method="dialog"><h2>Log workout</h2><p>Record today’s completed workout. Your current set will be saved as a snapshot in the log.</p><label class="dialog-label">DATE<input id="log-date" type="date" /></label><label class="dialog-label">COACHING NOTES <textarea id="log-notes" rows="3" maxlength="300" placeholder="e.g. Great energy; breaststroke group needed extra rest."></textarea></label><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-log">Add to log</button></div></form></dialog>
+    <div id="toast" role="status"></div>
+    <script src="app.js?v=8"></script>
+  </body>
+</html>
