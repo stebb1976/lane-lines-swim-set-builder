@@ -9,13 +9,13 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=86" />
+    <link rel="stylesheet" href="styles.css?v=87" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
     <header class="topbar">
       <button class="brand" id="menu-toggle" aria-label="Open app menu" aria-expanded="false"><span class="mark">≋</span><span>Lane Lines</span></button>
-      <nav class="app-menu" id="app-menu" aria-label="App navigation"><button id="open-builder">Workout Creator</button><button id="open-library">Workout Library</button><button id="open-workout-log">Workout Log</button><button id="open-calendar">Calendar</button></nav>
+      <nav class="app-menu" id="app-menu" aria-label="App navigation"><button id="open-builder">Workout Creator</button><button id="open-library">Workout Library</button><button id="open-workout-log">Workout Log</button><button id="open-calendar">Calendar</button><button id="open-schedule">Schedule</button></nav>
       <div class="header-actions"><button class="ghost" id="new-set">New Set</button><button class="ghost" id="save-to-library-top">Save Workout</button><button class="primary" id="view-deck">View Deck Sheet</button></div>
     </header>
 
@@ -51,6 +51,7 @@
     </section>
     <section id="log-view" class="library-view" aria-hidden="true" aria-label="Workout log"><div class="deck-toolbar"><button class="ghost" id="close-log">← Back to workout creator</button></div><article class="library-page"><section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h1 id="log-title">Workout log</h1></div><div class="sync-actions"><button id="log-sync-settings" class="outline">Connect GitHub</button><button id="log-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="log-push" class="icon-text" disabled>↑ Save to GitHub</button></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div><article id="log-stats-sheet" class="stats-sheet log-stats-sheet" aria-label="Workout statistics"></article></section></article></section>
     <section id="calendar-view" class="library-view" aria-hidden="true" aria-label="Workout calendar"><div class="deck-toolbar"><button class="ghost" id="close-calendar">← Back to workout creator</button></div><article class="calendar-page"><div class="calendar-heading"><button id="previous-month" class="outline">←</button><h1 id="calendar-title"></h1><button id="next-month" class="outline">→</button></div><div class="calendar-weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div id="calendar-grid" class="calendar-grid"></div><p class="calendar-key"><span class="calendar-key-log"></span> Logged workout <span class="calendar-key-scheduled"></span> Scheduled workout</p></article></section>
+    <section id="schedule-view" class="library-view" aria-hidden="true" aria-label="Upcoming workout schedule"><div class="deck-toolbar"><button class="ghost" id="close-schedule">← Back to workout creator</button></div><article class="library-page"><section class="library-section schedule-section"><div class="section-heading"><h1>Schedule</h1></div><p class="schedule-subtitle">Your next five scheduled workouts.</p><div id="upcoming-workouts" class="upcoming-workouts"></div></section></article></section>
 
     <section id="deck-view" class="deck-view" aria-hidden="true" aria-label="Consolidated deck sheet">
       <div class="deck-toolbar"><button class="ghost" id="close-deck">← Back to editor</button><div><button class="outline" id="refresh-deck">Refresh</button><button class="primary" id="print-deck">Print / Save PDF</button></div></div>
@@ -94,6 +95,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=86"></script>
+    <script src="app.js?v=87"></script>
   </body>
 </html>
