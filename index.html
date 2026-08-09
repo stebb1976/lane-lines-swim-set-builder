@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=84" />
+    <link rel="stylesheet" href="styles.css?v=85" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -46,7 +46,7 @@
     <section id="library-view" class="library-view" aria-hidden="true" aria-label="Set library">
       <div class="deck-toolbar"><button class="ghost" id="close-library">← Back to workout creator</button></div>
       <article class="library-page">
-        <section class="library-section" aria-labelledby="library-title"><div class="section-heading"><h1 id="library-title">Workout Library</h1></div><div class="sync-actions"><button id="library-sync-settings" class="outline">Connect GitHub</button><button id="library-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="library-push" class="icon-text" disabled>↑ Save to GitHub</button></div><input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search workout library" /><p id="library-count" class="library-count"></p><div id="saved-sets" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Your Workout Library can sync to one GitHub JSON file. Workout logs remain saved only on this device.</p></div></section>
+        <section class="library-section" aria-labelledby="library-title"><div class="section-heading"><h1 id="library-title">Workout Library</h1><button id="create-library-workout" class="outline">+ Create New Workout</button></div><div class="sync-actions"><button id="library-sync-settings" class="outline">Connect GitHub</button><button id="library-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="library-push" class="icon-text" disabled>↑ Save to GitHub</button></div><input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search workout library" /><p id="library-count" class="library-count"></p><div id="saved-sets" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Create a new workout, or duplicate any saved workout to use it as a starting point.</p></div></section>
       </article>
     </section>
     <section id="log-view" class="library-view" aria-hidden="true" aria-label="Workout log"><div class="deck-toolbar"><button class="ghost" id="close-log">← Back to workout creator</button></div><article class="library-page"><section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h1 id="log-title">Workout log</h1></div><div class="sync-actions"><button id="log-sync-settings" class="outline">Connect GitHub</button><button id="log-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="log-push" class="icon-text" disabled>↑ Save to GitHub</button></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div><article id="log-stats-sheet" class="stats-sheet log-stats-sheet" aria-label="Workout statistics"></article></section></article></section>
@@ -93,6 +93,6 @@
     <dialog id="delete-confirm-dialog"><form method="dialog"><h2 id="delete-title">Delete this item?</h2><p id="delete-message">This cannot be undone.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-delete">Delete</button></div></form></dialog>
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=84"></script>
+    <script src="app.js?v=85"></script>
   </body>
 </html>
