@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=35" />
+    <link rel="stylesheet" href="styles.css?v=36" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -46,7 +46,7 @@
         <section class="library-section" aria-labelledby="library-title"><div class="section-heading"><h1 id="library-title">Set library</h1><button id="save-set" class="icon-text">＋ Save current set</button></div><div class="sync-actions"><button id="library-sync-settings" class="outline">Connect GitHub</button><button id="library-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="library-push" class="icon-text" disabled>↑ Save to GitHub</button></div><input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search set library" /><p id="library-count" class="library-count"></p><div id="saved-sets" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Your library can sync to one GitHub JSON file. Workout logs remain saved only on this device.</p></div></section>
       </article>
     </section>
-    <section id="log-view" class="library-view" aria-hidden="true" aria-label="Workout log"><div class="deck-toolbar"><button class="ghost" id="close-log">← Back to workout creator</button></div><article class="library-page"><section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h1 id="log-title">Workout log</h1><button id="view-stats" class="icon-text">Stats</button></div><div class="sync-actions"><button id="log-sync-settings" class="outline">Connect GitHub</button><button id="log-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="log-push" class="icon-text" disabled>↑ Save to GitHub</button></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div></section></article></section>
+    <section id="log-view" class="library-view" aria-hidden="true" aria-label="Workout log"><div class="deck-toolbar"><button class="ghost" id="close-log">← Back to workout creator</button></div><article class="library-page"><section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h1 id="log-title">Workout log</h1><button id="view-stats" class="icon-text">Stats</button></div><div class="sync-actions"><button id="log-sync-settings" class="outline">Connect GitHub</button><button id="log-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="log-push" class="icon-text" disabled>↑ Save to GitHub</button></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div><article id="log-stats-sheet" class="stats-sheet log-stats-sheet" aria-label="Workout statistics"></article></section></article></section>
 
     <section id="deck-view" class="deck-view" aria-hidden="true" aria-label="Consolidated deck sheet">
       <div class="deck-toolbar"><button class="ghost" id="close-deck">← Back to editor</button><div><button class="outline" id="refresh-deck">Refresh</button><button class="primary" id="print-deck">Print / Save PDF</button></div></div>
@@ -87,6 +87,6 @@
     <dialog id="log-sync-conflict-dialog"><form method="dialog"><h2>Shared workout log changed</h2><p>The GitHub log has changed since this device last synced. You can merge the logs and save, or intentionally overwrite GitHub with this device’s log.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="merge-log-then-push">Merge &amp; save</button><button value="default" class="primary" id="force-log-push">Overwrite GitHub</button></div></form></dialog>
     <dialog id="delete-confirm-dialog"><form method="dialog"><h2>Delete this item?</h2><p id="delete-message">This cannot be undone.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-delete">Delete</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=35"></script>
+    <script src="app.js?v=36"></script>
   </body>
 </html>
