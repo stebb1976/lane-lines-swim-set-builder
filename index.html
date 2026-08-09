@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=30" />
+    <link rel="stylesheet" href="styles.css?v=31" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -28,12 +28,12 @@
       <section class="workspace">
         <section class="builder" aria-label="Set builder">
           <div class="set-meta">
-            <label>Set name<input id="set-title" value="Tuesday Threshold" maxlength="80" /></label>
-            <label>Focus<input id="set-focus" value="Aerobic endurance" maxlength="80" /></label>
+            <label>Set name<input id="set-title" placeholder="Untitled set" maxlength="80" /></label>
+            <label>Focus<input id="set-focus" maxlength="80" /></label>
             <label>Pool<select id="pool-length"><option value="25">25 yd pool</option><option value="50">50 m pool</option></select></label>
             <label>Tags<input id="set-tags" placeholder="e.g. threshold, sprint" maxlength="100" /></label>
           </div>
-          <div class="builder-heading"><div><p class="eyebrow">TODAY'S WORKOUT</p><h2 id="display-title">Tuesday Threshold</h2></div><button class="outline" id="add-block">+ Add block</button></div>
+          <div class="builder-heading"><div><p class="eyebrow">TODAY'S WORKOUT</p><h2 id="display-title">Untitled set</h2></div><button class="outline" id="add-block">+ Add block</button></div>
           <div id="blocks" class="blocks"></div>
           <button id="add-block-bottom" class="add-block-wide">+ Add another block</button>
         </section>
@@ -85,6 +85,6 @@
     <dialog id="sync-conflict-dialog"><form method="dialog"><h2>Shared library changed</h2><p>The GitHub library has changed since this device last synced. To protect those updates, load and merge first, then save your local changes. You can also intentionally overwrite GitHub.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="merge-then-push">Merge &amp; save</button><button value="default" class="primary" id="force-push">Overwrite GitHub</button></div></form></dialog>
     <dialog id="delete-confirm-dialog"><form method="dialog"><h2>Delete this item?</h2><p id="delete-message">This cannot be undone.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-delete">Delete</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=30"></script>
+    <script src="app.js?v=31"></script>
   </body>
 </html>
