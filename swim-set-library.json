@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:08:09.358Z",
+  "updatedAt": "2026-08-09T23:16:35.772Z",
   "sets": [
     {
       "title": "Untitled set",
@@ -10,13 +10,6 @@
       "blocks": [
         {
           "name": "Warm Up",
-          "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": []
-        },
-        {
-          "name": "Main Set",
           "note": "",
           "repeat": 1,
           "reps": [
@@ -31,6 +24,13 @@
           "children": []
         },
         {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [],
+          "children": []
+        },
+        {
           "name": "Cool Down",
           "note": "",
           "repeat": 1,
@@ -38,7 +38,7 @@
           "children": []
         }
       ],
-      "savedAt": 1786316888653,
+      "savedAt": 1786317395068,
       "id": 10
     },
     {
