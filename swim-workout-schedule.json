@@ -1,51 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:43:17.598Z",
+  "updatedAt": "2026-08-09T23:43:33.460Z",
   "scheduledWorkouts": [
-    {
-      "id": "calendar_msmewurblbssiu",
-      "date": "2026-08-09",
-      "notes": "",
-      "set": {
-        "title": "Untitled set",
-        "focus": "",
-        "tags": "",
-        "pool": "25",
-        "blocks": [
-          {
-            "name": "Warm Up",
-            "note": "",
-            "repeat": 1,
-            "reps": [
-              {
-                "count": 4,
-                "distance": 100,
-                "stroke": "Freestyle",
-                "interval": "1:30",
-                "detail": ""
-              }
-            ],
-            "children": []
-          },
-          {
-            "name": "Main Set",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          },
-          {
-            "name": "Cool Down",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          }
-        ],
-        "savedAt": 1786316818870,
-        "id": 10
-      }
-    },
     {
       "id": 1786318965788,
       "date": "2026-08-10",
