@@ -1,30 +1,93 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T20:14:39.600Z",
+  "updatedAt": "2026-08-09T22:36:50.501Z",
   "sets": [
+    {
+      "title": "First Day",
+      "focus": "Evaluation",
+      "tags": "Evaluation",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Kick",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Choice",
+              "interval": "1:00",
+              "detail": "25 scull / 25 swim"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 10,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "1:00",
+              "detail": "build"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "reps": [],
+          "children": []
+        }
+      ],
+      "id": 9,
+      "savedAt": 1786315000183
+    },
     {
       "title": "Freestyle Pace Ladder",
       "focus": "Aerobic pacing and control",
       "tags": "freestyle, aerobic, pacing",
       "pool": "25",
-      "savedAt": 1786298400000,
       "blocks": [
         {
-          "name": "Warm-up",
+          "name": "Warm Up",
           "note": "Build gradually and establish a calm breathing pattern.",
+          "repeat": 2,
           "reps": [
             {
               "count": 1,
               "distance": 400,
               "stroke": "Choice",
-              "interval": "",
+              "interval": "1:30",
               "detail": "swim / kick / drill"
             }
-          ]
+          ],
+          "children": []
         },
         {
           "name": "Pace ladder",
           "note": "Hold a steady stroke count as the distance changes.",
+          "repeat": 1,
           "reps": [
             {
               "count": 1,
@@ -61,11 +124,13 @@
               "interval": "1:30",
               "detail": "build"
             }
-          ]
+          ],
+          "children": []
         },
         {
-          "name": "Warm-down",
+          "name": "Cool Down",
           "note": "Easy choice.",
+          "repeat": 1,
           "reps": [
             {
               "count": 1,
@@ -74,9 +139,12 @@
               "interval": "",
               "detail": ""
             }
-          ]
+          ],
+          "children": []
         }
-      ]
+      ],
+      "savedAt": 1786308158336,
+      "id": 1
     },
     {
       "title": "IM Transitions",
@@ -86,7 +154,7 @@
       "savedAt": 1786298400001,
       "blocks": [
         {
-          "name": "Warm-up",
+          "name": "Warm Up",
           "note": "Prepare each stroke with good body line.",
           "reps": [
             {
@@ -127,7 +195,7 @@
           ]
         },
         {
-          "name": "Warm-down",
+          "name": "Cool Down",
           "note": "Easy choice.",
           "reps": [
             {
@@ -139,7 +207,8 @@
             }
           ]
         }
-      ]
+      ],
+      "id": 2
     },
     {
       "title": "50 Race Pace",
@@ -149,7 +218,7 @@
       "savedAt": 1786298400002,
       "blocks": [
         {
-          "name": "Warm-up",
+          "name": "Warm Up",
           "note": "Build speed through the walls.",
           "reps": [
             {
@@ -189,7 +258,7 @@
           ]
         },
         {
-          "name": "Warm-down",
+          "name": "Cool Down",
           "note": "Easy choice.",
           "reps": [
             {
@@ -201,7 +270,8 @@
             }
           ]
         }
-      ]
+      ],
+      "id": 3
     }
   ]
 }
