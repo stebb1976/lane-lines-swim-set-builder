@@ -1,46 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:43:20.822Z",
+  "updatedAt": "2026-08-09T23:43:22.989Z",
   "logs": [
-    {
-      "id": "log_msmg7j75n8ciw0",
-      "title": "Untitled set",
-      "date": "2026-08-11",
-      "notes": "",
-      "total": 0,
-      "unit": "yd",
-      "set": {
-        "title": "Untitled set",
-        "focus": "",
-        "tags": "",
-        "pool": "25",
-        "blocks": [
-          {
-            "name": "Warm Up",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          },
-          {
-            "name": "Main Set",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          },
-          {
-            "name": "Cool Down",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          }
-        ],
-        "savedAt": 1786318980221,
-        "id": 11
-      }
-    },
     {
       "id": "log_msmcsqle8a7uka",
       "title": "July IM Turns & Skills",
