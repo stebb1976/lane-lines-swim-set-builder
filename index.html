@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=79" />
+    <link rel="stylesheet" href="styles.css?v=80" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -33,8 +33,10 @@
             <label>Focus<input id="set-focus" maxlength="80" /></label>
             <label>Pool<select id="pool-length"><option value="25">25 yd pool</option><option value="50">50 m pool</option></select></label>
             <label>Tags<input id="set-tags" placeholder="e.g. threshold, sprint" maxlength="100" /></label>
+            <label>Set ID<input id="editor-set-id" readonly aria-label="Set ID" /></label>
+            <label id="workout-date-wrap" hidden>Workout date<input id="workout-date" readonly aria-label="Workout date" /></label>
           </div>
-          <div class="builder-heading"><div><p class="eyebrow">TODAY'S WORKOUT</p><h2 id="display-title">Untitled set</h2><small id="editor-set-id" class="editor-set-id" hidden></small></div><button class="outline" id="add-block">+ Add block</button></div>
+          <div class="builder-heading"><div hidden><span id="display-title"></span></div><button class="outline" id="add-block">+ Add block</button></div>
           <div id="sticky-totals" class="sticky-totals"><span>WORKOUT TOTAL</span><strong id="sticky-total-distance">0 yd</strong><small id="sticky-total-time">Add set lines to estimate time</small></div>
           <div id="blocks" class="blocks"></div>
           <button id="add-block-bottom" class="add-block-wide">+ Add another block</button>
@@ -92,6 +94,6 @@
     <dialog id="delete-confirm-dialog"><form method="dialog"><h2 id="delete-title">Delete this item?</h2><p id="delete-message">This cannot be undone.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-delete">Delete</button></div></form></dialog>
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=79"></script>
+    <script src="app.js?v=80"></script>
   </body>
 </html>
