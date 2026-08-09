@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:53:36.471Z",
+  "updatedAt": "2026-08-09T23:56:17.752Z",
   "sets": [
     {
       "title": "First Day",
@@ -53,7 +53,7 @@
               "count": 16,
               "distance": 25,
               "stroke": "IM",
-              "interval": "0:40",
+              "interval": "1:30",
               "detail": "(4 x 25 IM Order) x 4"
             }
           ],
@@ -67,8 +67,8 @@
           "children": []
         }
       ],
-      "id": 9,
-      "savedAt": 1786319615769
+      "savedAt": 1786319773784,
+      "id": 9
     },
     {
       "title": "Untitled set",
