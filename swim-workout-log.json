@@ -1,7 +1,172 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T20:20:32.959Z",
+  "updatedAt": "2026-08-09T23:43:20.822Z",
   "logs": [
+    {
+      "id": "log_msmg7j75n8ciw0",
+      "title": "Untitled set",
+      "date": "2026-08-11",
+      "notes": "",
+      "total": 0,
+      "unit": "yd",
+      "set": {
+        "title": "Untitled set",
+        "focus": "",
+        "tags": "",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "",
+            "repeat": 1,
+            "reps": [],
+            "children": []
+          },
+          {
+            "name": "Main Set",
+            "note": "",
+            "repeat": 1,
+            "reps": [],
+            "children": []
+          },
+          {
+            "name": "Cool Down",
+            "note": "",
+            "repeat": 1,
+            "reps": [],
+            "children": []
+          }
+        ],
+        "savedAt": 1786318980221,
+        "id": 11
+      }
+    },
+    {
+      "id": "log_msmcsqle8a7uka",
+      "title": "July IM Turns & Skills",
+      "date": "2026-07-30",
+      "notes": "Prioritize clean IM transitions, turns, and underwater speed.",
+      "total": 1500,
+      "unit": "yd",
+      "set": {
+        "title": "July IM Turns & Skills",
+        "focus": "IM transitions, turns, and stroke technique",
+        "tags": "IM, turns, technique",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "Prepare each stroke and reinforce clean walls.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 400,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": "swim / drill / kick"
+              }
+            ]
+          },
+          {
+            "name": "IM Skills",
+            "note": "Stay precise through every transition.",
+            "reps": [
+              {
+                "count": 4,
+                "distance": 100,
+                "stroke": "IM",
+                "interval": "1:50",
+                "detail": "25 drill / 75 swim"
+              },
+              {
+                "count": 8,
+                "distance": 50,
+                "stroke": "Choice",
+                "interval": "1:05",
+                "detail": "fast into turn, easy out"
+              }
+            ]
+          },
+          {
+            "name": "Cool Down",
+            "note": "Easy choice.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 300,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "id": 8
+      }
+    },
+    {
+      "id": "log_msmcsoymfbbmbj",
+      "title": "July Endurance Builder",
+      "date": "2026-07-28",
+      "notes": "Build aerobic rhythm and finish with strong, controlled 100s.",
+      "total": 2000,
+      "unit": "yd",
+      "set": {
+        "title": "July Endurance Builder",
+        "focus": "Aerobic endurance and pacing",
+        "tags": "freestyle, aerobic",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "Swim, kick, and drill with a strong body line.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 500,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": "100 swim / 100 kick / 100 drill / 200 swim"
+              }
+            ]
+          },
+          {
+            "name": "Main Set",
+            "note": "Hold a controlled threshold effort.",
+            "reps": [
+              {
+                "count": 4,
+                "distance": 200,
+                "stroke": "Freestyle",
+                "interval": "2:55",
+                "detail": "negative split each 200"
+              },
+              {
+                "count": 4,
+                "distance": 100,
+                "stroke": "Freestyle",
+                "interval": "1:25",
+                "detail": "descend 1–4"
+              }
+            ]
+          },
+          {
+            "name": "Cool Down",
+            "note": "Easy choice.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 300,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "id": 7
+      }
+    },
     {
       "title": "Freestyle Pace Ladder",
       "date": "2026-08-08",
@@ -16,14 +181,14 @@
         "savedAt": 1786298400000,
         "blocks": [
           {
-            "name": "Warm-up",
+            "name": "Warm Up",
             "note": "Build gradually and establish a calm breathing pattern.",
             "reps": [
               {
                 "count": 1,
                 "distance": 400,
                 "stroke": "Choice",
-                "interval": "",
+                "interval": "1:30",
                 "detail": "swim / kick / drill"
               }
             ]
@@ -70,7 +235,7 @@
             ]
           },
           {
-            "name": "Warm-down",
+            "name": "Cool Down",
             "note": "Easy choice.",
             "reps": [
               {
@@ -82,8 +247,10 @@
               }
             ]
           }
-        ]
-      }
+        ],
+        "id": 4
+      },
+      "id": "log_msma87ifi1s5i6"
     },
     {
       "title": "IM Transitions",
@@ -99,7 +266,7 @@
         "savedAt": 1786298400001,
         "blocks": [
           {
-            "name": "Warm-up",
+            "name": "Warm Up",
             "note": "Prepare each stroke with good body line.",
             "reps": [
               {
@@ -140,7 +307,7 @@
             ]
           },
           {
-            "name": "Warm-down",
+            "name": "Cool Down",
             "note": "Easy choice.",
             "reps": [
               {
@@ -152,8 +319,10 @@
               }
             ]
           }
-        ]
-      }
+        ],
+        "id": 5
+      },
+      "id": "log_msma87iffxd56h"
     },
     {
       "title": "50 Race Pace",
@@ -169,7 +338,7 @@
         "savedAt": 1786298400002,
         "blocks": [
           {
-            "name": "Warm-up",
+            "name": "Warm Up",
             "note": "Build speed through the walls.",
             "reps": [
               {
@@ -209,7 +378,7 @@
             ]
           },
           {
-            "name": "Warm-down",
+            "name": "Cool Down",
             "note": "Easy choice.",
             "reps": [
               {
@@ -221,8 +390,10 @@
               }
             ]
           }
-        ]
-      }
+        ],
+        "id": 6
+      },
+      "id": "log_msma87if5ugmqa"
     }
   ]
 }
