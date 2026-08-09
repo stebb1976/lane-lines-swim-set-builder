@@ -9,12 +9,13 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=24" />
+    <link rel="stylesheet" href="styles.css?v=25" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
     <header class="topbar">
-      <a class="brand" href="#" aria-label="Lane Lines home"><span class="mark">≋</span><span>Lane Lines</span></a>
+      <button class="brand" id="menu-toggle" aria-label="Open app menu" aria-expanded="false"><span class="mark">≋</span><span>Lane Lines</span></button>
+      <nav class="app-menu" id="app-menu" aria-label="App navigation"><button id="open-builder">Workout creator</button><button id="open-library">Set library</button><button id="open-workout-log">Workout log</button></nav>
       <div class="header-actions"><button class="ghost" id="new-set">New set</button><button class="ghost" id="log-workout">Log workout</button><button class="primary" id="view-deck">View deck sheet</button></div>
     </header>
 
@@ -25,16 +26,6 @@
       </section>
 
       <section class="workspace">
-        <aside class="library">
-          <div class="section-heading"><h2>Set library</h2><button id="save-set" class="icon-text">＋ Save</button></div>
-          <div class="sync-actions"><button id="library-sync-settings" class="outline">Connect GitHub</button><button id="library-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="library-push" class="icon-text" disabled>↑ Save to GitHub</button></div>
-          <input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search set library" />
-          <p id="library-count" class="library-count"></p>
-          <div id="saved-sets" class="saved-sets"></div>
-          <section class="workout-log" aria-labelledby="log-title"><div class="section-heading"><h2 id="log-title">Workout log</h2><button id="view-stats" class="icon-text">Stats</button></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div></section>
-          <div class="library-tip"><span>⌁</span><p>Your library can sync to one GitHub JSON file. Workout logs remain saved only on this device.</p></div>
-        </aside>
-
         <section class="builder" aria-label="Set builder">
           <div class="set-meta">
             <label>Set name<input id="set-title" value="Tuesday Threshold" maxlength="80" /></label>
@@ -48,6 +39,14 @@
         </section>
       </section>
     </main>
+
+    <section id="library-view" class="library-view" aria-hidden="true" aria-label="Set library and workout log">
+      <div class="deck-toolbar"><button class="ghost" id="close-library">← Back to workout creator</button></div>
+      <article class="library-page">
+        <section class="library-section" aria-labelledby="library-title"><div class="section-heading"><h1 id="library-title">Set library</h1><button id="save-set" class="icon-text">＋ Save current set</button></div><div class="sync-actions"><button id="library-sync-settings" class="outline">Connect GitHub</button><button id="library-pull" class="icon-text" disabled>↓ Load from GitHub</button><button id="library-push" class="icon-text" disabled>↑ Save to GitHub</button></div><input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search set library" /><p id="library-count" class="library-count"></p><div id="saved-sets" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Your library can sync to one GitHub JSON file. Workout logs remain saved only on this device.</p></div></section>
+        <section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h2 id="log-title">Workout log</h2><button id="view-stats" class="icon-text">Stats</button></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div></section>
+      </article>
+    </section>
 
     <section id="deck-view" class="deck-view" aria-hidden="true" aria-label="Consolidated deck sheet">
       <div class="deck-toolbar"><button class="ghost" id="close-deck">← Back to editor</button><div><button class="outline" id="refresh-deck">Refresh</button><button class="primary" id="print-deck">Print / Save PDF</button></div></div>
@@ -85,6 +84,6 @@
     <dialog id="sync-dialog"><form method="dialog"><h2>GitHub library sync</h2><p>Your set library is stored in one JSON file. The token stays only in this browser on this device; it is never included in workout logs.</p><label class="dialog-label">REPOSITORY<input id="github-repository" value="stebb1976/lane-lines-swim-set-builder" placeholder="owner/repository" /></label><label class="dialog-label">BRANCH<input id="github-branch" value="main" /></label><label class="dialog-label">JSON FILE PATH<input id="github-file" value="swim-set-library.json" /></label><label class="dialog-label">FINE-GRAINED PERSONAL ACCESS TOKEN <small>Give this repository Contents read/write permission</small><input id="github-token" type="password" autocomplete="off" placeholder="github_pat_…" /></label><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="save-sync-settings">Save settings</button></div></form></dialog>
     <dialog id="sync-conflict-dialog"><form method="dialog"><h2>Shared library changed</h2><p>The GitHub library has changed since this device last synced. To protect those updates, load and merge first, then save your local changes. You can also intentionally overwrite GitHub.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="merge-then-push">Merge &amp; save</button><button value="default" class="primary" id="force-push">Overwrite GitHub</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=24"></script>
+    <script src="app.js?v=25"></script>
   </body>
 </html>
