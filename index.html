@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=13" />
+    <link rel="stylesheet" href="styles.css?v=14" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -84,6 +84,6 @@
     <dialog id="log-dialog"><form method="dialog"><h2>Log workout</h2><p>Record today’s completed workout. Your current set will be saved as a snapshot in the log.</p><label class="dialog-label">DATE<input id="log-date" type="date" /></label><label class="dialog-label">COACHING NOTES <textarea id="log-notes" rows="3" maxlength="300" placeholder="e.g. Great energy; breaststroke group needed extra rest."></textarea></label><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-log">Add to log</button></div></form></dialog>
     <dialog id="sync-dialog"><form method="dialog"><h2>GitLab library sync</h2><p>Your set library is stored in one JSON file. The access token stays only in this browser on this device; it is never included in workout logs.</p><label class="dialog-label">GITLAB URL<input id="gitlab-url" value="https://gitlab.com" placeholder="https://gitlab.com" /></label><label class="dialog-label">PROJECT PATH OR ID<input id="gitlab-project" placeholder="coach/swim-library" /></label><label class="dialog-label">BRANCH<input id="gitlab-branch" value="main" /></label><label class="dialog-label">JSON FILE PATH<input id="gitlab-file" value="swim-set-library.json" /></label><label class="dialog-label">PERSONAL ACCESS TOKEN <small>Use an API-scoped token to sync changes</small><input id="gitlab-token" type="password" autocomplete="off" placeholder="glpat-…" /></label><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="save-sync-settings">Save settings</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=13"></script>
+    <script src="app.js?v=14"></script>
   </body>
 </html>
