@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=41" />
+    <link rel="stylesheet" href="styles.css?v=42" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -88,7 +88,8 @@
     <dialog id="log-sync-dialog"><form method="dialog"><h2>GitHub workout-log sync</h2><p>Your workout log will be stored in its own JSON file. These settings are saved only in this browser on this device.</p><label class="dialog-label">REPOSITORY<input id="log-github-repository" value="stebb1976/lane-lines-swim-set-builder" placeholder="owner/repository" /></label><label class="dialog-label">BRANCH<input id="log-github-branch" value="main" /></label><label class="dialog-label">JSON FILE PATH<input id="log-github-file" value="swim-workout-log.json" /></label><label class="dialog-label">FINE-GRAINED PERSONAL ACCESS TOKEN <small>Give this repository Contents read/write permission</small><input id="log-github-token" type="password" autocomplete="off" placeholder="github_pat_…" /></label><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="save-log-sync-settings">Save settings</button></div></form></dialog>
     <dialog id="log-sync-conflict-dialog"><form method="dialog"><h2>Shared workout log changed</h2><p>The GitHub log has changed since this device last synced. You can merge the logs and save, or intentionally overwrite GitHub with this device’s log.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="merge-log-then-push">Merge &amp; save</button><button value="default" class="primary" id="force-log-push">Overwrite GitHub</button></div></form></dialog>
     <dialog id="delete-confirm-dialog"><form method="dialog"><h2>Delete this item?</h2><p id="delete-message">This cannot be undone.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-delete">Delete</button></div></form></dialog>
+    <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=41"></script>
+    <script src="app.js?v=42"></script>
   </body>
 </html>
