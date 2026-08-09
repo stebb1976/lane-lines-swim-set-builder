@@ -9,14 +9,14 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=58" />
+    <link rel="stylesheet" href="styles.css?v=59" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
     <header class="topbar">
       <button class="brand" id="menu-toggle" aria-label="Open app menu" aria-expanded="false"><span class="mark">≋</span><span>Lane Lines</span></button>
       <nav class="app-menu" id="app-menu" aria-label="App navigation"><button id="open-builder">Workout Creator</button><button id="open-library">Set Library</button><button id="open-workout-log">Workout Log</button><button id="open-calendar">Calendar</button></nav>
-      <div class="header-actions"><button class="ghost" id="new-set">New Set</button><button class="ghost" id="save-to-library-top">Save to Library</button><button class="ghost" id="update-opened-top" hidden></button><button class="ghost" id="save-opened-as-new-top" hidden>Save as New Library Set</button><button class="ghost" id="add-to-calendar">Add to Calendar</button><button class="primary" id="view-deck">View Deck Sheet</button></div>
+      <div class="header-actions"><button class="ghost" id="back-page-top" hidden></button><button class="ghost" id="new-set">New Set</button><button class="ghost" id="save-to-library-top">Save to Library</button><button class="ghost" id="update-opened-top" hidden></button><button class="ghost" id="save-opened-as-new-top" hidden>Save as New Library Set</button><button class="ghost" id="add-to-calendar">Add to Calendar</button><button class="primary" id="view-deck">View Deck Sheet</button></div>
     </header>
 
     <main>
@@ -91,6 +91,6 @@
     <dialog id="delete-confirm-dialog"><form method="dialog"><h2>Delete this item?</h2><p id="delete-message">This cannot be undone.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-delete">Delete</button></div></form></dialog>
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=58"></script>
+    <script src="app.js?v=59"></script>
   </body>
 </html>
