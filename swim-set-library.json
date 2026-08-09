@@ -1,7 +1,62 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T19:28:22.393Z",
+  "updatedAt": "2026-08-09T19:28:42.610Z",
   "sets": [
+    {
+      "title": "IM Precision Copy",
+      "focus": "Stroke technique and IM transitions",
+      "tags": "IM, stroke, technique",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm-up",
+          "note": "Prioritize body line and rhythm.",
+          "reps": [
+            {
+              "count": 4,
+              "distance": 100,
+              "stroke": "IM",
+              "interval": "1:50",
+              "detail": "25 drill / 75 swim"
+            }
+          ]
+        },
+        {
+          "name": "IM set",
+          "note": "Stay disciplined through every transition.",
+          "reps": [
+            {
+              "count": 4,
+              "distance": 100,
+              "stroke": "IM",
+              "interval": "1:40",
+              "detail": "descend 1–4"
+            },
+            {
+              "count": 8,
+              "distance": 50,
+              "stroke": "Choice",
+              "interval": "1:00",
+              "detail": "odds stroke, evens free"
+            }
+          ]
+        },
+        {
+          "name": "Warm-down",
+          "note": "Easy choice.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 300,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "savedAt": 1786303717960
+    },
     {
       "title": "Sprint & Turns Copy",
       "focus": "Speed, turns, and race details",
