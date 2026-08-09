@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:43:01.982Z",
+  "updatedAt": "2026-08-09T23:43:17.598Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_msmewurblbssiu",
@@ -108,42 +108,6 @@
             "children": []
           }
         ]
-      }
-    },
-    {
-      "id": "calendar_msmg76guusxpgb",
-      "date": "2026-08-11",
-      "notes": "",
-      "set": {
-        "title": "Untitled set",
-        "focus": "",
-        "tags": "",
-        "pool": "25",
-        "blocks": [
-          {
-            "name": "Warm Up",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          },
-          {
-            "name": "Main Set",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          },
-          {
-            "name": "Cool Down",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          }
-        ],
-        "savedAt": 1786318980221,
-        "id": 11
       }
     }
   ]
