@@ -1,69 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T19:14:01.634Z",
+  "updatedAt": "2026-08-09T19:14:59.816Z",
   "sets": [
-    {
-      "title": "Sprint & Turns Copy",
-      "focus": "Speed, turns, and race details",
-      "tags": "sprint, race pace, turns",
-      "pool": "25",
-      "blocks": [
-        {
-          "name": "Warm-up",
-          "note": "Build into speed with excellent walls.",
-          "reps": [
-            {
-              "count": 1,
-              "distance": 500,
-              "stroke": "Choice",
-              "interval": "",
-              "detail": "swim / kick / drill"
-            },
-            {
-              "count": 4,
-              "distance": 50,
-              "stroke": "Choice",
-              "interval": "1:00",
-              "detail": "build to 90%"
-            }
-          ]
-        },
-        {
-          "name": "Speed set",
-          "note": "Quality over quantity. Full attention at every wall.",
-          "reps": [
-            {
-              "count": 8,
-              "distance": 25,
-              "stroke": "Choice",
-              "interval": ":40",
-              "detail": "from a push, fast breakout"
-            },
-            {
-              "count": 6,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "1:30",
-              "detail": "race pace, perfect turns"
-            }
-          ]
-        },
-        {
-          "name": "Warm-down",
-          "note": "Easy choice.",
-          "reps": [
-            {
-              "count": 1,
-              "distance": 300,
-              "stroke": "Choice",
-              "interval": "",
-              "detail": ""
-            }
-          ]
-        }
-      ],
-      "savedAt": 1786300268906
-    },
     {
       "title": "Sprint & Turns",
       "focus": "Speed, turns, and race details",
