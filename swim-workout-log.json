@@ -1,75 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:49:25.457Z",
+  "updatedAt": "2026-08-09T23:51:50.683Z",
   "logs": [
-    {
-      "id": "log_msmgd2v1a1uq8b",
-      "title": "First Day",
-      "date": "2026-08-10",
-      "notes": "",
-      "total": 1100,
-      "unit": "yd",
-      "set": {
-        "title": "First Day",
-        "focus": "Evaluation",
-        "tags": "Evaluation",
-        "pool": "25",
-        "blocks": [
-          {
-            "name": "Warm Up",
-            "note": "",
-            "repeat": 1,
-            "reps": [
-              {
-                "count": 1,
-                "distance": 200,
-                "stroke": "Choice",
-                "interval": "5:00",
-                "detail": ""
-              },
-              {
-                "count": 1,
-                "distance": 200,
-                "stroke": "Kick",
-                "interval": "5:00",
-                "detail": ""
-              },
-              {
-                "count": 4,
-                "distance": 50,
-                "stroke": "Choice",
-                "interval": "1:00",
-                "detail": "25 scull / 25 swim"
-              }
-            ],
-            "children": []
-          },
-          {
-            "name": "Main Set",
-            "note": "",
-            "repeat": 1,
-            "reps": [
-              {
-                "count": 10,
-                "distance": 50,
-                "stroke": "Freestyle",
-                "interval": "1:00",
-                "detail": "build"
-              }
-            ],
-            "children": []
-          },
-          {
-            "name": "Cool Down",
-            "note": "",
-            "repeat": 1,
-            "reps": [],
-            "children": []
-          }
-        ],
-        "id": 12
-      }
-    },
     {
       "id": "log_msmcsqle8a7uka",
       "title": "July IM Turns & Skills",
