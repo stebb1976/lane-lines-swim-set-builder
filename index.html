@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=75" />
+    <link rel="stylesheet" href="styles.css?v=76" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -77,7 +77,7 @@
         <label><span>DISTANCE</span><input class="distance" type="number" min="0" step="25" value="100" /></label>
         <span class="unit">yd</span>
         <label class="stroke-wrap"><span>STROKE</span><select class="stroke"><option>Freestyle</option><option>Backstroke</option><option>Breaststroke</option><option>Butterfly</option><option>IM</option><option>Choice</option><option>Kick</option><option>Drill</option></select></label>
-        <label><span>INTERVAL</span><input class="interval" value="1:30" placeholder="1:30" inputmode="numeric" pattern="[0-9:]*" /></label>
+        <label><span>INTERVAL</span><input class="interval" value="1:30" placeholder="1:30" /></label>
         <button class="delete-rep" title="Delete repeat">×</button>
         <p class="rep-detail"><input class="detail" placeholder="e.g. descend 1–4" /></p>
         <p class="rep-time">Estimated time: —</p>
@@ -92,6 +92,6 @@
     <dialog id="delete-confirm-dialog"><form method="dialog"><h2 id="delete-title">Delete this item?</h2><p id="delete-message">This cannot be undone.</p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-delete">Delete</button></div></form></dialog>
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=75"></script>
+    <script src="app.js?v=76"></script>
   </body>
 </html>
