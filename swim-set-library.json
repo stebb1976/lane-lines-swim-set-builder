@@ -1,7 +1,75 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T23:43:00.926Z",
+  "updatedAt": "2026-08-09T23:53:11.219Z",
   "sets": [
+    {
+      "title": "First Day",
+      "focus": "Evaluation",
+      "tags": "Evaluation",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Kick",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Choice",
+              "interval": "1:00",
+              "detail": "25 scull / 25 swim"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 10,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "1:00",
+              "detail": "build"
+            },
+            {
+              "count": 16,
+              "distance": 25,
+              "stroke": "IM",
+              "interval": "1:30",
+              "detail": "(4 x 25 IM Order) x 4"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "reps": [],
+          "children": []
+        }
+      ],
+      "savedAt": 1786319587819,
+      "id": 9
+    },
     {
       "title": "Untitled set",
       "focus": "",
@@ -93,67 +161,6 @@
       ],
       "savedAt": 1786318540925,
       "id": 10
-    },
-    {
-      "title": "First Day",
-      "focus": "Evaluation",
-      "tags": "Evaluation",
-      "pool": "25",
-      "blocks": [
-        {
-          "name": "Warm Up",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Choice",
-              "interval": "5:00",
-              "detail": ""
-            },
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Kick",
-              "interval": "5:00",
-              "detail": ""
-            },
-            {
-              "count": 4,
-              "distance": 50,
-              "stroke": "Choice",
-              "interval": "1:00",
-              "detail": "25 scull / 25 swim"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Main Set",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 10,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "1:00",
-              "detail": "build"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Cool Down",
-          "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": []
-        }
-      ],
-      "id": 9,
-      "savedAt": 1786318386493
     },
     {
       "title": "Freestyle Pace Ladder",
