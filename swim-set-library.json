@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T00:44:10.261Z",
+  "updatedAt": "2026-08-10T00:50:30.789Z",
   "sets": [
     {
       "title": "First Day",
@@ -65,10 +65,25 @@
           "repeat": 1,
           "reps": [],
           "children": []
+        },
+        {
+          "name": "Kicking Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 10,
+              "distance": 25,
+              "stroke": "Kick",
+              "interval": "0:45",
+              "detail": ""
+            }
+          ],
+          "children": []
         }
       ],
       "id": 9,
-      "savedAt": 1786322437340
+      "savedAt": 1786323030086
     },
     {
       "title": "Freestyle Pace Ladder",
