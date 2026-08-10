@@ -30,3 +30,5 @@ body.show-library main,body.show-log main{display:none}body.show-library #librar
 body.show-schedule main{display:none}body.show-schedule #schedule-view{display:block}.schedule-section{max-width:760px}.schedule-subtitle{margin:7px 0 18px;color:var(--muted);font-size:14px}.upcoming-workouts{display:grid;gap:8px}.upcoming-workout{width:100%;padding:14px 15px;border:1px solid #e1c6b4;border-radius:7px;background:#fff7f1;color:var(--ink);text-align:left}.upcoming-workout:hover{border-color:#e29b70;background:#fff0e5}.upcoming-workout strong{display:block;font-size:15px}.upcoming-workout small{display:block;margin-top:4px;color:#6e6259;font-size:12px;line-height:1.35}
 
 .calendar-log-entry{grid-template-columns:1fr 1fr}.calendar-reschedule{padding:0;border-radius:4px;background:#e6f4f5;color:#17616c;font-size:16px;line-height:1}.calendar-reschedule:hover{background:#bfe4e6}
+
+.block-name{width:auto;flex:1;min-width:70px}.block-summary{display:flex;flex-direction:column;align-items:flex-end;white-space:nowrap;color:#58727e;font-size:11px;font-weight:800}.block-time{font-weight:700}
