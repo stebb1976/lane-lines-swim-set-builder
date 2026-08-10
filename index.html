@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=99" />
+    <link rel="stylesheet" href="styles.css?v=100" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -35,10 +35,9 @@
             <label>Tags<input id="set-tags" placeholder="e.g. threshold, sprint" maxlength="100" /></label>
             <label id="workout-date-wrap">Workout date<input id="workout-date" type="date" aria-label="Workout date" /></label>
           </div>
-          <div class="builder-heading"><div hidden><span id="display-title"></span></div><button class="outline" id="add-block">+ Add block</button></div>
           <div id="sticky-totals" class="sticky-totals"><span>WORKOUT TOTAL</span><strong id="sticky-total-distance">0 yd</strong><small id="sticky-total-time">Add set lines to estimate time</small></div>
           <div id="blocks" class="blocks"></div>
-          <button id="add-block-bottom" class="add-block-wide">+ Add another block</button>
+          <button id="add-block-bottom" class="add-block-wide">+ Add block</button>
         </section>
       </section>
     </main>
@@ -95,6 +94,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=99"></script>
+    <script src="app.js?v=100"></script>
   </body>
 </html>
