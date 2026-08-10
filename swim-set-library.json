@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T00:44:04.395Z",
+  "updatedAt": "2026-08-10T00:44:10.261Z",
   "sets": [
     {
       "title": "First Day",
@@ -69,37 +69,6 @@
       ],
       "id": 9,
       "savedAt": 1786322437340
-    },
-    {
-      "title": "Untitled set",
-      "focus": "",
-      "tags": "",
-      "pool": "25",
-      "blocks": [
-        {
-          "name": "Warm Up",
-          "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": []
-        },
-        {
-          "name": "Main Set",
-          "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": []
-        },
-        {
-          "name": "Cool Down",
-          "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": []
-        }
-      ],
-      "savedAt": 1786318980221,
-      "id": 11
     },
     {
       "title": "Freestyle Pace Ladder",
