@@ -34,3 +34,5 @@ body.show-schedule main{display:none}body.show-schedule #schedule-view{display:b
 .block-name{width:auto;flex:1;min-width:70px}.block-summary{display:flex;flex-direction:column;align-items:flex-end;white-space:nowrap;color:#58727e;font-size:11px;font-weight:800}.block-time{font-weight:700}
 
 @media(max-width:600px){.deck-view{padding-top:max(16px,calc(env(safe-area-inset-top) + 12px))}}
+
+@media(max-width:600px){.sticky-totals{top:max(6px,calc(env(safe-area-inset-top) + 6px))}}
