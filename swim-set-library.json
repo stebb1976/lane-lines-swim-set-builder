@@ -1,17 +1,18 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T00:38:46.673Z",
+  "updatedAt": "2026-08-10T00:39:29.431Z",
   "sets": [
     {
+      "id": 8,
       "title": "First Day",
       "focus": "Evaluation",
       "tags": "Evaluation",
       "pool": "25",
+      "savedAt": 1786319796021,
       "blocks": [
         {
           "name": "Warm Up",
           "note": "",
-          "repeat": 1,
           "reps": [
             {
               "count": 1,
@@ -34,41 +35,19 @@
               "interval": "1:00",
               "detail": "25 scull / 25 swim"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Main Set",
           "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 10,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "1:00",
-              "detail": "build"
-            },
-            {
-              "count": 16,
-              "distance": 25,
-              "stroke": "IM",
-              "interval": "1:30",
-              "detail": "(4 x 25 IM Order) x 4"
-            }
-          ],
-          "children": []
+          "reps": []
         },
         {
           "name": "Cool Down",
           "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": []
+          "reps": []
         }
-      ],
-      "savedAt": 1786319773784,
-      "id": 9
+      ]
     },
     {
       "title": "Untitled set",
@@ -246,6 +225,69 @@
       "savedAt": 1786318322427
     },
     {
+      "title": "50 Race Pace",
+      "focus": "Speed, walls, and recovery",
+      "tags": "sprint, race pace, speed",
+      "pool": "25",
+      "savedAt": 1786298400002,
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "Build speed through the walls.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 500,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": "swim / drill / kick"
+            }
+          ]
+        },
+        {
+          "name": "Race pace",
+          "note": "Quality first. Take the easy repeats seriously.",
+          "reps": [
+            {
+              "count": 8,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "1:15",
+              "detail": "odds race pace, evens easy"
+            }
+          ]
+        },
+        {
+          "name": "Breakout work",
+          "note": "Fast into a clean breakout.",
+          "repeat": 2,
+          "reps": [
+            {
+              "count": 4,
+              "distance": 25,
+              "stroke": "Choice",
+              "interval": ":40",
+              "detail": "15 m fast, easy in"
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "Easy choice.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 300,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "id": 3
+    },
+    {
       "title": "IM Transitions",
       "focus": "IM skills and clean turns",
       "tags": "IM, technique, turns",
@@ -310,49 +352,61 @@
       "id": 2
     },
     {
-      "title": "50 Race Pace",
-      "focus": "Speed, walls, and recovery",
-      "tags": "sprint, race pace, speed",
+      "title": "Tuesday Threshold",
+      "focus": "Aerobic endurance",
+      "tags": "",
       "pool": "25",
-      "savedAt": 1786298400002,
       "blocks": [
         {
           "name": "Warm Up",
-          "note": "Build speed through the walls.",
+          "note": "Build into the practice. Focus on long lines and steady breathing.",
           "reps": [
             {
               "count": 1,
-              "distance": 500,
+              "distance": 400,
               "stroke": "Choice",
               "interval": "",
-              "detail": "swim / drill / kick"
+              "detail": "swim + kick + drill"
             }
           ]
         },
         {
-          "name": "Race pace",
-          "note": "Quality first. Take the easy repeats seriously.",
-          "reps": [
-            {
-              "count": 8,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "1:15",
-              "detail": "odds race pace, evens easy"
-            }
-          ]
-        },
-        {
-          "name": "Breakout work",
-          "note": "Fast into a clean breakout.",
-          "repeat": 2,
+          "name": "Pre-set",
+          "note": "Hold form as the send-off tightens.",
           "reps": [
             {
               "count": 4,
-              "distance": 25,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "interval": "1:35",
+              "detail": "descend 1–4"
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Kick",
+              "interval": "1:05",
+              "detail": "strong underwater work"
+            }
+          ]
+        },
+        {
+          "name": "Main set",
+          "note": "Threshold effort — aim to hold your best sustainable pace.",
+          "reps": [
+            {
+              "count": 6,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "interval": "2:40",
+              "detail": "negative split"
+            },
+            {
+              "count": 4,
+              "distance": 50,
               "stroke": "Choice",
-              "interval": ":40",
-              "detail": "15 m fast, easy in"
+              "interval": "1:00",
+              "detail": "easy"
             }
           ]
         },
@@ -362,7 +416,7 @@
           "reps": [
             {
               "count": 1,
-              "distance": 300,
+              "distance": 200,
               "stroke": "Choice",
               "interval": "",
               "detail": ""
@@ -370,7 +424,8 @@
           ]
         }
       ],
-      "id": 3
+      "savedAt": 1786273967392,
+      "id": 4
     }
   ]
 }
