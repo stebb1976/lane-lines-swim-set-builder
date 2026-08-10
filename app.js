@@ -42,6 +42,8 @@ function addBlock(container,data={name:'New block',note:'',repeat:1,reps:[{count
   $('.add-rep',node).onclick=()=>{addRep($('.block-reps',node));markDirty();updateTotals()};
   $('.add-child-block',node).onclick=()=>{addBlock(childBlocks);markDirty();updateTotals()};
   $('.delete-block',node).onclick=()=>{if(container===blocks&&blocks.children.length<=1)toast('Keep at least one top-level block in your set.');else{node.remove();markDirty();updateTotals()}};
+  $('.move-block-up',node).onclick=()=>{const previous=node.previousElementSibling;if(!previous){toast('This block is already first.');return}container.insertBefore(node,previous);markDirty();updateTotals()};
+  $('.move-block-down',node).onclick=()=>{const next=node.nextElementSibling;if(!next){toast('This block is already last.');return}container.insertBefore(next,node);markDirty();updateTotals()};
   $('.duplicate',node).onclick=()=>{addBlock(container,readBlock(node));markDirty();updateTotals()};
   node.querySelectorAll('input,textarea,select').forEach(e=>e.addEventListener('input',()=>{markDirty();updateTotals()}));
   container.append(node); updateTotals(); return node;
