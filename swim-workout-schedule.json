@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T02:20:40.375Z",
+  "updatedAt": "2026-08-10T02:21:09.305Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_july_28_2026",
@@ -323,6 +323,117 @@
         ],
         "savedAt": 1786328439318,
         "id": 10
+      }
+    },
+    {
+      "id": "calendar_msmluiukandppe",
+      "date": "2026-08-10",
+      "notes": "",
+      "set": {
+        "title": "Day 1",
+        "focus": "Evaluation",
+        "tags": "Evaluation",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "interval": "5:00",
+                "detail": ""
+              },
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Kick",
+                "interval": "5:00",
+                "detail": ""
+              },
+              {
+                "count": 4,
+                "distance": 50,
+                "stroke": "Choice",
+                "interval": "1:00",
+                "detail": "25 scull / 25 swim"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Main Set",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 10,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "interval": "1:00",
+                "detail": "build"
+              },
+              {
+                "count": 16,
+                "distance": 25,
+                "stroke": "IM",
+                "interval": "1:30",
+                "detail": "(4 x 25 IM Order) x 4"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Streamline Drills",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 8,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "interval": "2:00",
+                "detail": "Teach Streamline, Pushing off walls"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Kicking Set",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 10,
+                "distance": 25,
+                "stroke": "Kick",
+                "interval": "0:45",
+                "detail": ""
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Cool Down",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 1,
+                "distance": 100,
+                "stroke": "Choice",
+                "interval": "3:00",
+                "detail": ""
+              }
+            ],
+            "children": []
+          }
+        ],
+        "savedAt": 1786328467435,
+        "id": 11
       }
     }
   ]
