@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T00:54:44.787Z",
+  "updatedAt": "2026-08-10T00:55:29.836Z",
   "sets": [
     {
       "title": "First Day",
@@ -60,7 +60,7 @@
           "children": []
         },
         {
-          "name": "Streamline",
+          "name": "Streamline Drills",
           "note": "",
           "repeat": 1,
           "reps": [
@@ -69,7 +69,7 @@
               "distance": 50,
               "stroke": "Freestyle",
               "interval": "2:00",
-              "detail": ""
+              "detail": "Teach Streamline, Pushing off walls"
             }
           ],
           "children": []
@@ -106,7 +106,7 @@
         }
       ],
       "id": 9,
-      "savedAt": 1786323284084
+      "savedAt": 1786323329134
     },
     {
       "title": "Freestyle Pace Ladder",
