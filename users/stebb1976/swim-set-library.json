@@ -1,0 +1,519 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-10T02:21:08.138Z",
+  "sets": [
+    {
+      "title": "Day 1",
+      "focus": "Evaluation",
+      "tags": "Evaluation",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Kick",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Choice",
+              "interval": "1:00",
+              "detail": "25 scull / 25 swim"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 10,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "1:00",
+              "detail": "build"
+            },
+            {
+              "count": 16,
+              "distance": 25,
+              "stroke": "IM",
+              "interval": "1:30",
+              "detail": "(4 x 25 IM Order) x 4"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Streamline Drills",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 8,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "2:00",
+              "detail": "Teach Streamline, Pushing off walls"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Kicking Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 10,
+              "distance": 25,
+              "stroke": "Kick",
+              "interval": "0:45",
+              "detail": ""
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ],
+          "children": []
+        }
+      ],
+      "savedAt": 1786328467435,
+      "id": 11
+    },
+    {
+      "title": "Day 2",
+      "focus": "Freestyle technique ",
+      "tags": "Freestyle drills",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Kick",
+              "interval": "1:30",
+              "detail": "Streamline kick on back "
+            },
+            {
+              "count": 4,
+              "distance": 75,
+              "stroke": "IM",
+              "interval": "1:30",
+              "detail": "Fly/back/breast by 25"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Freestyle Build Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 16,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "3:00",
+              "detail": "Free drills: balance- arms at side, every 3rd rotation pull, one arm other at side, "
+            },
+            {
+              "count": 4,
+              "distance": 100,
+              "stroke": "Drill",
+              "interval": "2:30",
+              "detail": "Build up free (25rt,25lt,25sf,25sw)"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 16,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "interval": "0:40",
+              "detail": "Perfect stroke sprint"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ],
+          "children": []
+        }
+      ],
+      "savedAt": 1786328439318,
+      "id": 10
+    },
+    {
+      "title": "First Day",
+      "focus": "Evaluation",
+      "tags": "Evaluation",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Kick",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Choice",
+              "interval": "1:00",
+              "detail": "25 scull / 25 swim"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 10,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "1:00",
+              "detail": "build"
+            },
+            {
+              "count": 16,
+              "distance": 25,
+              "stroke": "IM",
+              "interval": "1:30",
+              "detail": "(4 x 25 IM Order) x 4"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Streamline Drills",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 8,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "2:00",
+              "detail": "Teach Streamline, Pushing off walls"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Kicking Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 10,
+              "distance": 25,
+              "stroke": "Kick",
+              "interval": "0:45",
+              "detail": ""
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ],
+          "children": []
+        }
+      ],
+      "id": 9,
+      "savedAt": 1786323329134
+    },
+    {
+      "title": "Freestyle Pace Ladder",
+      "focus": "Aerobic pacing and control",
+      "tags": "freestyle, aerobic, pacing",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "Build gradually and establish a calm breathing pattern.",
+          "repeat": 2,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 400,
+              "stroke": "Choice",
+              "interval": "1:30",
+              "detail": "swim / kick / drill"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Pace ladder",
+          "note": "Hold a steady stroke count as the distance changes.",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "interval": "1:35",
+              "detail": "smooth"
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "interval": "3:05",
+              "detail": "steady"
+            },
+            {
+              "count": 1,
+              "distance": 300,
+              "stroke": "Freestyle",
+              "interval": "4:35",
+              "detail": "strong"
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "interval": "3:00",
+              "detail": "steady"
+            },
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "interval": "1:30",
+              "detail": "build"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "Easy choice.",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": ""
+            }
+          ],
+          "children": []
+        }
+      ],
+      "id": 1,
+      "savedAt": 1786318322427
+    },
+    {
+      "title": "IM Transitions",
+      "focus": "IM skills and clean turns",
+      "tags": "IM, technique, turns",
+      "pool": "25",
+      "savedAt": 1786298400001,
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "Prepare each stroke with good body line.",
+          "reps": [
+            {
+              "count": 4,
+              "distance": 75,
+              "stroke": "IM",
+              "interval": "1:25",
+              "detail": "25 drill / 50 swim"
+            }
+          ]
+        },
+        {
+          "name": "IM circuit",
+          "note": "Make every transition deliberate.",
+          "reps": [
+            {
+              "count": 4,
+              "distance": 100,
+              "stroke": "IM",
+              "interval": "1:45",
+              "detail": "descend 1–4"
+            }
+          ],
+          "children": [
+            {
+              "name": "Transition skills",
+              "note": "Reset and focus on the wall.",
+              "reps": [
+                {
+                  "count": 4,
+                  "distance": 50,
+                  "stroke": "Choice",
+                  "interval": "1:05",
+                  "detail": "25 fast into turn + 25 easy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "Easy choice.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 300,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "50 Race Pace",
+      "focus": "Speed, walls, and recovery",
+      "tags": "sprint, race pace, speed",
+      "pool": "25",
+      "savedAt": 1786298400002,
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "Build speed through the walls.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 500,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": "swim / drill / kick"
+            }
+          ]
+        },
+        {
+          "name": "Race pace",
+          "note": "Quality first. Take the easy repeats seriously.",
+          "reps": [
+            {
+              "count": 8,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "1:15",
+              "detail": "odds race pace, evens easy"
+            }
+          ]
+        },
+        {
+          "name": "Breakout work",
+          "note": "Fast into a clean breakout.",
+          "repeat": 2,
+          "reps": [
+            {
+              "count": 4,
+              "distance": 25,
+              "stroke": "Choice",
+              "interval": ":40",
+              "detail": "15 m fast, easy in"
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "Easy choice.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 300,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
