@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T01:23:21.643Z",
+  "updatedAt": "2026-08-10T02:20:40.375Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_july_28_2026",
@@ -279,6 +279,13 @@
                 "stroke": "Drill",
                 "interval": "3:00",
                 "detail": "Free drills: balance- arms at side, every 3rd rotation pull, one arm other at side, "
+              },
+              {
+                "count": 4,
+                "distance": 100,
+                "stroke": "Drill",
+                "interval": "2:30",
+                "detail": "Build up free (25rt,25lt,25sf,25sw)"
               }
             ],
             "children": []
@@ -287,18 +294,34 @@
             "name": "Main Set",
             "note": "",
             "repeat": 1,
-            "reps": [],
+            "reps": [
+              {
+                "count": 16,
+                "distance": 25,
+                "stroke": "Freestyle",
+                "interval": "0:40",
+                "detail": "Perfect stroke sprint"
+              }
+            ],
             "children": []
           },
           {
             "name": "Cool Down",
             "note": "",
             "repeat": 1,
-            "reps": [],
+            "reps": [
+              {
+                "count": 1,
+                "distance": 100,
+                "stroke": "Choice",
+                "interval": "3:00",
+                "detail": ""
+              }
+            ],
             "children": []
           }
         ],
-        "savedAt": 1786325000606,
+        "savedAt": 1786328439318,
         "id": 10
       }
     }
