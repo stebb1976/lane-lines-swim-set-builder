@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T00:39:28.000Z",
+  "updatedAt": "2026-08-10T02:22:04.215Z",
   "logs": [
     {
       "title": "Freestyle Pace Ladder",
@@ -288,69 +288,6 @@
           }
         ],
         "id": 8
-      }
-    },
-    {
-      "id": "log_msmcsoymfbbmbj",
-      "title": "July Endurance Builder",
-      "date": "2026-07-28",
-      "notes": "Build aerobic rhythm and finish with strong, controlled 100s.",
-      "total": 2000,
-      "unit": "yd",
-      "set": {
-        "title": "July Endurance Builder",
-        "focus": "Aerobic endurance and pacing",
-        "tags": "freestyle, aerobic",
-        "pool": "25",
-        "blocks": [
-          {
-            "name": "Warm Up",
-            "note": "Swim, kick, and drill with a strong body line.",
-            "reps": [
-              {
-                "count": 1,
-                "distance": 500,
-                "stroke": "Choice",
-                "interval": "",
-                "detail": "100 swim / 100 kick / 100 drill / 200 swim"
-              }
-            ]
-          },
-          {
-            "name": "Main Set",
-            "note": "Hold a controlled threshold effort.",
-            "reps": [
-              {
-                "count": 4,
-                "distance": 200,
-                "stroke": "Freestyle",
-                "interval": "2:55",
-                "detail": "negative split each 200"
-              },
-              {
-                "count": 4,
-                "distance": 100,
-                "stroke": "Freestyle",
-                "interval": "1:25",
-                "detail": "descend 1–4"
-              }
-            ]
-          },
-          {
-            "name": "Cool Down",
-            "note": "Easy choice.",
-            "reps": [
-              {
-                "count": 1,
-                "distance": 300,
-                "stroke": "Choice",
-                "interval": "",
-                "detail": ""
-              }
-            ]
-          }
-        ],
-        "id": 7
       }
     }
   ]
