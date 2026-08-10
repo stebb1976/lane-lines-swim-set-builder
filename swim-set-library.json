@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T00:55:29.836Z",
+  "updatedAt": "2026-08-10T01:19:52.005Z",
   "sets": [
+    {
+      "title": "Day 2",
+      "focus": "Freestyle technique ",
+      "tags": "Freestyle drills",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Kick",
+              "interval": "1:30",
+              "detail": "Streamline kick on back "
+            },
+            {
+              "count": 4,
+              "distance": 75,
+              "stroke": "IM",
+              "interval": "1:30",
+              "detail": "Fly/back/breast by 25"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "reps": [],
+          "children": []
+        }
+      ],
+      "savedAt": 1786324780547,
+      "id": 10
+    },
     {
       "title": "First Day",
       "focus": "Evaluation",
