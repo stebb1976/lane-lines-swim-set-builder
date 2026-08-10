@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T02:17:03.209Z",
+  "updatedAt": "2026-08-10T02:18:23.610Z",
   "sets": [
     {
       "title": "Day 1",
@@ -169,7 +169,15 @@
           "name": "Main Set",
           "note": "",
           "repeat": 1,
-          "reps": [],
+          "reps": [
+            {
+              "count": 16,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "interval": "0:40",
+              "detail": ""
+            }
+          ],
           "children": []
         },
         {
@@ -189,7 +197,7 @@
         }
       ],
       "id": 10,
-      "savedAt": 1786328222506
+      "savedAt": 1786328302907
     },
     {
       "title": "First Day",
