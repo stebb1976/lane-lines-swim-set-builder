@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T02:12:02.514Z",
+  "updatedAt": "2026-08-10T02:17:03.209Z",
   "sets": [
     {
       "title": "Day 1",
@@ -154,6 +154,13 @@
               "stroke": "Drill",
               "interval": "3:00",
               "detail": "Free drills: balance- arms at side, every 3rd rotation pull, one arm other at side, "
+            },
+            {
+              "count": 4,
+              "distance": 100,
+              "stroke": "Drill",
+              "interval": "2:30",
+              "detail": "Build up free (25rt,25lt,25sf,25sw)"
             }
           ],
           "children": []
@@ -169,12 +176,20 @@
           "name": "Cool Down",
           "note": "",
           "repeat": 1,
-          "reps": [],
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ],
           "children": []
         }
       ],
-      "savedAt": 1786325000606,
-      "id": 10
+      "id": 10,
+      "savedAt": 1786328222506
     },
     {
       "title": "First Day",
