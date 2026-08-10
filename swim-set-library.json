@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T01:19:52.005Z",
+  "updatedAt": "2026-08-10T01:23:24.254Z",
   "sets": [
     {
       "title": "Day 2",
@@ -38,6 +38,21 @@
           "children": []
         },
         {
+          "name": "Freestyle Build Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 16,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "3:00",
+              "detail": "Free drills: balance- arms at side, every 3rd rotation pull, one arm other at side, "
+            }
+          ],
+          "children": []
+        },
+        {
           "name": "Main Set",
           "note": "",
           "repeat": 1,
@@ -52,7 +67,7 @@
           "children": []
         }
       ],
-      "savedAt": 1786324780547,
+      "savedAt": 1786325000606,
       "id": 10
     },
     {
