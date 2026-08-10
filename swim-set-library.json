@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T00:53:16.538Z",
+  "updatedAt": "2026-08-10T00:54:44.787Z",
   "sets": [
     {
       "title": "First Day",
@@ -93,12 +93,20 @@
           "name": "Cool Down",
           "note": "",
           "repeat": 1,
-          "reps": [],
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ],
           "children": []
         }
       ],
       "id": 9,
-      "savedAt": 1786323195835
+      "savedAt": 1786323284084
     },
     {
       "title": "Freestyle Pace Ladder",
