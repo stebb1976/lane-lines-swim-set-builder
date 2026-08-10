@@ -1,66 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T02:22:09.080Z",
+  "updatedAt": "2026-08-10T02:22:12.558Z",
   "scheduledWorkouts": [
-    {
-      "id": "calendar_july_30_2026",
-      "date": "2026-07-30",
-      "notes": "Prioritize clean IM transitions, turns, and underwater speed.",
-      "set": {
-        "title": "July IM Turns & Skills",
-        "focus": "IM transitions, turns, and stroke technique",
-        "tags": "IM, turns, technique",
-        "pool": "25",
-        "blocks": [
-          {
-            "name": "Warm Up",
-            "note": "Prepare each stroke and reinforce clean walls.",
-            "reps": [
-              {
-                "count": 1,
-                "distance": 400,
-                "stroke": "Choice",
-                "interval": "",
-                "detail": "swim / drill / kick"
-              }
-            ]
-          },
-          {
-            "name": "IM Skills",
-            "note": "Stay precise through every transition.",
-            "reps": [
-              {
-                "count": 4,
-                "distance": 100,
-                "stroke": "IM",
-                "interval": "1:50",
-                "detail": "25 drill / 75 swim"
-              },
-              {
-                "count": 8,
-                "distance": 50,
-                "stroke": "Choice",
-                "interval": "1:05",
-                "detail": "fast into turn, easy out"
-              }
-            ]
-          },
-          {
-            "name": "Cool Down",
-            "note": "Easy choice.",
-            "reps": [
-              {
-                "count": 1,
-                "distance": 300,
-                "stroke": "Choice",
-                "interval": "",
-                "detail": ""
-              }
-            ]
-          }
-        ]
-      }
-    },
     {
       "id": "calendar_msmjni10f8k5e2",
       "date": "2026-08-11",
