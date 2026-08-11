@@ -38,3 +38,5 @@ body.show-schedule main{display:none}body.show-schedule #schedule-view{display:b
 @media(max-width:600px){.sticky-totals{top:max(6px,calc(env(safe-area-inset-top) + 6px))}}
 
 @media(max-width:600px){.deck-table th:nth-child(4),.deck-table td:nth-child(4){display:table-cell}.deck-table td,.deck-table th{font-size:12px}}
+
+.rep-controls{display:grid;gap:2px;align-self:end}.rep-controls button{width:29px;height:20px;border-radius:4px;background:#f3f6f7;color:#637988;font-size:13px;line-height:1}.rep-controls .delete-rep{color:#a85852}@media(max-width:780px){.rep .rep-controls{grid-column:2!important;justify-self:end}}@media print{.rep-controls{display:none!important}}
