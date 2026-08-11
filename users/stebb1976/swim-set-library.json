@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T02:20:57.511Z",
+  "updatedAt": "2026-08-11T02:24:24.857Z",
   "sets": [
     {
       "title": "Day 2",
@@ -90,6 +90,13 @@
               "stroke": "Freestyle",
               "interval": "2:00",
               "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "interval": "5:00",
+              "detail": "catchup 25, swim 25"
             }
           ],
           "children": []
@@ -118,7 +125,7 @@
               "count": 8,
               "distance": 100,
               "stroke": "Freestyle",
-              "interval": "1:00",
+              "interval": "2:00",
               "detail": "rt/lt/sf/sw"
             }
           ],
@@ -140,7 +147,7 @@
           "children": []
         }
       ],
-      "savedAt": 1786414856809,
+      "savedAt": 1786415060406,
       "id": 10
     },
     {
