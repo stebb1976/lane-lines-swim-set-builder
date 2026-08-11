@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T01:20:10.325Z",
+  "updatedAt": "2026-08-11T02:05:44.293Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_msmjni10f8k5e2",
@@ -29,14 +29,14 @@
                 "distance": 50,
                 "stroke": "Kick",
                 "interval": "1:30",
-                "detail": "Streamline kick on back "
+                "detail": "Streamline kick w fins"
               },
               {
                 "count": 4,
                 "distance": 75,
-                "stroke": "IM",
+                "stroke": "Freestyle",
                 "interval": "1:30",
-                "detail": "Fly/back/breast by 25"
+                "detail": "pull w paddles"
               }
             ],
             "children": []
@@ -47,11 +47,18 @@
             "repeat": 1,
             "reps": [
               {
-                "count": 16,
+                "count": 2,
                 "distance": 50,
                 "stroke": "Drill",
                 "interval": "3:00",
-                "detail": "Free drills: balance- arms at side, every 3rd rotation pull, one arm other at side, "
+                "detail": "Free drills: balance- arms at side"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "1:30",
+                "detail": "Free drills: balance- arms at side"
               },
               {
                 "count": 4,
@@ -94,7 +101,7 @@
             "children": []
           }
         ],
-        "savedAt": 1786328439318,
+        "savedAt": 1786413943301,
         "id": 10
       }
     }
