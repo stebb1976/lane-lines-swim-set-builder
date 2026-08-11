@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T02:09:08.956Z",
+  "updatedAt": "2026-08-11T02:20:58.820Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_msmjni10f8k5e2",
@@ -66,21 +66,64 @@
                 "stroke": "Drill",
                 "interval": "2:00",
                 "detail": "Free drills: one arm, other arm at side"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: 6 kick switch"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: swordfish, exaggerate rotation and glide "
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: catchup"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "interval": "2:00",
+                "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
               }
             ],
             "children": []
           },
           {
-            "name": "Main Set",
+            "name": "Kick Set",
             "note": "",
             "repeat": 1,
             "reps": [
               {
-                "count": 16,
-                "distance": 25,
+                "count": 8,
+                "distance": 50,
+                "stroke": "Kick",
+                "interval": "1:00",
+                "detail": "w fins 25 dophin 25 flutter"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Freestyle Sprints",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 8,
+                "distance": 100,
                 "stroke": "Freestyle",
-                "interval": "0:40",
-                "detail": "Perfect stroke sprint"
+                "interval": "1:00",
+                "detail": "rt/lt/sf/sw"
               }
             ],
             "children": []
@@ -101,7 +144,7 @@
             "children": []
           }
         ],
-        "savedAt": 1786414147931,
+        "savedAt": 1786414856809,
         "id": 10
       }
     }
