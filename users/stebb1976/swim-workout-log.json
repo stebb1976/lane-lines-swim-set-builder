@@ -1,7 +1,163 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T01:20:13.826Z",
+  "updatedAt": "2026-08-12T02:11:26.372Z",
   "logs": [
+    {
+      "id": "log_mspgdradqrs5z2",
+      "title": "Day 2",
+      "date": "2026-08-11",
+      "notes": "Freestyle technique",
+      "total": 2900,
+      "unit": "yd",
+      "set": {
+        "title": "Day 2",
+        "focus": "Freestyle technique ",
+        "tags": "Freestyle drills",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "interval": "5:00",
+                "detail": ""
+              },
+              {
+                "count": 4,
+                "distance": 50,
+                "stroke": "Kick",
+                "interval": "1:30",
+                "detail": "Streamline kick w fins"
+              },
+              {
+                "count": 4,
+                "distance": 75,
+                "stroke": "Freestyle",
+                "interval": "1:30",
+                "detail": "pull w paddles"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Freestyle Build Up",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: balance- arms at side"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: balance- pull every 3rd rotation"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: one arm, other arm at side"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: 6 kick switch"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: swordfish, exaggerate rotation and glide "
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Drill",
+                "interval": "2:00",
+                "detail": "Free drills: catchup"
+              },
+              {
+                "count": 2,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "interval": "2:00",
+                "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
+              },
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Freestyle",
+                "interval": "5:00",
+                "detail": "catchup 25, swim 25"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Kick Set",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 8,
+                "distance": 50,
+                "stroke": "Kick",
+                "interval": "1:00",
+                "detail": "w fins 25 dophin 25 flutter"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Freestyle Sprints",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 8,
+                "distance": 100,
+                "stroke": "Freestyle",
+                "interval": "2:00",
+                "detail": "rt/lt/sf/sw"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Cool Down",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 1,
+                "distance": 100,
+                "stroke": "Choice",
+                "interval": "3:00",
+                "detail": ""
+              }
+            ],
+            "children": []
+          }
+        ],
+        "savedAt": 1786415060406,
+        "id": 10
+      }
+    },
     {
       "id": "log_msnz3yxbahcg3u",
       "title": "Day 1",
