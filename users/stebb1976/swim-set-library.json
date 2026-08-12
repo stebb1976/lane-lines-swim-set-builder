@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T11:15:48.871Z",
+  "updatedAt": "2026-08-12T11:32:44.059Z",
   "sets": [
     {
       "title": "Day 3",
@@ -66,6 +66,34 @@
             {
               "count": 2,
               "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills:doggie paddle"
+            },
+            {
+              "count": 1,
+              "distance": 0,
+              "stroke": "Drill",
+              "interval": "3:00",
+              "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills:fingertip drag"
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills:thumb drag"
+            },
+            {
+              "count": 2,
+              "distance": 50,
               "stroke": "Freestyle",
               "interval": "2:00",
               "detail": "Free drills: perfect stroke"
@@ -75,7 +103,7 @@
               "distance": 200,
               "stroke": "Freestyle",
               "interval": "5:00",
-              "detail": "catchup 25, swim 25"
+              "detail": "catch up / swim by 25"
             }
           ],
           "children": []
@@ -133,7 +161,7 @@
           "children": []
         }
       ],
-      "savedAt": 1786533345238,
+      "savedAt": 1786534360039,
       "id": 13
     },
     {
