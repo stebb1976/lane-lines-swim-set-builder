@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=112" />
+    <link rel="stylesheet" href="styles.css?v=113" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -81,7 +81,7 @@
         <label><span>INTERVAL</span><input class="interval" value="1:30" placeholder="1:30" /></label>
         <div class="rep-controls"><button class="move-rep-up" title="Move set line up" aria-label="Move set line up">↑</button><button class="move-rep-down" title="Move set line down" aria-label="Move set line down">↓</button><button class="duplicate-rep" title="Duplicate set line" aria-label="Duplicate set line">⧉</button><button class="delete-rep" title="Delete set line" aria-label="Delete set line">×</button></div>
         <p class="rep-detail"><input class="detail" placeholder="e.g. descend 1–4" /></p>
-        <p class="rep-time">Start time: 0:00 · Estimated time: —</p>
+        <p class="rep-time">Start: 0:00 · Total: 0 yd · Est. —</p>
       </div>
     </template>
     <dialog id="save-dialog"><form method="dialog"><h2>Save Workout</h2><p>Save this complete workout so it is ready to load and adapt at a future practice.</p><label class="dialog-label">SET NAME<input id="save-name" maxlength="80" /></label><label class="dialog-label">TAGS <small>Separate tags with commas</small><input id="save-tags" maxlength="100" placeholder="threshold, aerobic" /></label><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="primary" id="confirm-save">Save Workout</button></div></form></dialog>
@@ -94,6 +94,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=112"></script>
+    <script src="app.js?v=113"></script>
   </body>
 </html>
