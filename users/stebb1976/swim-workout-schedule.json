@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T11:33:28.715Z",
+  "updatedAt": "2026-08-12T11:45:29.552Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_msmjni10f8k5e2",
@@ -181,21 +181,24 @@
                 "count": 1,
                 "distance": 200,
                 "stroke": "Choice",
-                "interval": "5:00",
+                "transition": "2:00",
+                "interval": "4:00",
                 "detail": ""
               },
               {
                 "count": 8,
                 "distance": 25,
                 "stroke": "Choice",
-                "interval": "1:30",
+                "transition": "2:00",
+                "interval": "1:00",
                 "detail": "20 sec vertical kick then swim, rest 10 sec"
               },
               {
                 "count": 3,
                 "distance": 100,
                 "stroke": "Freestyle",
-                "interval": "1:30",
+                "transition": "2:00",
+                "interval": "2:00",
                 "detail": "Rt Lt cu sw"
               }
             ],
@@ -210,6 +213,7 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Drill",
+                "transition": "0:00",
                 "interval": "2:00",
                 "detail": "Free drills:vertical sculling "
               },
@@ -217,6 +221,7 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Drill",
+                "transition": "0:00",
                 "interval": "2:00",
                 "detail": "Free drills:front sculling "
               },
@@ -224,6 +229,7 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Drill",
+                "transition": "0:00",
                 "interval": "2:00",
                 "detail": "Free drills:arms underneath sculling "
               },
@@ -231,6 +237,7 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Drill",
+                "transition": "0:00",
                 "interval": "2:00",
                 "detail": "Free drills:doggie paddle"
               },
@@ -238,6 +245,7 @@
                 "count": 1,
                 "distance": 0,
                 "stroke": "Instruction",
+                "transition": "0:00",
                 "interval": "3:00",
                 "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
               },
@@ -245,6 +253,7 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Drill",
+                "transition": "0:00",
                 "interval": "2:00",
                 "detail": "Free drills:fingertip drag"
               },
@@ -252,13 +261,23 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Drill",
+                "transition": "0:00",
                 "interval": "2:00",
                 "detail": "Free drills:thumb drag"
               },
               {
                 "count": 2,
                 "distance": 50,
+                "stroke": "Drill",
+                "transition": "0:00",
+                "interval": "2:00",
+                "detail": "Free drills:upside down paddles"
+              },
+              {
+                "count": 2,
+                "distance": 50,
                 "stroke": "Freestyle",
+                "transition": "0:00",
                 "interval": "2:00",
                 "detail": "Free drills: perfect stroke"
               },
@@ -266,6 +285,7 @@
                 "count": 1,
                 "distance": 200,
                 "stroke": "Freestyle",
+                "transition": "0:00",
                 "interval": "5:00",
                 "detail": "catch up / swim by 25"
               }
@@ -281,8 +301,9 @@
                 "count": 8,
                 "distance": 50,
                 "stroke": "Kick",
-                "interval": "1:00",
-                "detail": "w fins 25 dophin 25 flutter"
+                "transition": "2:00",
+                "interval": "1:15",
+                "detail": "no fins"
               }
             ],
             "children": []
@@ -293,18 +314,12 @@
             "repeat": 1,
             "reps": [
               {
-                "count": 4,
+                "count": 5,
                 "distance": 100,
                 "stroke": "Freestyle",
-                "interval": "2:00",
-                "detail": "rt/lt/sf/sw"
-              },
-              {
-                "count": 4,
-                "distance": 50,
-                "stroke": "Freestyle",
+                "transition": "2:00",
                 "interval": "1:30",
-                "detail": "Sprint"
+                "detail": "w fins and paddles"
               }
             ],
             "children": []
@@ -318,14 +333,15 @@
                 "count": 1,
                 "distance": 100,
                 "stroke": "Choice",
-                "interval": "3:00",
+                "transition": "2:00",
+                "interval": "2:00",
                 "detail": ""
               }
             ],
             "children": []
           }
         ],
-        "savedAt": 1786534407827,
+        "savedAt": 1786535128503,
         "id": 13
       }
     }
