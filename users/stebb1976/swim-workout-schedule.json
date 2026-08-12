@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T19:26:36.845Z",
+  "updatedAt": "2026-08-12T20:15:26.000Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_msmjni10f8k5e2",
@@ -261,7 +261,7 @@
             "children": []
           }
         ],
-        "savedAt": 1786562795373,
+        "savedAt": 1786565723860,
         "id": 13
       }
     },
