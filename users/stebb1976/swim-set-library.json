@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T11:32:44.059Z",
+  "updatedAt": "2026-08-12T11:33:31.344Z",
   "sets": [
     {
       "title": "Day 3",
@@ -73,7 +73,7 @@
             {
               "count": 1,
               "distance": 0,
-              "stroke": "Drill",
+              "stroke": "Instruction",
               "interval": "3:00",
               "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
             },
@@ -161,7 +161,7 @@
           "children": []
         }
       ],
-      "savedAt": 1786534360039,
+      "savedAt": 1786534407827,
       "id": 13
     },
     {
