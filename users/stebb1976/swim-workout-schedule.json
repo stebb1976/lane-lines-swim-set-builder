@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T19:02:04.048Z",
+  "updatedAt": "2026-08-12T19:26:36.845Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_msmjni10f8k5e2",
@@ -168,8 +168,8 @@
       "notes": "",
       "set": {
         "title": "Day 3",
-        "focus": "Freestyle technique 2",
-        "tags": "Freestyle drills",
+        "focus": "Freestyle Baseline",
+        "tags": "Freestyle Test Set",
         "pool": "25",
         "blocks": [
           {
@@ -205,121 +205,41 @@
             "children": []
           },
           {
-            "name": "Freestyle Build Up 2",
-            "note": "Propulsion focus",
+            "name": "Challenge Set",
+            "note": "",
             "repeat": 1,
-            "reps": [
+            "reps": [],
+            "children": [
               {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Drill",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills:vertical sculling "
-              },
-              {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Drill",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills:front sculling "
-              },
-              {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Drill",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills:arms underneath sculling "
-              },
-              {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Drill",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills:doggie paddle"
-              },
-              {
-                "count": 1,
-                "distance": 0,
-                "stroke": "Instruction",
-                "transition": "0:00",
-                "interval": "3:00",
-                "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
-              },
-              {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Drill",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills:fingertip drag"
-              },
-              {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Drill",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills:thumb drag"
-              },
-              {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Drill",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills:upside down paddles"
-              },
-              {
-                "count": 2,
-                "distance": 50,
-                "stroke": "Freestyle",
-                "transition": "0:00",
-                "interval": "2:00",
-                "detail": "Free drills: perfect stroke"
-              },
-              {
-                "count": 1,
-                "distance": 200,
-                "stroke": "Freestyle",
-                "transition": "0:00",
-                "interval": "5:00",
-                "detail": "catch up / swim by 25"
+                "name": "Free Step Down",
+                "note": "",
+                "repeat": 5,
+                "reps": [
+                  {
+                    "count": 3,
+                    "distance": 50,
+                    "stroke": "Freestyle",
+                    "transition": "2:00",
+                    "interval": "1:00",
+                    "detail": "Reduce interval by 5 sec after each 3"
+                  }
+                ],
+                "children": []
               }
-            ],
-            "children": []
+            ]
           },
           {
-            "name": "Kick Set",
+            "name": "Relays",
             "note": "",
             "repeat": 1,
             "reps": [
               {
                 "count": 8,
-                "distance": 50,
-                "stroke": "Kick",
-                "transition": "2:00",
-                "interval": "1:15",
-                "detail": "no fins"
-              }
-            ],
-            "children": []
-          },
-          {
-            "name": "Freestyle",
-            "note": "",
-            "repeat": 1,
-            "reps": [
-              {
-                "count": 5,
-                "distance": 100,
+                "distance": 25,
                 "stroke": "Freestyle",
                 "transition": "2:00",
-                "interval": "1:30",
-                "detail": "w fins and paddles"
+                "interval": "4:00",
+                "detail": ""
               }
             ],
             "children": []
@@ -341,7 +261,7 @@
             "children": []
           }
         ],
-        "savedAt": 1786561323125,
+        "savedAt": 1786562795373,
         "id": 13
       }
     },
