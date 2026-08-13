@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T22:07:18.467Z",
+  "updatedAt": "2026-08-13T22:07:32.878Z",
   "sets": [
     {
       "title": "Day 4",
@@ -455,104 +455,6 @@
       ],
       "savedAt": 1786658680443,
       "id": 17
-    },
-    {
-      "title": "Day 3 Copy",
-      "focus": "Freestyle Baseline",
-      "tags": "Freestyle Test Set",
-      "pool": "25",
-      "blocks": [
-        {
-          "name": "Warm Up",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Choice",
-              "transition": "2:00",
-              "interval": "4:00",
-              "detail": ""
-            },
-            {
-              "count": 8,
-              "distance": 25,
-              "stroke": "Choice",
-              "transition": "2:00",
-              "interval": "1:00",
-              "detail": "20 sec vertical kick then swim, rest 10 sec"
-            },
-            {
-              "count": 3,
-              "distance": 100,
-              "stroke": "Freestyle",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Rt Lt cu sw"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Challenge Set",
-          "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": [
-            {
-              "name": "Free Step Down",
-              "note": "",
-              "repeat": 5,
-              "reps": [
-                {
-                  "count": 3,
-                  "distance": 50,
-                  "stroke": "Freestyle",
-                  "transition": "2:00",
-                  "interval": "1:00",
-                  "detail": "Reduce interval by 5 sec after each 3"
-                }
-              ],
-              "children": []
-            }
-          ]
-        },
-        {
-          "name": "Relays",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 8,
-              "distance": 25,
-              "stroke": "Freestyle",
-              "transition": "2:00",
-              "interval": "4:00",
-              "detail": ""
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Cool Down",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 100,
-              "stroke": "Choice",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": ""
-            }
-          ],
-          "children": []
-        }
-      ],
-      "savedAt": 1786658678045,
-      "id": 16
     },
     {
       "title": "Day 2",
