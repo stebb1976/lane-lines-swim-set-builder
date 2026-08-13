@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T22:07:49.451Z",
+  "updatedAt": "2026-08-13T22:07:51.551Z",
   "sets": [
     {
       "title": "Day 4",
@@ -530,69 +530,6 @@
       ],
       "savedAt": 1786411188051,
       "id": 11
-    },
-    {
-      "title": "50 Race Pace",
-      "focus": "Speed, walls, and recovery",
-      "tags": "sprint, race pace, speed",
-      "pool": "25",
-      "savedAt": 1786298400002,
-      "blocks": [
-        {
-          "name": "Warm Up",
-          "note": "Build speed through the walls.",
-          "reps": [
-            {
-              "count": 1,
-              "distance": 500,
-              "stroke": "Choice",
-              "interval": "",
-              "detail": "swim / drill / kick"
-            }
-          ]
-        },
-        {
-          "name": "Race pace",
-          "note": "Quality first. Take the easy repeats seriously.",
-          "reps": [
-            {
-              "count": 8,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "1:15",
-              "detail": "odds race pace, evens easy"
-            }
-          ]
-        },
-        {
-          "name": "Breakout work",
-          "note": "Fast into a clean breakout.",
-          "repeat": 2,
-          "reps": [
-            {
-              "count": 4,
-              "distance": 25,
-              "stroke": "Choice",
-              "interval": ":40",
-              "detail": "15 m fast, easy in"
-            }
-          ]
-        },
-        {
-          "name": "Cool Down",
-          "note": "Easy choice.",
-          "reps": [
-            {
-              "count": 1,
-              "distance": 300,
-              "stroke": "Choice",
-              "interval": "",
-              "detail": ""
-            }
-          ]
-        }
-      ],
-      "id": 3
     }
   ]
 }
