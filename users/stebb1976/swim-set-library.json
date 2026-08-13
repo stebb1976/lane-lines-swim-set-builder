@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T22:07:47.137Z",
+  "updatedAt": "2026-08-13T22:07:49.451Z",
   "sets": [
     {
       "title": "Day 4",
@@ -530,70 +530,6 @@
       ],
       "savedAt": 1786411188051,
       "id": 11
-    },
-    {
-      "title": "IM Transitions",
-      "focus": "IM skills and clean turns",
-      "tags": "IM, technique, turns",
-      "pool": "25",
-      "savedAt": 1786298400001,
-      "blocks": [
-        {
-          "name": "Warm Up",
-          "note": "Prepare each stroke with good body line.",
-          "reps": [
-            {
-              "count": 4,
-              "distance": 75,
-              "stroke": "IM",
-              "interval": "1:25",
-              "detail": "25 drill / 50 swim"
-            }
-          ]
-        },
-        {
-          "name": "IM circuit",
-          "note": "Make every transition deliberate.",
-          "reps": [
-            {
-              "count": 4,
-              "distance": 100,
-              "stroke": "IM",
-              "interval": "1:45",
-              "detail": "descend 1–4"
-            }
-          ],
-          "children": [
-            {
-              "name": "Transition skills",
-              "note": "Reset and focus on the wall.",
-              "reps": [
-                {
-                  "count": 4,
-                  "distance": 50,
-                  "stroke": "Choice",
-                  "interval": "1:05",
-                  "detail": "25 fast into turn + 25 easy"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cool Down",
-          "note": "Easy choice.",
-          "reps": [
-            {
-              "count": 1,
-              "distance": 300,
-              "stroke": "Choice",
-              "interval": "",
-              "detail": ""
-            }
-          ]
-        }
-      ],
-      "id": 2
     },
     {
       "title": "50 Race Pace",
