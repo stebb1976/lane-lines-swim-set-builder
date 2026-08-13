@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T22:07:35.445Z",
+  "updatedAt": "2026-08-13T22:07:47.137Z",
   "sets": [
     {
       "title": "Day 4",
@@ -530,89 +530,6 @@
       ],
       "savedAt": 1786411188051,
       "id": 11
-    },
-    {
-      "title": "Freestyle Pace Ladder",
-      "focus": "Aerobic pacing and control",
-      "tags": "freestyle, aerobic, pacing",
-      "pool": "25",
-      "blocks": [
-        {
-          "name": "Warm Up",
-          "note": "Build gradually and establish a calm breathing pattern.",
-          "repeat": 2,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 400,
-              "stroke": "Choice",
-              "interval": "1:30",
-              "detail": "swim / kick / drill"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Pace ladder",
-          "note": "Hold a steady stroke count as the distance changes.",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 100,
-              "stroke": "Freestyle",
-              "interval": "1:35",
-              "detail": "smooth"
-            },
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Freestyle",
-              "interval": "3:05",
-              "detail": "steady"
-            },
-            {
-              "count": 1,
-              "distance": 300,
-              "stroke": "Freestyle",
-              "interval": "4:35",
-              "detail": "strong"
-            },
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Freestyle",
-              "interval": "3:00",
-              "detail": "steady"
-            },
-            {
-              "count": 1,
-              "distance": 100,
-              "stroke": "Freestyle",
-              "interval": "1:30",
-              "detail": "build"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Cool Down",
-          "note": "Easy choice.",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Choice",
-              "interval": "",
-              "detail": ""
-            }
-          ],
-          "children": []
-        }
-      ],
-      "id": 1,
-      "savedAt": 1786318322427
     },
     {
       "title": "IM Transitions",
