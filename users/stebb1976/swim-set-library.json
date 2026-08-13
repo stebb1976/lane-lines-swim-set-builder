@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T22:07:51.551Z",
+  "updatedAt": "2026-08-13T22:54:06.598Z",
   "sets": [
     {
       "title": "Day 4",
@@ -22,20 +22,12 @@
               "detail": ""
             },
             {
-              "count": 8,
-              "distance": 25,
-              "stroke": "Choice",
-              "transition": "2:00",
-              "interval": "1:00",
-              "detail": "20 sec vertical kick then swim, rest 10 sec"
-            },
-            {
-              "count": 3,
-              "distance": 100,
+              "count": 4,
+              "distance": 75,
               "stroke": "Freestyle",
               "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Rt Lt cu sw"
+              "interval": "1:00",
+              "detail": "Rt/lt/sw, rest 10 sec"
             }
           ],
           "children": []
@@ -63,6 +55,22 @@
               "children": []
             }
           ]
+        },
+        {
+          "name": "Turns",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 20,
+              "distance": 0,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "1:00",
+              "detail": ""
+            }
+          ],
+          "children": []
         },
         {
           "name": "Relays",
@@ -97,7 +105,7 @@
           "children": []
         }
       ],
-      "savedAt": 1786658834861,
+      "savedAt": 1786661645879,
       "id": 15
     },
     {
