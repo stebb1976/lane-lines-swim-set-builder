@@ -1,7 +1,121 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T22:08:21.773Z",
+  "updatedAt": "2026-08-14T01:02:41.943Z",
   "logs": [
+    {
+      "id": "log_mss8syslvn9oqd",
+      "title": "Day 4",
+      "date": "2026-08-13",
+      "notes": "Freestyle Baseline",
+      "total": 1550,
+      "unit": "yd",
+      "set": {
+        "title": "Day 4",
+        "focus": "Freestyle Baseline",
+        "tags": "Freestyle Test Set",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "transition": "2:00",
+                "interval": "4:00",
+                "detail": ""
+              },
+              {
+                "count": 4,
+                "distance": 75,
+                "stroke": "Freestyle",
+                "transition": "2:00",
+                "interval": "1:00",
+                "detail": "Rt/lt/sw, rest 10 sec"
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Challenge Set",
+            "note": "",
+            "repeat": 1,
+            "reps": [],
+            "children": [
+              {
+                "name": "Free Step Down",
+                "note": "",
+                "repeat": 5,
+                "reps": [
+                  {
+                    "count": 3,
+                    "distance": 50,
+                    "stroke": "Freestyle",
+                    "transition": "2:00",
+                    "interval": "1:00",
+                    "detail": "Reduce interval by 5 sec after each 3"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Turns",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 20,
+                "distance": 0,
+                "stroke": "Freestyle",
+                "transition": "2:00",
+                "interval": "1:00",
+                "detail": ""
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Relays",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 8,
+                "distance": 25,
+                "stroke": "Freestyle",
+                "transition": "2:00",
+                "interval": "4:00",
+                "detail": ""
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "Cool Down",
+            "note": "",
+            "repeat": 1,
+            "reps": [
+              {
+                "count": 1,
+                "distance": 100,
+                "stroke": "Choice",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": ""
+              }
+            ],
+            "children": []
+          }
+        ],
+        "savedAt": 1786661645879,
+        "id": 15
+      }
+    },
     {
       "id": "log_mss2kt1y8fsdsk",
       "title": "Day 3",
