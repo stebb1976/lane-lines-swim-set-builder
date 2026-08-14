@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=122" />
+    <link rel="stylesheet" href="styles.css?v=123" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -45,7 +45,7 @@
     <section id="library-view" class="library-view" aria-hidden="true" aria-label="Set library">
       <div class="deck-toolbar"><button class="ghost" id="close-library">← Back to workout creator</button></div>
       <article class="library-page">
-        <section class="library-section" aria-labelledby="library-title"><div class="section-heading"><h1 id="library-title">Workout Library</h1><button id="create-library-workout" class="outline">+ Create New Workout</button></div><input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search workout library" /><p id="library-count" class="library-count"></p><div id="saved-sets" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Create a new workout, or duplicate any saved workout to use it as a starting point.</p></div></section>
+        <section class="library-section" aria-labelledby="library-title"><div class="section-heading"><h1 id="library-title">Workout Library</h1><button id="create-library-workout" class="outline">+ Create New Workout</button></div><input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search workout library" /><div class="library-filters" aria-label="Workout Library filters"><label>FOCUS<select id="library-focus-filter"><option value="">All focuses</option></select></label><label>POOL<select id="library-pool-filter"><option value="">Any pool</option><option value="25">25 yd</option><option value="50">50 m</option></select></label><label>MIN DISTANCE<input id="library-min-distance" type="number" min="0" step="25" placeholder="yd / m" /></label><label>MAX DISTANCE<input id="library-max-distance" type="number" min="0" step="25" placeholder="yd / m" /></label><label>MIN TIME<input id="library-min-time" type="number" min="0" step="1" placeholder="minutes" /></label><label>MAX TIME<input id="library-max-time" type="number" min="0" step="1" placeholder="minutes" /></label><button id="clear-library-filters" class="ghost" type="button">Clear filters</button></div><p id="library-count" class="library-count"></p><div id="saved-sets" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Create a new workout, or duplicate any saved workout to use it as a starting point.</p></div></section>
       </article>
     </section>
     <section id="log-view" class="library-view" aria-hidden="true" aria-label="Workout log"><div class="deck-toolbar"><button class="ghost" id="close-log">← Back to workout creator</button></div><article class="library-page"><section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h1 id="log-title">Workout log</h1></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div><article id="log-stats-sheet" class="stats-sheet log-stats-sheet" aria-label="Workout statistics"></article></section></article></section>
@@ -95,6 +95,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=122"></script>
+    <script src="app.js?v=123"></script>
   </body>
 </html>
