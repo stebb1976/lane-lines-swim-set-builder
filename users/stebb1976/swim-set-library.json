@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T17:25:36.909Z",
+  "updatedAt": "2026-08-15T00:09:46.869Z",
   "sets": [
     {
       "title": "Fun Friday 1",
@@ -200,7 +200,7 @@
     },
     {
       "title": "Day 3",
-      "focus": "Freestyle technique 2",
+      "focus": "Freestyle technique",
       "tags": "Freestyle drills",
       "pool": "25",
       "blocks": [
@@ -373,8 +373,8 @@
           "children": []
         }
       ],
-      "savedAt": 1786658815174,
-      "id": 13
+      "id": 13,
+      "savedAt": 1786752586165
     },
     {
       "title": "Day 2",
