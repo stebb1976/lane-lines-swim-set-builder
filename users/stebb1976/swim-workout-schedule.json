@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T17:25:34.455Z",
+  "updatedAt": "2026-08-15T00:06:41.692Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_mst7x196iz35oi",
-      "date": "2026-08-14",
+      "date": "2026-08-21",
       "notes": "",
       "set": {
         "title": "Fun Friday 1",
@@ -21,6 +21,7 @@
                 "count": 1,
                 "distance": 200,
                 "stroke": "Choice",
+                "transition": "2:00",
                 "interval": "4:00",
                 "detail": ""
               },
@@ -28,6 +29,7 @@
                 "count": 1,
                 "distance": 200,
                 "stroke": "IM",
+                "transition": "2:00",
                 "interval": "4:00",
                 "detail": "Drill"
               },
@@ -35,6 +37,7 @@
                 "count": 2,
                 "distance": 100,
                 "stroke": "Drill",
+                "transition": "2:00",
                 "interval": "2:00",
                 "detail": "Rt/lt/cu/sw"
               }
@@ -50,6 +53,7 @@
                 "count": 4,
                 "distance": 50,
                 "stroke": "Drill",
+                "transition": "2:00",
                 "interval": "1:20",
                 "detail": "Start at 50 sec (15 sec rest), add 10 sec each round "
               }
@@ -65,6 +69,7 @@
                 "count": 1,
                 "distance": 25,
                 "stroke": "Freestyle",
+                "transition": "2:00",
                 "interval": "5:00",
                 "detail": "Spoon in mouth w wiggle ball"
               },
@@ -72,6 +77,7 @@
                 "count": 1,
                 "distance": 25,
                 "stroke": "Freestyle",
+                "transition": "2:00",
                 "interval": "5:00",
                 "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
               },
@@ -79,6 +85,7 @@
                 "count": 1,
                 "distance": 25,
                 "stroke": "Freestyle",
+                "transition": "2:00",
                 "interval": "5:00",
                 "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
               },
@@ -86,15 +93,14 @@
                 "count": 4,
                 "distance": 100,
                 "stroke": "Freestyle",
+                "transition": "2:00",
                 "interval": "5:00",
                 "detail": "Sharks and minnows "
               }
             ],
             "children": []
           }
-        ],
-        "savedAt": 1786728333209,
-        "id": 16
+        ]
       }
     }
   ]
