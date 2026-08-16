@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=150" />
+    <link rel="stylesheet" href="styles.css?v=151" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -30,7 +30,7 @@
         <section class="builder" aria-label="Set builder">
           <div class="set-meta">
             <label>Set name<input id="set-title" placeholder="Untitled set" maxlength="80" /></label>
-            <label>Focus<input id="set-focus" list="focus-options" maxlength="80" placeholder="Choose or enter a focus" /></label>
+            <label>Focus<span class="focus-control"><input id="set-focus" list="focus-options" maxlength="80" placeholder="Choose or enter a focus" /><select class="focus-select" aria-label="Choose an existing focus"><option value="">Choose existing focus</option></select></span></label>
             <label>Pool<select id="pool-length"><option value="25">25 yd pool</option><option value="50">50 m pool</option></select></label>
             <label>Tags<input id="set-tags" placeholder="e.g. threshold, sprint" maxlength="100" /></label>
             <label id="workout-date-wrap">Workout date<input id="workout-date" type="date" aria-label="Workout date" /></label>
@@ -69,7 +69,7 @@
       <article class="block">
         <div class="block-top"><input class="block-name" value="Main set" aria-label="Block name" /><span class="repeat-badge" hidden>REPEATED BLOCK</span><span class="block-summary"><span class="block-start">Start: 0:00</span><span class="block-distance">0 yd</span><span class="block-time">Est. —</span></span><div class="block-controls"><button class="save-block" title="Save to Blocks Library" aria-label="Save to Blocks Library">★</button><button class="replace-block" title="Replace from Blocks Library" aria-label="Replace from Blocks Library">⇄</button><button class="move-block-up" title="Move block up" aria-label="Move block up">↑</button><button class="move-block-down" title="Move block down" aria-label="Move block down">↓</button><button class="duplicate" title="Duplicate block">⧉</button><button class="delete-block" title="Delete block">×</button></div></div>
         <textarea class="block-note" rows="1" placeholder="Coaching note (optional)"></textarea>
-        <div class="block-meta"><label>FOCUS<input class="block-focus" list="focus-options" maxlength="80" placeholder="Choose or enter a focus" /></label><label>POOL<select class="block-pool"><option value="">Workout pool</option><option value="25">25 yd pool</option><option value="50">50 m pool</option></select></label></div>
+        <div class="block-meta"><label>FOCUS<span class="focus-control"><input class="block-focus" list="focus-options" maxlength="80" placeholder="Choose or enter a focus" /><select class="focus-select" aria-label="Choose an existing focus"><option value="">Choose existing focus</option></select></span></label><label>POOL<select class="block-pool"><option value="">Workout pool</option><option value="25">25 yd pool</option><option value="50">50 m pool</option></select></label></div>
         <label class="block-repeat-wrap"><span>REPEAT ENTIRE BLOCK</span><input class="block-repeat" type="number" min="1" value="1" /></label>
         <div class="round-instructions" hidden></div>
         <div class="block-items" aria-label="Block contents"></div>
@@ -102,6 +102,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=150"></script>
+    <script src="app.js?v=151"></script>
   </body>
 </html>
