@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T00:09:46.869Z",
+  "updatedAt": "2026-08-16T20:48:53.113Z",
   "sets": [
     {
-      "title": "Fun Friday 1",
-      "focus": "Fun",
-      "tags": "Fun",
+      "title": "Day 1",
+      "focus": "Evaluation",
+      "tags": "Evaluation",
       "pool": "25",
       "blocks": [
         {
@@ -17,22 +17,22 @@
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
-              "interval": "4:00",
+              "interval": "5:00",
               "detail": ""
             },
             {
               "count": 1,
               "distance": 200,
-              "stroke": "IM",
-              "interval": "4:00",
-              "detail": "Drill"
+              "stroke": "Kick",
+              "interval": "5:00",
+              "detail": ""
             },
             {
-              "count": 2,
-              "distance": 100,
+              "count": 6,
+              "distance": 50,
               "stroke": "Drill",
-              "interval": "2:00",
-              "detail": "Rt/lt/cu/sw"
+              "interval": "1:00",
+              "detail": "25 scull / 25 swim"
             }
           ],
           "children": []
@@ -40,139 +40,42 @@
         {
           "name": "Main Set",
           "note": "",
-          "repeat": 5,
+          "repeat": 1,
           "reps": [
             {
-              "count": 4,
+              "count": 10,
               "distance": 50,
-              "stroke": "Drill",
-              "interval": "1:20",
-              "detail": "Start at 50 sec (15 sec rest), add 10 sec each round "
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Fun Friday ",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 25,
               "stroke": "Freestyle",
-              "interval": "5:00",
-              "detail": "Spoon in mouth w wiggle ball"
-            },
-            {
-              "count": 1,
-              "distance": 25,
-              "stroke": "Freestyle",
-              "interval": "5:00",
-              "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
-            },
-            {
-              "count": 1,
-              "distance": 25,
-              "stroke": "Freestyle",
-              "interval": "5:00",
-              "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
-            },
-            {
-              "count": 4,
-              "distance": 100,
-              "stroke": "Freestyle",
-              "interval": "5:00",
-              "detail": "Sharks and minnows "
-            }
-          ],
-          "children": []
-        }
-      ],
-      "savedAt": 1786728333209,
-      "id": 16
-    },
-    {
-      "title": "Day 4",
-      "focus": "Freestyle Baseline",
-      "tags": "Freestyle Test Set",
-      "pool": "25",
-      "blocks": [
-        {
-          "name": "Warm Up",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Choice",
-              "transition": "2:00",
-              "interval": "4:00",
-              "detail": ""
-            },
-            {
-              "count": 4,
-              "distance": 75,
-              "stroke": "Freestyle",
-              "transition": "2:00",
               "interval": "1:00",
-              "detail": "Rt/lt/sw, rest 10 sec"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Challenge Set",
-          "note": "",
-          "repeat": 1,
-          "reps": [],
-          "children": [
+              "detail": "build"
+            },
             {
-              "name": "Free Step Down",
-              "note": "",
-              "repeat": 5,
-              "reps": [
-                {
-                  "count": 3,
-                  "distance": 50,
-                  "stroke": "Freestyle",
-                  "transition": "2:00",
-                  "interval": "1:00",
-                  "detail": "Reduce interval by 5 sec after each 3"
-                }
-              ],
-              "children": []
-            }
-          ]
-        },
-        {
-          "name": "Turns",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 20,
-              "distance": 0,
-              "stroke": "Freestyle",
-              "transition": "2:00",
+              "count": 16,
+              "distance": 25,
+              "stroke": "IM",
               "interval": "1:00",
-              "detail": ""
+              "detail": "(4 x 25 IM Order) x 4"
             }
           ],
           "children": []
         },
         {
-          "name": "Relays",
+          "name": "Stephen Stebbins",
           "note": "",
           "repeat": 1,
           "reps": [
             {
               "count": 8,
               "distance": 25,
-              "stroke": "Freestyle",
-              "transition": "2:00",
-              "interval": "4:00",
+              "stroke": "Kick",
+              "interval": "1:00",
+              "detail": ""
+            },
+            {
+              "count": 10,
+              "distance": 25,
+              "stroke": "Choice",
+              "interval": "0:30",
               "detail": ""
             }
           ],
@@ -187,16 +90,170 @@
               "count": 1,
               "distance": 100,
               "stroke": "Choice",
-              "transition": "2:00",
-              "interval": "2:00",
+              "interval": "3:00",
               "detail": ""
             }
           ],
           "children": []
         }
       ],
-      "savedAt": 1786661645879,
-      "id": 15
+      "savedAt": 1786411188051,
+      "id": 11
+    },
+    {
+      "title": "Day 2",
+      "focus": "Freestyle technique",
+      "tags": "Freestyle drills",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Kick",
+              "interval": "1:30",
+              "detail": "Streamline kick w fins"
+            },
+            {
+              "count": 4,
+              "distance": 75,
+              "stroke": "Freestyle",
+              "interval": "1:30",
+              "detail": "pull w paddles"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Freestyle Build Up",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills: balance- arms at side"
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills: balance- pull every 3rd rotation"
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills: one arm, other arm at side"
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills: 6 kick switch"
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills: swordfish, exaggerate rotation and glide "
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "interval": "2:00",
+              "detail": "Free drills: catchup"
+            },
+            {
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "2:00",
+              "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "interval": "5:00",
+              "detail": "catchup 25, swim 25"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Kick Set",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 8,
+              "distance": 50,
+              "stroke": "Kick",
+              "interval": "1:00",
+              "detail": "w fins 25 dophin 25 flutter"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Freestyle",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 4,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "interval": "2:00",
+              "detail": "rt/lt/sf/sw"
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "interval": "1:30",
+              "detail": "Sprint"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ],
+          "children": []
+        }
+      ],
+      "savedAt": 1786415380270,
+      "id": 10
     },
     {
       "title": "Day 3",
@@ -377,164 +434,140 @@
       "savedAt": 1786752586165
     },
     {
-      "title": "Day 2",
-      "focus": "Freestyle technique ",
-      "tags": "Freestyle drills",
+      "title": "Day 4",
+      "focus": "Freestyle Baseline",
+      "tags": "Freestyle Test Set",
       "pool": "25",
       "blocks": [
         {
           "name": "Warm Up",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
-              "interval": "5:00",
+              "transition": "2:00",
+              "interval": "4:00",
               "detail": ""
             },
             {
-              "count": 4,
-              "distance": 50,
-              "stroke": "Kick",
-              "interval": "1:30",
-              "detail": "Streamline kick w fins"
-            },
-            {
+              "type": "rep",
               "count": 4,
               "distance": 75,
               "stroke": "Freestyle",
-              "interval": "1:30",
-              "detail": "pull w paddles"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Freestyle Build Up",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "interval": "2:00",
-              "detail": "Free drills: balance- arms at side"
-            },
-            {
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "interval": "2:00",
-              "detail": "Free drills: balance- pull every 3rd rotation"
-            },
-            {
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "interval": "2:00",
-              "detail": "Free drills: one arm, other arm at side"
-            },
-            {
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "interval": "2:00",
-              "detail": "Free drills: 6 kick switch"
-            },
-            {
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "interval": "2:00",
-              "detail": "Free drills: swordfish, exaggerate rotation and glide "
-            },
-            {
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "interval": "2:00",
-              "detail": "Free drills: catchup"
-            },
-            {
-              "count": 2,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "2:00",
-              "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
-            },
-            {
-              "count": 1,
-              "distance": 200,
-              "stroke": "Freestyle",
-              "interval": "5:00",
-              "detail": "catchup 25, swim 25"
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Kick Set",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 8,
-              "distance": 50,
-              "stroke": "Kick",
+              "transition": "2:00",
               "interval": "1:00",
-              "detail": "w fins 25 dophin 25 flutter"
+              "detail": "Rt/lt/sw, rest 10 sec"
             }
-          ],
-          "children": []
+          ]
         },
         {
-          "name": "Freestyle",
+          "name": "Challenge Set",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
-              "count": 4,
-              "distance": 100,
-              "stroke": "Freestyle",
-              "interval": "2:00",
-              "detail": "rt/lt/sf/sw"
-            },
-            {
-              "count": 4,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "1:30",
-              "detail": "Sprint"
+              "type": "block",
+              "name": "Free Step Down",
+              "note": "",
+              "focus": "",
+              "pool": "",
+              "repeat": 5,
+              "roundInstructions": [
+                "1:00",
+                "0:55",
+                "",
+                "",
+                ""
+              ],
+              "items": [
+                {
+                  "type": "rep",
+                  "count": 3,
+                  "distance": 50,
+                  "stroke": "Freestyle",
+                  "transition": "2:00",
+                  "interval": "1:00",
+                  "detail": "Reduce interval by 5 sec after each 3"
+                }
+              ]
             }
-          ],
-          "children": []
+          ]
+        },
+        {
+          "name": "Turns",
+          "note": "",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 20,
+              "distance": 0,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "1:00",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "name": "Relays",
+          "note": "",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 8,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "4:00",
+              "detail": ""
+            }
+          ]
         },
         {
           "name": "Cool Down",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 100,
               "stroke": "Choice",
-              "interval": "3:00",
+              "transition": "2:00",
+              "interval": "2:00",
               "detail": ""
             }
-          ],
-          "children": []
+          ]
         }
       ],
-      "savedAt": 1786415380270,
-      "id": 10
+      "id": 15,
+      "savedAt": 1786913332409
     },
     {
-      "title": "Day 1",
-      "focus": "Evaluation",
-      "tags": "Evaluation",
+      "title": "Fun Friday 1",
+      "focus": "Fun",
+      "tags": "Fun",
       "pool": "25",
       "blocks": [
         {
@@ -546,22 +579,22 @@
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
-              "interval": "5:00",
+              "interval": "4:00",
               "detail": ""
             },
             {
               "count": 1,
               "distance": 200,
-              "stroke": "Kick",
-              "interval": "5:00",
-              "detail": ""
+              "stroke": "IM",
+              "interval": "4:00",
+              "detail": "Drill"
             },
             {
-              "count": 6,
-              "distance": 50,
+              "count": 2,
+              "distance": 100,
               "stroke": "Drill",
-              "interval": "1:00",
-              "detail": "25 scull / 25 swim"
+              "interval": "2:00",
+              "detail": "Rt/lt/cu/sw"
             }
           ],
           "children": []
@@ -569,65 +602,57 @@
         {
           "name": "Main Set",
           "note": "",
-          "repeat": 1,
+          "repeat": 5,
           "reps": [
             {
-              "count": 10,
+              "count": 4,
               "distance": 50,
-              "stroke": "Freestyle",
-              "interval": "1:00",
-              "detail": "build"
-            },
-            {
-              "count": 16,
-              "distance": 25,
-              "stroke": "IM",
-              "interval": "1:00",
-              "detail": "(4 x 25 IM Order) x 4"
+              "stroke": "Drill",
+              "interval": "1:20",
+              "detail": "Start at 50 sec (15 sec rest), add 10 sec each round "
             }
           ],
           "children": []
         },
         {
-          "name": "Stephen Stebbins",
-          "note": "",
-          "repeat": 1,
-          "reps": [
-            {
-              "count": 8,
-              "distance": 25,
-              "stroke": "Kick",
-              "interval": "1:00",
-              "detail": ""
-            },
-            {
-              "count": 10,
-              "distance": 25,
-              "stroke": "Choice",
-              "interval": "0:30",
-              "detail": ""
-            }
-          ],
-          "children": []
-        },
-        {
-          "name": "Cool Down",
+          "name": "Fun Friday ",
           "note": "",
           "repeat": 1,
           "reps": [
             {
               "count": 1,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "interval": "5:00",
+              "detail": "Spoon in mouth w wiggle ball"
+            },
+            {
+              "count": 1,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "interval": "5:00",
+              "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
+            },
+            {
+              "count": 1,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "interval": "5:00",
+              "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
+            },
+            {
+              "count": 4,
               "distance": 100,
-              "stroke": "Choice",
-              "interval": "3:00",
-              "detail": ""
+              "stroke": "Freestyle",
+              "interval": "5:00",
+              "detail": "Sharks and minnows "
             }
           ],
           "children": []
         }
       ],
-      "savedAt": 1786411188051,
-      "id": 11
+      "savedAt": 1786728333209,
+      "id": 16
     }
   ]
 }
