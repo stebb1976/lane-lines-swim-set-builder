@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:19:45.056Z",
+  "updatedAt": "2026-08-16T20:20:12.139Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -130,6 +130,42 @@
       "savedAt": 1786843745765
     },
     {
+      "id": "block_msv4mq5hk5szzq",
+      "name": "Freestyle",
+      "source": "Day 2",
+      "focus": "Freestyle",
+      "pool": "25",
+      "block": {
+        "name": "Freestyle",
+        "note": "",
+        "focus": "Freestyle",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 4,
+            "distance": 100,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "rt/lt/sf/sw"
+          },
+          {
+            "type": "rep",
+            "count": 4,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:30",
+            "detail": "Sprint"
+          }
+        ]
+      },
+      "savedAt": 1786911611201
+    },
+    {
       "id": "block_msv4mq5hipmbyi",
       "name": "Freestyle",
       "source": "Day 3",
@@ -155,34 +191,6 @@
         ]
       },
       "savedAt": 1786911528886
-    },
-    {
-      "id": "block_msv4mq5hk5szzq",
-      "name": "Freestyle",
-      "source": "Day 2",
-      "block": {
-        "name": "Freestyle",
-        "note": "",
-        "repeat": 1,
-        "reps": [
-          {
-            "count": 4,
-            "distance": 100,
-            "stroke": "Freestyle",
-            "interval": "2:00",
-            "detail": "rt/lt/sf/sw"
-          },
-          {
-            "count": 4,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "interval": "1:30",
-            "detail": "Sprint"
-          }
-        ],
-        "children": []
-      },
-      "savedAt": 1786843745765
     },
     {
       "id": "block_msv4mq5hypipgi",
