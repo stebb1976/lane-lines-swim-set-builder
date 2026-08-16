@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T22:49:31.946Z",
+  "updatedAt": "2026-08-16T22:50:47.561Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -61,7 +61,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
-              "activity": "Swim",
+              "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Back drills: head back - arms at side w rotation"
@@ -71,7 +71,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
-              "activity": "Swim",
+              "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Back drills: head back - Streamline kick on back"
@@ -81,7 +81,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
-              "activity": "Swim",
+              "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Back drills: kick with one arm in streamline rt/lt by 25. rotate hips to side of streamline arm"
@@ -91,7 +91,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
-              "activity": "Swim",
+              "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Back drills: reach for the sky, emphasize rotation and balance"
@@ -111,7 +111,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
-              "activity": "Swim",
+              "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Back drills: pull every 3rd rotation"
@@ -200,7 +200,7 @@
         }
       ],
       "id": 17,
-      "savedAt": 1786920571242
+      "savedAt": 1786920646858
     },
     {
       "title": "Day 1",
