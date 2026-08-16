@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T22:48:40.447Z",
+  "updatedAt": "2026-08-16T22:49:31.946Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -22,7 +22,7 @@
               "distance": 200,
               "stroke": "Choice",
               "activity": "Swim",
-              "transition": "2:00",
+              "transition": "0:00",
               "interval": "4:00",
               "detail": ""
             },
@@ -32,7 +32,7 @@
               "distance": 200,
               "stroke": "Freestyle",
               "activity": "Swim",
-              "transition": "2:00",
+              "transition": "0:00",
               "interval": "4:00",
               "detail": "Upside down paddles"
             },
@@ -42,7 +42,7 @@
               "distance": 75,
               "stroke": "Freestyle",
               "activity": "Swim",
-              "transition": "2:00",
+              "transition": "0:00",
               "interval": "2:00",
               "detail": "kick/cu/sw by 25 on 10-15 sec rest"
             }
@@ -192,7 +192,7 @@
               "distance": 100,
               "stroke": "Choice",
               "activity": "Swim",
-              "transition": "2:00",
+              "transition": "0:00",
               "interval": "2:00",
               "detail": ""
             }
@@ -200,7 +200,7 @@
         }
       ],
       "id": 17,
-      "savedAt": 1786920519742
+      "savedAt": 1786920571242
     },
     {
       "title": "Day 1",
