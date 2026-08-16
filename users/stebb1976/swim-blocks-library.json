@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T03:22:51.240Z",
+  "updatedAt": "2026-08-16T03:23:40.028Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -38,13 +38,13 @@
                 "stroke": "Freestyle",
                 "transition": "2:00",
                 "interval": "1:00",
-                "detail": "Reduce interval by 5 sec after each 3"
+                "detail": ""
               }
             ]
           }
         ]
       },
-      "savedAt": 1786850570190
+      "savedAt": 1786850618939
     },
     {
       "id": "block_msv4mq5h7pxwww",
