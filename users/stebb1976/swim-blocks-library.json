@@ -1,41 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T01:29:06.633Z",
+  "updatedAt": "2026-08-16T03:09:33.827Z",
   "blocks": [
     {
       "id": "block_msv4mq5hguhsk8",
-      "name": "Warm Up",
+      "name": "Warm Up 1",
       "source": "Fun Friday 1",
+      "focus": "Freestyle technique",
+      "pool": "25",
       "block": {
-        "name": "Warm Up",
+        "name": "Warm Up 1",
         "note": "",
+        "focus": "Freestyle technique",
+        "pool": "",
         "repeat": 1,
-        "reps": [
+        "roundInstructions": [],
+        "items": [
           {
+            "type": "rep",
             "count": 1,
             "distance": 200,
             "stroke": "Choice",
+            "transition": "2:00",
             "interval": "4:00",
             "detail": ""
           },
           {
+            "type": "rep",
             "count": 1,
             "distance": 200,
             "stroke": "IM",
+            "transition": "2:00",
             "interval": "4:00",
             "detail": "Drill"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 100,
             "stroke": "Drill",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Rt/lt/cu/sw"
           }
-        ],
-        "children": []
+        ]
       },
-      "savedAt": 1786843745765
+      "savedAt": 1786849772794
     },
     {
       "id": "block_msv4mq5h9nv244",
