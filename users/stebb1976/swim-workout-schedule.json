@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T00:06:41.692Z",
+  "updatedAt": "2026-08-16T02:22:33.456Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_mst7x196iz35oi",
@@ -15,9 +15,13 @@
           {
             "name": "Warm Up",
             "note": "",
+            "focus": "new focus",
+            "pool": "",
             "repeat": 1,
-            "reps": [
+            "roundInstructions": [],
+            "items": [
               {
+                "type": "rep",
                 "count": 1,
                 "distance": 200,
                 "stroke": "Choice",
@@ -26,6 +30,7 @@
                 "detail": ""
               },
               {
+                "type": "rep",
                 "count": 1,
                 "distance": 200,
                 "stroke": "IM",
@@ -34,6 +39,7 @@
                 "detail": "Drill"
               },
               {
+                "type": "rep",
                 "count": 2,
                 "distance": 100,
                 "stroke": "Drill",
@@ -41,15 +47,24 @@
                 "interval": "2:00",
                 "detail": "Rt/lt/cu/sw"
               }
-            ],
-            "children": []
+            ]
           },
           {
             "name": "Main Set",
             "note": "",
+            "focus": "",
+            "pool": "",
             "repeat": 5,
-            "reps": [
+            "roundInstructions": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "items": [
               {
+                "type": "rep",
                 "count": 4,
                 "distance": 50,
                 "stroke": "Drill",
@@ -57,15 +72,18 @@
                 "interval": "1:20",
                 "detail": "Start at 50 sec (15 sec rest), add 10 sec each round "
               }
-            ],
-            "children": []
+            ]
           },
           {
             "name": "Fun Friday ",
             "note": "",
+            "focus": "",
+            "pool": "",
             "repeat": 1,
-            "reps": [
+            "roundInstructions": [],
+            "items": [
               {
+                "type": "rep",
                 "count": 1,
                 "distance": 25,
                 "stroke": "Freestyle",
@@ -74,6 +92,7 @@
                 "detail": "Spoon in mouth w wiggle ball"
               },
               {
+                "type": "rep",
                 "count": 1,
                 "distance": 25,
                 "stroke": "Freestyle",
@@ -82,6 +101,7 @@
                 "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
               },
               {
+                "type": "rep",
                 "count": 1,
                 "distance": 25,
                 "stroke": "Freestyle",
@@ -90,6 +110,7 @@
                 "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
               },
               {
+                "type": "rep",
                 "count": 4,
                 "distance": 100,
                 "stroke": "Freestyle",
@@ -97,8 +118,7 @@
                 "interval": "5:00",
                 "detail": "Sharks and minnows "
               }
-            ],
-            "children": []
+            ]
           }
         ]
       }
