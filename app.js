@@ -53,7 +53,7 @@ function isRepItem(item){return item.type==='rep'||Object.prototype.hasOwnProper
 function addBlock(container,data={name:'New block',note:'',focus:'',pool:'',repeat:1,items:[{type:'rep',count:4,distance:100,stroke:'Freestyle',transition:'2:00',interval:'1:30',detail:''}]}){
   const node=blockTpl.content.firstElementChild.cloneNode(true), items=$('.block-items',node);
   if(data._libraryBlockId)node.dataset.libraryBlockId=data._libraryBlockId;
-  $('.block-name',node).value=data.name; $('.block-note',node).value=data.note; $('.block-focus',node).value=data.focus||''; $('.block-repeat',node).value=data.repeat||1;
+  $('.block-name',node).value=data.name; $('.block-note',node).value=data.note; $('.block-focus',node).value=data.focus||''; $('.block-creator-pool select',node).value=$('#pool-length').value; $('.block-repeat',node).value=data.repeat||1;
   let roundInstructions=[...(data.roundInstructions||data.roundNotes||[])];
   const renderRoundInstructions=()=>{const area=$('.round-instructions',node),repeat=Math.max(1,+val(node,'block-repeat')||1),existing=[...area.querySelectorAll('.round-instruction')].map(field=>field.value);if(existing.length)roundInstructions=existing;const badge=$('.repeat-badge',node),repeated=repeat>1;node.classList.toggle('is-repeated',repeated);badge.hidden=!repeated;badge.textContent=`REPEAT × ${repeat}`;area.hidden=!repeated;if(!repeated){area.innerHTML='';return}area.innerHTML=`<p>ROUND-BY-ROUND INSTRUCTIONS</p>${Array.from({length:repeat},(_,index)=>`<label>ROUND ${index+1}<textarea class="round-instruction" rows="1" placeholder="Instruction for round ${index+1} (optional)">${escapeHtml(roundInstructions[index]||'')}</textarea></label>`).join('')}`;area.querySelectorAll('.round-instruction').forEach(field=>field.addEventListener('input',()=>{markDirty()}))};
   renderRoundInstructions();
@@ -68,6 +68,7 @@ function addBlock(container,data={name:'New block',note:'',focus:'',pool:'',repe
   $('.save-block',node).onclick=()=>saveBlockToLibrary(readBlock(node),false,node.dataset.libraryBlockId||'');
   $('.replace-block',node).onclick=()=>{blockLibraryReplacementTarget=node;openBlocksLibrary()};
   $('.block-repeat',node).addEventListener('input',()=>{renderRoundInstructions();markDirty();updateTotals()});
+  $('.block-creator-pool select',node).addEventListener('change',event=>{$('#pool-length').value=event.target.value;markDirty();updateTotals()});
   node.querySelectorAll('input,textarea,select').forEach(e=>e.addEventListener('input',()=>{markDirty();updateTotals()}));
   container.append(node); renderFocusOptions(); updateTotals(); return node;
 }
