@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:26:22.586Z",
+  "updatedAt": "2026-08-16T20:30:05.034Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -141,21 +141,26 @@
     },
     {
       "id": "block_msv4mq5hk5szzq",
-      "name": "Freestyle",
+      "name": "Freestyle ",
       "source": "Day 2",
-      "focus": "Freestyle",
+      "focus": "Freestyle Build Up - Sprint",
       "pool": "25",
       "block": {
-        "name": "Freestyle",
+        "name": "Freestyle ",
         "note": "",
-        "focus": "Freestyle",
+        "focus": "Freestyle Build Up - Sprint",
         "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
+        "repeat": 4,
+        "roundInstructions": [
+          "",
+          "",
+          "",
+          ""
+        ],
         "items": [
           {
             "type": "rep",
-            "count": 4,
+            "count": 1,
             "distance": 100,
             "stroke": "Freestyle",
             "transition": "2:00",
@@ -164,7 +169,7 @@
           },
           {
             "type": "rep",
-            "count": 4,
+            "count": 1,
             "distance": 50,
             "stroke": "Freestyle",
             "transition": "2:00",
@@ -173,7 +178,7 @@
           }
         ]
       },
-      "savedAt": 1786911611201
+      "savedAt": 1786912203996
     },
     {
       "id": "block_msv4mq5hipmbyi",
