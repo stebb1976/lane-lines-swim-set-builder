@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:20:35.882Z",
+  "updatedAt": "2026-08-16T20:22:27.343Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
       "name": "Challenge Set",
       "source": "Day 4",
-      "focus": "Freestyle Baseline",
+      "focus": "Freestyle",
       "pool": "25",
       "block": {
         "name": "Challenge Set",
         "note": "",
-        "focus": "Freestyle Baseline",
+        "focus": "Freestyle",
         "pool": "",
         "repeat": 1,
         "roundInstructions": [],
@@ -44,7 +44,7 @@
           }
         ]
       },
-      "savedAt": 1786850618939
+      "savedAt": 1786911746299
     },
     {
       "id": "block_msv4mq5h7pxwww",
