@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:33:06.310Z",
+  "updatedAt": "2026-08-16T21:52:53.466Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -220,151 +220,191 @@
         {
           "name": "Warm Up",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
+              "transition": "2:00",
               "interval": "5:00",
               "detail": ""
             },
             {
+              "type": "rep",
               "count": 4,
               "distance": 50,
               "stroke": "Kick",
+              "transition": "2:00",
               "interval": "1:30",
               "detail": "Streamline kick w fins"
             },
             {
+              "type": "rep",
               "count": 4,
               "distance": 75,
               "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "1:30",
               "detail": "pull w paddles"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Freestyle Build Up",
           "note": "",
+          "focus": "Freestyle technique",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "Free drills: balance- arms at side"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "Free drills: balance- pull every 3rd rotation"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "Free drills: one arm, other arm at side"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "Free drills: 6 kick switch"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "Free drills: swordfish, exaggerate rotation and glide "
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "Free drills: catchup"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
             },
             {
+              "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "5:00",
               "detail": "catchup 25, swim 25"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Kick Set",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 8,
               "distance": 50,
               "stroke": "Kick",
+              "transition": "2:00",
               "interval": "1:00",
               "detail": "w fins 25 dophin 25 flutter"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Freestyle",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 4,
               "distance": 100,
               "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "2:00",
               "detail": "rt/lt/sf/sw"
             },
             {
+              "type": "rep",
               "count": 4,
               "distance": 50,
               "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "1:30",
               "detail": "Sprint"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Cool Down",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 100,
               "stroke": "Choice",
+              "transition": "2:00",
               "interval": "3:00",
               "detail": ""
             }
-          ],
-          "children": []
+          ]
         }
       ],
-      "savedAt": 1786415380270,
-      "id": 10
+      "id": 10,
+      "savedAt": 1786917172762
     },
     {
       "title": "Day 3",
