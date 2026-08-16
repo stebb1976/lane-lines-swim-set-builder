@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T03:16:03.824Z",
+  "updatedAt": "2026-08-16T03:16:11.862Z",
   "blocks": [
     {
       "id": "block_msv4mq5hxjvq8m",
       "name": "Warm Up 4",
       "source": "Day 1",
-      "focus": "Evaluation",
+      "focus": "Warm Up",
       "pool": "25",
       "block": {
         "name": "Warm Up 4",
         "note": "",
-        "focus": "Evaluation",
+        "focus": "Warm Up",
         "pool": "",
         "repeat": 1,
         "roundInstructions": [],
@@ -45,7 +45,7 @@
           }
         ]
       },
-      "savedAt": 1786850162775
+      "savedAt": 1786850170975
     },
     {
       "id": "block_msv4mq5h5edp69",
