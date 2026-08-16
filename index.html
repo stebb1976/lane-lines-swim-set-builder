@@ -9,13 +9,13 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=133" />
+    <link rel="stylesheet" href="styles.css?v=135" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
     <header class="topbar">
       <button class="brand" id="menu-toggle" aria-label="Open app menu" aria-expanded="false"><span class="mark">≋</span><span>Lane Lines</span></button>
-      <nav class="app-menu" id="app-menu" aria-label="App navigation"><button id="open-builder">Workout Creator</button><button id="open-library">Workout Library</button><button id="open-workout-log">Workout Log</button><button id="open-calendar">Scheduler</button><button id="open-schedule" hidden aria-hidden="true" tabindex="-1"></button><button id="open-github-settings">Settings</button></nav>
+      <nav class="app-menu" id="app-menu" aria-label="App navigation"><button id="open-builder">Workout Creator</button><button id="open-library">Workout Library</button><button id="open-blocks-library">Blocks Library</button><button id="open-workout-log">Workout Log</button><button id="open-calendar">Scheduler</button><button id="open-schedule" hidden aria-hidden="true" tabindex="-1"></button><button id="open-github-settings">Settings</button></nav>
       <div class="header-actions"><button class="ghost" id="new-set">New Set</button><button class="ghost" id="undo-workout" disabled>Undo</button><button class="ghost" id="save-to-library-top">Save Workout</button><button class="primary" id="view-deck">View Deck Sheet</button></div>
     </header>
 
@@ -37,7 +37,7 @@
           </div>
           <div id="sticky-totals" class="sticky-totals"><span>WORKOUT TOTAL</span><strong id="sticky-total-distance">0 yd</strong><small id="sticky-total-time">Add set lines to estimate time</small></div>
           <div id="blocks" class="blocks"></div>
-          <button id="add-block-bottom" class="add-block-wide">+ Add block</button>
+          <div class="block-add-actions"><button id="add-block-bottom" class="add-block-wide">+ Add block</button><button id="add-library-block" class="add-block-wide">+ Add from Blocks Library</button></div>
         </section>
       </section>
     </main>
@@ -47,6 +47,10 @@
       <article class="library-page">
         <section class="library-section" aria-labelledby="library-title"><div class="section-heading"><h1 id="library-title">Workout Library</h1><button id="create-library-workout" class="outline">+ Create New Workout</button></div><input id="library-search" class="library-search" type="search" placeholder="Search sets, focus, or tags" aria-label="Search workout library" /><div class="library-filters" aria-label="Workout Library filters"><label>FOCUS<select id="library-focus-filter"><option value="">All focuses</option></select></label><label>POOL<select id="library-pool-filter"><option value="">Any pool</option><option value="25">25 yd</option><option value="50">50 m</option></select></label><label>MIN DISTANCE<input id="library-min-distance" type="number" min="0" step="25" placeholder="yd / m" /></label><label>MAX DISTANCE<input id="library-max-distance" type="number" min="0" step="25" placeholder="yd / m" /></label><label>MIN TIME<input id="library-min-time" type="number" min="0" step="1" placeholder="minutes" /></label><label>MAX TIME<input id="library-max-time" type="number" min="0" step="1" placeholder="minutes" /></label><button id="clear-library-filters" class="ghost" type="button">Clear filters</button></div><p id="library-count" class="library-count"></p><div id="saved-sets" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Create a new workout, or duplicate any saved workout to use it as a starting point.</p></div></section>
       </article>
+    </section>
+    <section id="blocks-library-view" class="library-view" aria-hidden="true" aria-label="Blocks library">
+      <div class="deck-toolbar"><button class="ghost" id="close-blocks-library">← Back to workout creator</button></div>
+      <article class="library-page"><section class="library-section" aria-labelledby="blocks-library-title"><div class="section-heading"><h1 id="blocks-library-title">Blocks Library</h1></div><p id="blocks-library-count" class="library-count"></p><div id="saved-blocks" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Blocks are reusable pieces of workouts. Add one to the current workout, then adapt it as needed.</p></div></section></article>
     </section>
     <section id="log-view" class="library-view" aria-hidden="true" aria-label="Workout log"><div class="deck-toolbar"><button class="ghost" id="close-log">← Back to workout creator</button></div><article class="library-page"><section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h1 id="log-title">Workout log</h1></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div><article id="log-stats-sheet" class="stats-sheet log-stats-sheet" aria-label="Workout statistics"></article></section></article></section>
     <section id="calendar-view" class="library-view" aria-hidden="true" aria-label="Workout scheduler"><div class="deck-toolbar"><button class="ghost" id="close-calendar">← Back to workout creator</button></div><article class="calendar-page"><section class="scheduler-upcoming"><h1>Scheduler</h1><p class="schedule-subtitle">Your next five scheduled workouts.</p><div id="upcoming-workouts" class="upcoming-workouts"></div></section><div class="calendar-heading"><button id="previous-month" class="outline">←</button><h2 id="calendar-title"></h2><button id="next-month" class="outline">→</button></div><div class="calendar-weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div id="calendar-grid" class="calendar-grid"></div><p class="calendar-key"><span class="calendar-key-log"></span> Logged workout <span class="calendar-key-scheduled"></span> Scheduled workout</p></article></section>
@@ -62,7 +66,7 @@
     </section>
     <template id="block-template">
       <article class="block">
-        <div class="block-top"><input class="block-name" value="Main set" aria-label="Block name" /><span class="repeat-badge" hidden>REPEATED BLOCK</span><span class="block-summary"><span class="block-start">Start: 0:00</span><span class="block-distance">0 yd</span><span class="block-time">Est. —</span></span><div class="block-controls"><button class="move-block-up" title="Move block up" aria-label="Move block up">↑</button><button class="move-block-down" title="Move block down" aria-label="Move block down">↓</button><button class="duplicate" title="Duplicate block">⧉</button><button class="delete-block" title="Delete block">×</button></div></div>
+        <div class="block-top"><input class="block-name" value="Main set" aria-label="Block name" /><span class="repeat-badge" hidden>REPEATED BLOCK</span><span class="block-summary"><span class="block-start">Start: 0:00</span><span class="block-distance">0 yd</span><span class="block-time">Est. —</span></span><div class="block-controls"><button class="save-block" title="Save to Blocks Library" aria-label="Save to Blocks Library">★</button><button class="move-block-up" title="Move block up" aria-label="Move block up">↑</button><button class="move-block-down" title="Move block down" aria-label="Move block down">↓</button><button class="duplicate" title="Duplicate block">⧉</button><button class="delete-block" title="Delete block">×</button></div></div>
         <textarea class="block-note" rows="1" placeholder="Coaching note (optional)"></textarea>
         <label class="block-repeat-wrap"><span>REPEAT ENTIRE BLOCK</span><input class="block-repeat" type="number" min="1" value="1" /></label>
         <div class="round-instructions" hidden></div>
@@ -95,6 +99,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=133"></script>
+    <script src="app.js?v=135"></script>
   </body>
 </html>
