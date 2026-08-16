@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:24:28.064Z",
+  "updatedAt": "2026-08-16T20:24:40.506Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -422,12 +422,12 @@
     },
     {
       "id": "block_msv4mq5hipe9o0",
-      "name": "Kick Set",
+      "name": "Kick Set 1",
       "source": "Day 2",
       "focus": "Kicking",
       "pool": "25",
       "block": {
-        "name": "Kick Set",
+        "name": "Kick Set 1",
         "note": "",
         "focus": "Kicking",
         "pool": "",
@@ -445,7 +445,7 @@
           }
         ]
       },
-      "savedAt": 1786911467386
+      "savedAt": 1786911879598
     },
     {
       "id": "block_msv4mq5hccsh7c",
