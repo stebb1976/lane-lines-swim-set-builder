@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T03:20:14.154Z",
+  "updatedAt": "2026-08-16T03:20:39.916Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -464,14 +464,14 @@
             "type": "rep",
             "count": 4,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "1:20",
             "detail": ""
           }
         ]
       },
-      "savedAt": 1786850413223
+      "savedAt": 1786850439023
     },
     {
       "id": "block_msv4mq5hccsh7c",
