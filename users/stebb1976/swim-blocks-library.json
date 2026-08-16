@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:05:01.531Z",
+  "updatedAt": "2026-08-16T21:57:46.890Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -256,7 +256,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: balance- arms at side"
@@ -265,7 +265,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: balance- pull every 3rd rotation"
@@ -274,7 +274,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: one arm, other arm at side"
@@ -283,7 +283,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: 6 kick switch"
@@ -292,7 +292,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: swordfish, exaggerate rotation and glide "
@@ -301,7 +301,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: catchup"
@@ -387,7 +387,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "0:00",
             "interval": "2:00",
             "detail": "Free drills:vertical sculling "
@@ -396,7 +396,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "0:00",
             "interval": "2:00",
             "detail": "Free drills:front sculling "
@@ -405,7 +405,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "0:00",
             "interval": "2:00",
             "detail": "Free drills:arms underneath sculling "
@@ -414,7 +414,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "0:00",
             "interval": "2:00",
             "detail": "Free drills:doggie paddle"
@@ -432,7 +432,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "0:00",
             "interval": "2:00",
             "detail": "Free drills:fingertip drag"
@@ -441,7 +441,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "0:00",
             "interval": "2:00",
             "detail": "Free drills:thumb drag"
@@ -450,7 +450,7 @@
             "type": "rep",
             "count": 2,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "0:00",
             "interval": "2:00",
             "detail": "Free drills:upside down paddles"
@@ -774,7 +774,7 @@
             "type": "rep",
             "count": 6,
             "distance": 50,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "1:00",
             "detail": "25 scull / 25 swim"
@@ -810,7 +810,7 @@
             "type": "rep",
             "count": 1,
             "distance": 200,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "4:00",
             "detail": "Upside down paddles"
@@ -819,7 +819,7 @@
             "type": "rep",
             "count": 4,
             "distance": 75,
-            "stroke": "Drill",
+            "stroke": "Freestyle",
             "transition": "2:00",
             "interval": "2:00",
             "detail": "kick/cu/sw by 25 on 10-15 sec rest"
