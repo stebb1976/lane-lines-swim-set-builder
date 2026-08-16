@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:50:07.608Z",
+  "updatedAt": "2026-08-16T20:50:29.282Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -170,71 +170,91 @@
       "id": "block_msv4mq5hypipgi",
       "name": "Freestyle Build Up",
       "source": "Day 2",
+      "focus": "Freestyle Technique",
+      "pool": "25",
       "block": {
         "name": "Freestyle Build Up",
         "note": "",
+        "focus": "Freestyle Technique",
+        "pool": "",
         "repeat": 1,
-        "reps": [
+        "roundInstructions": [],
+        "items": [
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: balance- arms at side"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: balance- pull every 3rd rotation"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: one arm, other arm at side"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: 6 kick switch"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: swordfish, exaggerate rotation and glide "
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: catchup"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Freestyle",
+            "transition": "2:00",
             "interval": "2:00",
             "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
           },
           {
+            "type": "rep",
             "count": 1,
             "distance": 200,
             "stroke": "Freestyle",
+            "transition": "2:00",
             "interval": "5:00",
             "detail": "catchup 25, swim 25"
           }
-        ],
-        "children": []
+        ]
       },
-      "savedAt": 1786843745765
+      "savedAt": 1786913428385
     },
     {
       "id": "block_msv4mq5hk5szzq",
