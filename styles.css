@@ -60,3 +60,4 @@ body.show-library #blocks-library-view{display:none!important}
  .block-meta{grid-template-columns:1fr}
  .settings-repo-link{color:#066da7;font-weight:700;text-decoration:none}.settings-repo-link:hover{text-decoration:underline}
  body.block-editor-mode .set-meta,body.block-editor-mode .summary-card,body.block-editor-mode #sticky-totals{display:none}body.block-editor-mode .builder{padding-top:24px} .block-creator-pool{display:none}body.block-editor-mode #blocks>.block:first-child .block-meta{grid-template-columns:minmax(0,1fr) 145px}body.block-editor-mode #blocks>.block:first-child .block-creator-pool{display:grid}
+ .blocks-focus-group{margin-top:18px}.blocks-focus-group h2{margin:0 0 7px;padding-bottom:6px;border-bottom:2px solid #65c9cd;color:var(--navy);font:700 18px Georgia,serif}.blocks-focus-entries{display:grid;gap:6px}
