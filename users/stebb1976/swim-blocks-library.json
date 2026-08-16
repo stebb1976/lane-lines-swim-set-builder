@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:17:48.425Z",
+  "updatedAt": "2026-08-16T20:18:06.915Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -386,6 +386,33 @@
       "savedAt": 1786843745765
     },
     {
+      "id": "block_msv4mq5hj1jpux",
+      "name": "Kick Set",
+      "source": "Day 3",
+      "focus": "Kicking",
+      "pool": "25",
+      "block": {
+        "name": "Kick Set",
+        "note": "",
+        "focus": "Kicking",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 8,
+            "distance": 50,
+            "stroke": "Kick",
+            "transition": "2:00",
+            "interval": "1:15",
+            "detail": "no fins"
+          }
+        ]
+      },
+      "savedAt": 1786911486019
+    },
+    {
       "id": "block_msv4mq5hipe9o0",
       "name": "Kick Set",
       "source": "Day 2",
@@ -411,28 +438,6 @@
         ]
       },
       "savedAt": 1786911467386
-    },
-    {
-      "id": "block_msv4mq5hj1jpux",
-      "name": "Kick Set",
-      "source": "Day 3",
-      "block": {
-        "name": "Kick Set",
-        "note": "",
-        "repeat": 1,
-        "reps": [
-          {
-            "count": 8,
-            "distance": 50,
-            "stroke": "Kick",
-            "transition": "2:00",
-            "interval": "1:15",
-            "detail": "no fins"
-          }
-        ],
-        "children": []
-      },
-      "savedAt": 1786843745765
     },
     {
       "id": "block_msv4mq5hccsh7c",
