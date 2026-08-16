@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=171" />
+    <link rel="stylesheet" href="styles.css?v=172" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -85,7 +85,8 @@
         <span class="times">×</span>
         <label><span>DISTANCE</span><input class="distance" type="number" min="0" step="25" value="100" /></label>
         <span class="unit">yd</span>
-        <label class="stroke-wrap"><span>STROKE</span><select class="stroke"><option>Freestyle</option><option>Backstroke</option><option>Breaststroke</option><option>Butterfly</option><option>IM</option><option>Choice</option><option>Kick</option><option value="Instruction" hidden></option></select></label>
+        <label class="stroke-wrap"><span>STROKE</span><select class="stroke"><option>Freestyle</option><option>Backstroke</option><option>Breaststroke</option><option>Butterfly</option><option>IM</option><option>Choice</option><option value="Kick" hidden></option><option value="Instruction" hidden></option></select></label>
+        <label class="activity-wrap"><span>TYPE</span><select class="activity"><option>Swim</option><option>Kick</option><option>Pull</option><option>Drill</option></select></label>
         <label><span>TRANSITION TIME</span><input class="transition" value="2:00" placeholder="2:00" /></label>
         <label><span>INTERVAL</span><input class="interval" value="1:30" placeholder="1:30" /></label>
         <div class="rep-controls"><button class="move-rep-up" title="Move set line up" aria-label="Move set line up">↑</button><button class="move-rep-down" title="Move set line down" aria-label="Move set line down">↓</button><button class="duplicate-rep" title="Duplicate set line" aria-label="Duplicate set line">⧉</button><button class="delete-rep" title="Delete set line" aria-label="Delete set line">×</button></div>
@@ -103,6 +104,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=171"></script>
+    <script src="app.js?v=172"></script>
   </body>
 </html>
