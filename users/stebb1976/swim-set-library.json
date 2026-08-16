@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T23:01:29.472Z",
+  "updatedAt": "2026-08-16T23:05:13.844Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -959,6 +959,206 @@
       ],
       "savedAt": 1786728333209,
       "id": 16
+    },
+    {
+      "title": "Breaststroke Build Up",
+      "focus": "Breaststroke",
+      "tags": "",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up 5",
+          "note": "",
+          "focus": "Warm Up",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "4:00",
+              "detail": ""
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "4:00",
+              "detail": "Upside down paddles"
+            },
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 75,
+              "stroke": "Freestyle",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "kick/cu/sw by 25 on 10–15 sec rest"
+            }
+          ]
+        },
+        {
+          "name": "Breaststroke Build Up",
+          "note": "Focus on timing, kick width, and a patient glide.",
+          "focus": "Breaststroke Technique",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "2 Kicks, 1 Pull: take two narrow, fast kicks for every pull."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Kick on Back: isolate a narrow, fast breaststroke kick."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Pause Breaststroke: pause for one count in the glide after each kick."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Breaststroke Pullout: practice a powerful pullout and tight line before breakout."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Hands-at-Sides Kick: keep the head still and drive a narrow snap kick."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Pull-Kick-Glide: emphasize the sequence and a long line after each kick."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Single-Arm Breaststroke: hold one arm forward and focus on timing the pull and kick."
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Breaststroke",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "5:00",
+              "detail": "Perfect breaststroke: carry the timing and line into full stroke."
+            }
+          ]
+        },
+        {
+          "name": "Breaststroke Build",
+          "note": "",
+          "focus": "Breaststroke Technique",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": "Build each 50"
+            }
+          ]
+        },
+        {
+          "name": "Sprints",
+          "note": "",
+          "focus": "Cardio",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 20,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "0:30",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "focus": "Cool Down",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "id": 18,
+      "savedAt": 1786921513844
     }
   ]
 }
