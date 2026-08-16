@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:53:40.286Z",
+  "updatedAt": "2026-08-16T21:03:46.559Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -639,23 +639,23 @@
             "type": "rep",
             "count": 1,
             "distance": 200,
-            "stroke": "IM",
+            "stroke": "Drill",
             "transition": "2:00",
             "interval": "4:00",
-            "detail": "Drill"
+            "detail": "Upside down paddles"
           },
           {
             "type": "rep",
-            "count": 2,
-            "distance": 100,
+            "count": 4,
+            "distance": 75,
             "stroke": "Drill",
             "transition": "2:00",
             "interval": "2:00",
-            "detail": "Rt/lt/cu/sw"
+            "detail": "kick/cu/sw by 25 on 10-15 sec rest"
           }
         ]
       },
-      "savedAt": 1786849816811
+      "savedAt": 1786914225379
     },
     {
       "id": "block_msv4mq5hcl3mzd",
