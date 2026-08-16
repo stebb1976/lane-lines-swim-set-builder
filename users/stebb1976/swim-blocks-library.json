@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T03:19:59.625Z",
+  "updatedAt": "2026-08-16T03:20:14.154Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -467,11 +467,11 @@
             "stroke": "Drill",
             "transition": "2:00",
             "interval": "1:20",
-            "detail": "Start at 50 sec (15 sec rest), add 10 sec each round "
+            "detail": ""
           }
         ]
       },
-      "savedAt": 1786850398606
+      "savedAt": 1786850413223
     },
     {
       "id": "block_msv4mq5hccsh7c",
