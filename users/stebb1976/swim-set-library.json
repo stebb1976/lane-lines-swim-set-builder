@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:54:54.850Z",
+  "updatedAt": "2026-08-16T21:57:48.573Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -29,7 +29,7 @@
               "type": "rep",
               "count": 1,
               "distance": 200,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "2:00",
               "interval": "4:00",
               "detail": "Upside down paddles"
@@ -38,7 +38,7 @@
               "type": "rep",
               "count": 4,
               "distance": 75,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "kick/cu/sw by 25 on 10-15 sec rest"
