@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:18:06.915Z",
+  "updatedAt": "2026-08-16T20:18:49.948Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -133,12 +133,18 @@
       "id": "block_msv4mq5hipmbyi",
       "name": "Freestyle",
       "source": "Day 3",
+      "focus": "Freestyle",
+      "pool": "25",
       "block": {
         "name": "Freestyle",
         "note": "",
+        "focus": "Freestyle",
+        "pool": "",
         "repeat": 1,
-        "reps": [
+        "roundInstructions": [],
+        "items": [
           {
+            "type": "rep",
             "count": 5,
             "distance": 100,
             "stroke": "Freestyle",
@@ -146,10 +152,9 @@
             "interval": "1:30",
             "detail": "w fins and paddles"
           }
-        ],
-        "children": []
+        ]
       },
-      "savedAt": 1786843745765
+      "savedAt": 1786911528886
     },
     {
       "id": "block_msv4mq5hk5szzq",
