@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:22:47.834Z",
+  "updatedAt": "2026-08-16T20:23:02.689Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -110,13 +110,24 @@
       "id": "block_msv4mq5h0kk1yb",
       "name": "Free Step Down",
       "source": "Day 4",
+      "focus": "Freestyle",
+      "pool": "25",
       "block": {
-        "type": "block",
         "name": "Free Step Down",
         "note": "",
+        "focus": "Freestyle",
+        "pool": "",
         "repeat": 5,
-        "reps": [
+        "roundInstructions": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "items": [
           {
+            "type": "rep",
             "count": 3,
             "distance": 50,
             "stroke": "Freestyle",
@@ -124,10 +135,9 @@
             "interval": "1:00",
             "detail": "Reduce interval by 5 sec after each 3"
           }
-        ],
-        "children": []
+        ]
       },
-      "savedAt": 1786843745765
+      "savedAt": 1786911781798
     },
     {
       "id": "block_msv4mq5hk5szzq",
