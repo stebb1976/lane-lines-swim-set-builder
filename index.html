@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="icon.svg" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=135" />
+    <link rel="stylesheet" href="styles.css?v=136" />
     <title>Lane Lines — Swim Set Builder</title>
   </head>
   <body>
@@ -50,7 +50,7 @@
     </section>
     <section id="blocks-library-view" class="library-view" aria-hidden="true" aria-label="Blocks library">
       <div class="deck-toolbar"><button class="ghost" id="close-blocks-library">← Back to workout creator</button></div>
-      <article class="library-page"><section class="library-section" aria-labelledby="blocks-library-title"><div class="section-heading"><h1 id="blocks-library-title">Blocks Library</h1></div><p id="blocks-library-count" class="library-count"></p><div id="saved-blocks" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Blocks are reusable pieces of workouts. Add one to the current workout, then adapt it as needed.</p></div></section></article>
+      <article class="library-page"><section class="library-section" aria-labelledby="blocks-library-title"><div class="section-heading"><h1 id="blocks-library-title">Blocks Library</h1><button id="create-library-block" class="outline">+ Create New Block</button></div><p id="blocks-library-count" class="library-count"></p><div id="saved-blocks" class="saved-sets"></div><div class="library-tip"><span>⌁</span><p>Open a block to edit it in the Workout Creator, or add it to the current workout and adapt it as needed.</p></div></section></article>
     </section>
     <section id="log-view" class="library-view" aria-hidden="true" aria-label="Workout log"><div class="deck-toolbar"><button class="ghost" id="close-log">← Back to workout creator</button></div><article class="library-page"><section class="workout-log library-log" aria-labelledby="log-title"><div class="section-heading"><h1 id="log-title">Workout log</h1></div><p id="log-count" class="log-count"></p><div id="log-entries" class="log-entries"></div><article id="log-stats-sheet" class="stats-sheet log-stats-sheet" aria-label="Workout statistics"></article></section></article></section>
     <section id="calendar-view" class="library-view" aria-hidden="true" aria-label="Workout scheduler"><div class="deck-toolbar"><button class="ghost" id="close-calendar">← Back to workout creator</button></div><article class="calendar-page"><section class="scheduler-upcoming"><h1>Scheduler</h1><p class="schedule-subtitle">Your next five scheduled workouts.</p><div id="upcoming-workouts" class="upcoming-workouts"></div></section><div class="calendar-heading"><button id="previous-month" class="outline">←</button><h2 id="calendar-title"></h2><button id="next-month" class="outline">→</button></div><div class="calendar-weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div id="calendar-grid" class="calendar-grid"></div><p class="calendar-key"><span class="calendar-key-log"></span> Logged workout <span class="calendar-key-scheduled"></span> Scheduled workout</p></article></section>
@@ -99,6 +99,6 @@
     <dialog id="discard-changes-dialog"><form method="dialog"><h2>Start a new set?</h2><p>You have unsaved changes to this workout. Starting a new set will permanently discard them.</p><div class="dialog-actions"><button value="cancel" class="ghost">Keep editing</button><button value="default" class="primary" id="confirm-discard-changes">Discard changes</button></div></form></dialog>
     <dialog id="calendar-add-dialog"><form method="dialog"><h2>Add a workout</h2><p id="calendar-add-message"></p><div class="dialog-actions"><button value="cancel" class="ghost">Cancel</button><button value="default" class="outline" id="calendar-create-new">Create New Workout</button><button value="default" class="primary" id="calendar-choose-library">Choose from Library</button></div></form></dialog>
     <div id="toast" role="status"></div>
-    <script src="app.js?v=135"></script>
+    <script src="app.js?v=136"></script>
   </body>
 </html>
