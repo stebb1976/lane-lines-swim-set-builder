@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:11:13.117Z",
+  "updatedAt": "2026-08-16T21:33:06.310Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -47,8 +47,8 @@
         },
         {
           "name": "Backstroke Build Up",
-          "note": "",
-          "focus": "Freestyle Technique",
+          "note": "With Fins",
+          "focus": "Backstroke Technique",
           "pool": "",
           "repeat": 1,
           "roundInstructions": [],
@@ -57,70 +57,43 @@
               "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Backstroke",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Free drills: balance- arms at side"
+              "detail": "Back drills: head back - arms at side"
             },
             {
               "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Backstroke",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Free drills: balance- pull every 3rd rotation"
+              "detail": "Back drills: reach for the sky"
             },
             {
               "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Backstroke",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Free drills: one arm, other arm at side"
+              "detail": "Back drills: pull every 3rd rotation"
             },
             {
               "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Backstroke",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Free drills: 6 kick switch"
-            },
-            {
-              "type": "rep",
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Free drills: swordfish, exaggerate rotation and glide "
-            },
-            {
-              "type": "rep",
-              "count": 2,
-              "distance": 50,
-              "stroke": "Drill",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Free drills: catchup"
-            },
-            {
-              "type": "rep",
-              "count": 2,
-              "distance": 50,
-              "stroke": "Freestyle",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
+              "detail": "Back drills: "
             },
             {
               "type": "rep",
               "count": 1,
               "distance": 200,
-              "stroke": "Freestyle",
+              "stroke": "Backstroke",
               "transition": "2:00",
               "interval": "5:00",
               "detail": "catchup 25, swim 25"
@@ -138,7 +111,7 @@
         }
       ],
       "id": 17,
-      "savedAt": 1786914672413
+      "savedAt": 1786915985606
     },
     {
       "title": "Day 1",
