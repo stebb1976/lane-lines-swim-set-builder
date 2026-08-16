@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T22:08:52.117Z",
+  "updatedAt": "2026-08-16T22:15:08.134Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -449,6 +449,7 @@
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "4:00",
               "detail": ""
@@ -458,6 +459,7 @@
               "count": 8,
               "distance": 25,
               "stroke": "Choice",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "1:00",
               "detail": "20 sec vertical kick then swim, rest 10 sec"
@@ -467,6 +469,7 @@
               "count": 3,
               "distance": 100,
               "stroke": "Freestyle",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Rt Lt cu sw"
@@ -486,6 +489,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:vertical sculling "
@@ -495,6 +499,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:front sculling "
@@ -504,6 +509,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:arms underneath sculling "
@@ -513,6 +519,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:doggie paddle"
@@ -522,6 +529,7 @@
               "count": 1,
               "distance": 0,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "3:00",
               "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
@@ -531,6 +539,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:fingertip drag"
@@ -540,6 +549,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:thumb drag"
@@ -549,6 +559,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Drill",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:upside down paddles"
@@ -558,6 +569,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
+              "activity": "Swim",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills: perfect stroke"
@@ -567,6 +579,7 @@
               "count": 1,
               "distance": 200,
               "stroke": "Freestyle",
+              "activity": "Swim",
               "transition": "0:00",
               "interval": "5:00",
               "detail": "catch up / swim by 25"
@@ -586,6 +599,7 @@
               "count": 8,
               "distance": 50,
               "stroke": "Kick",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "1:15",
               "detail": "no fins"
@@ -605,6 +619,7 @@
               "count": 5,
               "distance": 100,
               "stroke": "Freestyle",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "1:30",
               "detail": "w fins and paddles"
@@ -624,6 +639,7 @@
               "count": 1,
               "distance": 100,
               "stroke": "Choice",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "2:00",
               "detail": ""
@@ -632,7 +648,7 @@
         }
       ],
       "id": 13,
-      "savedAt": 1786917215681
+      "savedAt": 1786918505135
     },
     {
       "title": "Day 4",
