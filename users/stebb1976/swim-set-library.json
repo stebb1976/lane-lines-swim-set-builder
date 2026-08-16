@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:52:53.466Z",
+  "updatedAt": "2026-08-16T21:53:36.385Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -415,9 +415,13 @@
         {
           "name": "Warm Up",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
@@ -426,6 +430,7 @@
               "detail": ""
             },
             {
+              "type": "rep",
               "count": 8,
               "distance": 25,
               "stroke": "Choice",
@@ -434,6 +439,7 @@
               "detail": "20 sec vertical kick then swim, rest 10 sec"
             },
             {
+              "type": "rep",
               "count": 3,
               "distance": 100,
               "stroke": "Freestyle",
@@ -441,79 +447,90 @@
               "interval": "2:00",
               "detail": "Rt Lt cu sw"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Freestyle Build Up 2",
           "note": "Propulsion focus",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:vertical sculling "
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:front sculling "
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:arms underneath sculling "
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:doggie paddle"
             },
             {
+              "type": "rep",
               "count": 1,
               "distance": 0,
-              "stroke": "Instruction",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "3:00",
               "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:fingertip drag"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:thumb drag"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
               "transition": "0:00",
               "interval": "2:00",
               "detail": "Free drills:upside down paddles"
             },
             {
+              "type": "rep",
               "count": 2,
               "distance": 50,
               "stroke": "Freestyle",
@@ -522,6 +539,7 @@
               "detail": "Free drills: perfect stroke"
             },
             {
+              "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Freestyle",
@@ -529,15 +547,18 @@
               "interval": "5:00",
               "detail": "catch up / swim by 25"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Kick Set",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 8,
               "distance": 50,
               "stroke": "Kick",
@@ -545,15 +566,18 @@
               "interval": "1:15",
               "detail": "no fins"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Freestyle",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 5,
               "distance": 100,
               "stroke": "Freestyle",
@@ -561,15 +585,18 @@
               "interval": "1:30",
               "detail": "w fins and paddles"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Cool Down",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 100,
               "stroke": "Choice",
@@ -577,12 +604,11 @@
               "interval": "2:00",
               "detail": ""
             }
-          ],
-          "children": []
+          ]
         }
       ],
       "id": 13,
-      "savedAt": 1786752586165
+      "savedAt": 1786917215681
     },
     {
       "title": "Day 4",
