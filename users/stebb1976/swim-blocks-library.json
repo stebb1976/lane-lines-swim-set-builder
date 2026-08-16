@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:18:49.948Z",
+  "updatedAt": "2026-08-16T20:19:45.056Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -350,45 +350,57 @@
     },
     {
       "id": "block_msv4mq5h7hb9de",
-      "name": "Fun Friday ",
+      "name": "Fun Friday 1",
       "source": "Fun Friday 1",
+      "focus": "Fun",
+      "pool": "25",
       "block": {
-        "name": "Fun Friday ",
+        "name": "Fun Friday 1",
         "note": "",
+        "focus": "Fun",
+        "pool": "",
         "repeat": 1,
-        "reps": [
+        "roundInstructions": [],
+        "items": [
           {
+            "type": "rep",
             "count": 1,
             "distance": 25,
             "stroke": "Freestyle",
+            "transition": "2:00",
             "interval": "5:00",
             "detail": "Spoon in mouth w wiggle ball"
           },
           {
+            "type": "rep",
             "count": 1,
             "distance": 25,
             "stroke": "Freestyle",
+            "transition": "2:00",
             "interval": "5:00",
             "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
           },
           {
+            "type": "rep",
             "count": 1,
             "distance": 25,
             "stroke": "Freestyle",
+            "transition": "2:00",
             "interval": "5:00",
             "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
           },
           {
+            "type": "rep",
             "count": 4,
             "distance": 100,
             "stroke": "Freestyle",
+            "transition": "2:00",
             "interval": "5:00",
             "detail": "Sharks and minnows "
           }
-        ],
-        "children": []
+        ]
       },
-      "savedAt": 1786843745765
+      "savedAt": 1786911584018
     },
     {
       "id": "block_msv4mq5hj1jpux",
