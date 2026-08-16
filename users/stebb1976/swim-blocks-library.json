@@ -1,23 +1,38 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T03:21:11.102Z",
+  "updatedAt": "2026-08-16T03:22:51.240Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
       "name": "Challenge Set",
       "source": "Day 4",
+      "focus": "Freestyle Baseline",
+      "pool": "25",
       "block": {
         "name": "Challenge Set",
         "note": "",
+        "focus": "Freestyle Baseline",
+        "pool": "",
         "repeat": 1,
-        "reps": [],
-        "children": [
+        "roundInstructions": [],
+        "items": [
           {
+            "type": "block",
             "name": "Free Step Down",
             "note": "",
+            "focus": "",
+            "pool": "",
             "repeat": 5,
-            "reps": [
+            "roundInstructions": [
+              "1:00 Interval",
+              "0:55 Interval",
+              "0:50 Interval",
+              "0:45 Interval",
+              "0:40 Interval"
+            ],
+            "items": [
               {
+                "type": "rep",
                 "count": 3,
                 "distance": 50,
                 "stroke": "Freestyle",
@@ -25,12 +40,11 @@
                 "interval": "1:00",
                 "detail": "Reduce interval by 5 sec after each 3"
               }
-            ],
-            "children": []
+            ]
           }
         ]
       },
-      "savedAt": 1786843745765
+      "savedAt": 1786850570190
     },
     {
       "id": "block_msv4mq5h7pxwww",
