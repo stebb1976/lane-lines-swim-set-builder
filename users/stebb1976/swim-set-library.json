@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T23:05:40.496Z",
+  "updatedAt": "2026-08-16T23:14:55.118Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -230,21 +230,21 @@
               "type": "rep",
               "count": 1,
               "distance": 200,
-              "stroke": "Freestyle",
-              "activity": "Swim",
+              "stroke": "Backstroke",
+              "activity": "Kick",
               "transition": "2:00",
               "interval": "4:00",
-              "detail": "Upside down paddles"
+              "detail": "Work Underwater, dolphin kick on back with fins"
             },
             {
               "type": "rep",
-              "count": 4,
-              "distance": 75,
-              "stroke": "Freestyle",
+              "count": 6,
+              "distance": 50,
+              "stroke": "Backstroke",
               "activity": "Swim",
               "transition": "2:00",
-              "interval": "2:00",
-              "detail": "kick/cu/sw by 25 on 10–15 sec rest"
+              "interval": "1:00",
+              "detail": "with paddles"
             }
           ]
         },
@@ -264,37 +264,7 @@
               "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "2 Kicks, 1 Pull: take two narrow, fast kicks for every pull."
-            },
-            {
-              "type": "rep",
-              "count": 2,
-              "distance": 50,
-              "stroke": "Breaststroke",
-              "activity": "Drill",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Kick on Back: isolate a narrow, fast breaststroke kick."
-            },
-            {
-              "type": "rep",
-              "count": 2,
-              "distance": 50,
-              "stroke": "Breaststroke",
-              "activity": "Drill",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Pause Breaststroke: pause for one count in the glide after each kick."
-            },
-            {
-              "type": "rep",
-              "count": 2,
-              "distance": 50,
-              "stroke": "Breaststroke",
-              "activity": "Drill",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Breaststroke Pullout: practice a powerful pullout and tight line before breakout."
+              "detail": "Kick on Back: isolate a narrow, fast breaststroke kick, knees underwater"
             },
             {
               "type": "rep",
@@ -314,6 +284,26 @@
               "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
+              "detail": "breaststroke pull w/ dolphin kick"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "2 Kicks, 1 Pull: take two narrow, fast kicks for every pull."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Breaststroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
               "detail": "Pull-Kick-Glide: emphasize the sequence and a long line after each kick."
             },
             {
@@ -324,7 +314,7 @@
               "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Single-Arm Breaststroke: hold one arm forward and focus on timing the pull and kick."
+              "detail": "Breaststroke Pullout: practice a powerful pullout and tight line before breakout."
             },
             {
               "type": "rep",
@@ -370,7 +360,7 @@
               "type": "rep",
               "count": 20,
               "distance": 25,
-              "stroke": "Freestyle",
+              "stroke": "Freestyle, Backstroke, Breaststroke",
               "activity": "Swim",
               "transition": "2:00",
               "interval": "0:30",
@@ -400,7 +390,7 @@
         }
       ],
       "id": 18,
-      "savedAt": 1786921513844
+      "savedAt": 1786922094413
     },
     {
       "title": "Day 1",
