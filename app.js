@@ -1,6 +1,6 @@
 const $ = (s, e=document) => e.querySelector(s);
 const blocks = $('#blocks'), blockTpl = $('#block-template'), repTpl = $('#rep-template');
-document.addEventListener('input',event=>{if(event.target.matches?.('#set-focus,.block-focus'))addFocusSuggestion(event.target.value)});
+document.addEventListener('change',event=>{if(event.target.matches?.('#set-focus,.block-focus'))addFocusSuggestion(event.target.value)});
 let hasUnsavedChanges=false,pendingCalendarDate='',requestedCalendarDate='',calendarEntryDate='',calendarLibrarySelection=false,pendingLogEntry,blockEditorMode=false,blockLibraryInsertionTarget=null,blockLibraryReplacementTarget=null;
 function markDirty(){hasUnsavedChanges=true}
 let undoStack=[];
