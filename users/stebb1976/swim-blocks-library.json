@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:50:29.282Z",
+  "updatedAt": "2026-08-16T20:50:50.260Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -301,12 +301,18 @@
       "id": "block_msv4mq5hu5ub8n",
       "name": "Freestyle Build Up 2",
       "source": "Day 3",
+      "focus": "Freestyle Technique",
+      "pool": "25",
       "block": {
         "name": "Freestyle Build Up 2",
         "note": "Propulsion focus",
+        "focus": "Freestyle Technique",
+        "pool": "",
         "repeat": 1,
-        "reps": [
+        "roundInstructions": [],
+        "items": [
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
@@ -315,6 +321,7 @@
             "detail": "Free drills:vertical sculling "
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
@@ -323,6 +330,7 @@
             "detail": "Free drills:front sculling "
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
@@ -331,6 +339,7 @@
             "detail": "Free drills:arms underneath sculling "
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
@@ -339,6 +348,7 @@
             "detail": "Free drills:doggie paddle"
           },
           {
+            "type": "rep",
             "count": 1,
             "distance": 0,
             "stroke": "Instruction",
@@ -347,6 +357,7 @@
             "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
@@ -355,6 +366,7 @@
             "detail": "Free drills:fingertip drag"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
@@ -363,6 +375,7 @@
             "detail": "Free drills:thumb drag"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Drill",
@@ -371,6 +384,7 @@
             "detail": "Free drills:upside down paddles"
           },
           {
+            "type": "rep",
             "count": 2,
             "distance": 50,
             "stroke": "Freestyle",
@@ -379,6 +393,7 @@
             "detail": "Free drills: perfect stroke"
           },
           {
+            "type": "rep",
             "count": 1,
             "distance": 200,
             "stroke": "Freestyle",
@@ -386,10 +401,9 @@
             "interval": "5:00",
             "detail": "catch up / swim by 25"
           }
-        ],
-        "children": []
+        ]
       },
-      "savedAt": 1786843745765
+      "savedAt": 1786913449352
     },
     {
       "id": "block_msv4mq5h7hb9de",
