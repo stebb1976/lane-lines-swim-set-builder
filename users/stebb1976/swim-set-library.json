@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:07:52.300Z",
+  "updatedAt": "2026-08-16T21:08:08.148Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
-      "focus": "",
+      "focus": "Backstroke",
       "tags": "",
       "pool": "25",
       "blocks": [
@@ -36,7 +36,7 @@
           "items": []
         }
       ],
-      "savedAt": 1786914471593,
+      "savedAt": 1786914487446,
       "id": 17
     },
     {
