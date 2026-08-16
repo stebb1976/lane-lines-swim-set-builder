@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:53:36.385Z",
+  "updatedAt": "2026-08-16T21:54:54.850Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -122,94 +122,118 @@
         {
           "name": "Warm Up",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
+              "transition": "2:00",
               "interval": "5:00",
               "detail": ""
             },
             {
+              "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Kick",
+              "transition": "2:00",
               "interval": "5:00",
               "detail": ""
             },
             {
+              "type": "rep",
               "count": 6,
               "distance": 50,
-              "stroke": "Drill",
+              "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "1:00",
               "detail": "25 scull / 25 swim"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Main Set",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 10,
               "distance": 50,
               "stroke": "Freestyle",
+              "transition": "2:00",
               "interval": "1:00",
               "detail": "build"
             },
             {
+              "type": "rep",
               "count": 16,
               "distance": 25,
               "stroke": "IM",
+              "transition": "2:00",
               "interval": "1:00",
               "detail": "(4 x 25 IM Order) x 4"
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Stephen Stebbins",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 8,
               "distance": 25,
               "stroke": "Kick",
+              "transition": "2:00",
               "interval": "1:00",
               "detail": ""
             },
             {
+              "type": "rep",
               "count": 10,
               "distance": 25,
               "stroke": "Choice",
+              "transition": "2:00",
               "interval": "0:30",
               "detail": ""
             }
-          ],
-          "children": []
+          ]
         },
         {
           "name": "Cool Down",
           "note": "",
+          "focus": "",
+          "pool": "",
           "repeat": 1,
-          "reps": [
+          "roundInstructions": [],
+          "items": [
             {
+              "type": "rep",
               "count": 1,
               "distance": 100,
               "stroke": "Choice",
+              "transition": "2:00",
               "interval": "3:00",
               "detail": ""
             }
-          ],
-          "children": []
+          ]
         }
       ],
-      "savedAt": 1786411188051,
-      "id": 11
+      "id": 11,
+      "savedAt": 1786917294147
     },
     {
       "title": "Day 2",
