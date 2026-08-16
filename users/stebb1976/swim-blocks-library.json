@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T20:50:50.260Z",
+  "updatedAt": "2026-08-16T20:53:02.435Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -72,6 +72,42 @@
         ]
       },
       "savedAt": 1786911222439
+    },
+    {
+      "id": "block_msv4mq5hme4uyd",
+      "name": "Evaluation",
+      "source": "Day 1",
+      "focus": "Evaluation",
+      "pool": "25",
+      "block": {
+        "name": "Evaluation",
+        "note": "",
+        "focus": "Evaluation",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 8,
+            "distance": 25,
+            "stroke": "Kick",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": ""
+          },
+          {
+            "type": "rep",
+            "count": 10,
+            "distance": 25,
+            "stroke": "Choice",
+            "transition": "2:00",
+            "interval": "0:30",
+            "detail": ""
+          }
+        ]
+      },
+      "savedAt": 1786913581401
     },
     {
       "id": "block_msv4mq5h9nv244",
@@ -540,34 +576,6 @@
         ]
       },
       "savedAt": 1786911766949
-    },
-    {
-      "id": "block_msv4mq5hme4uyd",
-      "name": "Stephen Stebbins",
-      "source": "Day 1",
-      "block": {
-        "name": "Stephen Stebbins",
-        "note": "",
-        "repeat": 1,
-        "reps": [
-          {
-            "count": 8,
-            "distance": 25,
-            "stroke": "Kick",
-            "interval": "1:00",
-            "detail": ""
-          },
-          {
-            "count": 10,
-            "distance": 25,
-            "stroke": "Choice",
-            "interval": "0:30",
-            "detail": ""
-          }
-        ],
-        "children": []
-      },
-      "savedAt": 1786843745765
     },
     {
       "id": "block_msv4mq5hsue39j",
