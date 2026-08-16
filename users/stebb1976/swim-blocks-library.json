@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T03:23:40.028Z",
+  "updatedAt": "2026-08-16T20:13:21.476Z",
   "blocks": [
     {
       "id": "block_msv4mq5hnio2if",
@@ -50,28 +50,6 @@
       "id": "block_msv4mq5h7pxwww",
       "name": "Cool Down",
       "source": "Day 4",
-      "block": {
-        "name": "Cool Down",
-        "note": "",
-        "repeat": 1,
-        "reps": [
-          {
-            "count": 1,
-            "distance": 100,
-            "stroke": "Choice",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": ""
-          }
-        ],
-        "children": []
-      },
-      "savedAt": 1786843745765
-    },
-    {
-      "id": "block_msv4mq5h46gl3t",
-      "name": "Cool Down",
-      "source": "Day 3",
       "block": {
         "name": "Cool Down",
         "note": "",
