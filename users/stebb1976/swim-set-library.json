@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T22:43:03.975Z",
+  "updatedAt": "2026-08-16T22:48:40.447Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -139,17 +139,68 @@
           ]
         },
         {
-          "name": "Cool Down",
+          "name": "Backstroke Build",
           "note": "",
-          "focus": "",
+          "focus": "Backstroke Technique",
           "pool": "",
           "repeat": 1,
           "roundInstructions": [],
-          "items": []
+          "items": [
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 50,
+              "stroke": "Backstroke",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": "build"
+            }
+          ]
+        },
+        {
+          "name": "Sprints",
+          "note": "",
+          "focus": "Cardio",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 20,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "0:30",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "focus": "Cool Down",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": ""
+            }
+          ]
         }
       ],
       "id": 17,
-      "savedAt": 1786920180878
+      "savedAt": 1786920519742
     },
     {
       "title": "Day 1",
