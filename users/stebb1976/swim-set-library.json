@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T22:38:31.318Z",
+  "updatedAt": "2026-08-16T22:43:03.975Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -94,7 +94,17 @@
               "activity": "Swim",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Back drills: reach for the sky"
+              "detail": "Back drills: reach for the sky, emphasize rotation and balance"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Backstroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Single-Arm Backstroke: Keep one arm at the side and use the working arm to focus on clean rotation and entry."
             },
             {
               "type": "rep",
@@ -114,17 +124,7 @@
               "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Single-Arm Backstroke: Keep one arm at the side and use the working arm to focus on clean rotation and entry."
-            },
-            {
-              "type": "rep",
-              "count": 2,
-              "distance": 50,
-              "stroke": "Backstroke",
-              "activity": "Drill",
-              "transition": "2:00",
-              "interval": "2:00",
-              "detail": "Single-Arm Backstroke: Keep one arm at the side and use the working arm to focus on clean rotation and entry."
+              "detail": "6-Kick Switch: Six kicks on one side, take one stroke to rotate, then hold the other side for six kicks."
             },
             {
               "type": "rep",
@@ -134,7 +134,7 @@
               "activity": "Swim",
               "transition": "2:00",
               "interval": "5:00",
-              "detail": "catchup 25, swim 25"
+              "detail": "perfect backstroke"
             }
           ]
         },
@@ -149,7 +149,7 @@
         }
       ],
       "id": 17,
-      "savedAt": 1786919910614
+      "savedAt": 1786920180878
     },
     {
       "title": "Day 1",
