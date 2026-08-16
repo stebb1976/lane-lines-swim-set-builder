@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T22:33:48.895Z",
+  "updatedAt": "2026-08-16T22:38:31.318Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -21,6 +21,7 @@
               "count": 1,
               "distance": 200,
               "stroke": "Choice",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "4:00",
               "detail": ""
@@ -30,6 +31,7 @@
               "count": 1,
               "distance": 200,
               "stroke": "Freestyle",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "4:00",
               "detail": "Upside down paddles"
@@ -39,6 +41,7 @@
               "count": 4,
               "distance": 75,
               "stroke": "Freestyle",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "kick/cu/sw by 25 on 10-15 sec rest"
@@ -58,15 +61,37 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Back drills: head back - arms at side"
+              "detail": "Back drills: head back - arms at side w rotation"
             },
             {
               "type": "rep",
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Back drills: head back - Streamline kick on back"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Backstroke",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Back drills: kick with one arm in streamline rt/lt by 25. rotate hips to side of streamline arm"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Backstroke",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Back drills: reach for the sky"
@@ -76,6 +101,7 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "2:00",
               "detail": "Back drills: pull every 3rd rotation"
@@ -85,15 +111,27 @@
               "count": 2,
               "distance": 50,
               "stroke": "Backstroke",
+              "activity": "Drill",
               "transition": "2:00",
               "interval": "2:00",
-              "detail": "Back drills: "
+              "detail": "Single-Arm Backstroke: Keep one arm at the side and use the working arm to focus on clean rotation and entry."
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Backstroke",
+              "activity": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Single-Arm Backstroke: Keep one arm at the side and use the working arm to focus on clean rotation and entry."
             },
             {
               "type": "rep",
               "count": 1,
               "distance": 200,
               "stroke": "Backstroke",
+              "activity": "Swim",
               "transition": "2:00",
               "interval": "5:00",
               "detail": "catchup 25, swim 25"
@@ -111,7 +149,7 @@
         }
       ],
       "id": 17,
-      "savedAt": 1786915985606
+      "savedAt": 1786919910614
     },
     {
       "title": "Day 1",
