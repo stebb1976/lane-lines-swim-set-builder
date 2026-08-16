@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T21:08:40.617Z",
+  "updatedAt": "2026-08-16T21:11:13.117Z",
   "sets": [
     {
       "title": "Backstroke Build Up",
@@ -9,22 +9,123 @@
       "pool": "25",
       "blocks": [
         {
-          "name": "Warm Up",
+          "name": "Warm Up 5",
           "note": "",
-          "focus": "",
+          "focus": "Warm Up",
           "pool": "",
           "repeat": 1,
           "roundInstructions": [],
-          "items": []
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "4:00",
+              "detail": ""
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "4:00",
+              "detail": "Upside down paddles"
+            },
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 75,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "kick/cu/sw by 25 on 10-15 sec rest"
+            }
+          ]
         },
         {
-          "name": "Main Set",
+          "name": "Backstroke Build Up",
           "note": "",
-          "focus": "",
+          "focus": "Freestyle Technique",
           "pool": "",
           "repeat": 1,
           "roundInstructions": [],
-          "items": []
+          "items": [
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: balance- arms at side"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: balance- pull every 3rd rotation"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: one arm, other arm at side"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: 6 kick switch"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: swordfish, exaggerate rotation and glide "
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Drill",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: catchup"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "5:00",
+              "detail": "catchup 25, swim 25"
+            }
+          ]
         },
         {
           "name": "Cool Down",
@@ -36,8 +137,8 @@
           "items": []
         }
       ],
-      "savedAt": 1786914487446,
-      "id": 17
+      "id": 17,
+      "savedAt": 1786914672413
     },
     {
       "title": "Day 1",
