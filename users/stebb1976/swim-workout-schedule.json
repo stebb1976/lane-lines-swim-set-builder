@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T23:15:31.355Z",
+  "updatedAt": "2026-08-18T20:20:38.222Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_mst7x196iz35oi",
@@ -347,8 +347,6 @@
           {
             "name": "Warm Up 5",
             "note": "",
-            "focus": "Warm Up",
-            "pool": "",
             "repeat": 1,
             "roundInstructions": [],
             "items": [
@@ -357,7 +355,6 @@
                 "count": 1,
                 "distance": 200,
                 "stroke": "Choice",
-                "activity": "Swim",
                 "transition": "2:00",
                 "interval": "4:00",
                 "detail": ""
@@ -367,7 +364,6 @@
                 "count": 1,
                 "distance": 200,
                 "stroke": "Backstroke",
-                "activity": "Kick",
                 "transition": "2:00",
                 "interval": "4:00",
                 "detail": "Work Underwater, dolphin kick on back with fins"
@@ -377,7 +373,6 @@
                 "count": 6,
                 "distance": 50,
                 "stroke": "Backstroke",
-                "activity": "Swim",
                 "transition": "2:00",
                 "interval": "1:00",
                 "detail": "with paddles"
@@ -387,8 +382,6 @@
           {
             "name": "Breaststroke Build Up",
             "note": "Focus on timing, kick width, and a patient glide.",
-            "focus": "Breaststroke Technique",
-            "pool": "",
             "repeat": 1,
             "roundInstructions": [],
             "items": [
@@ -397,7 +390,6 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Breaststroke",
-                "activity": "Drill",
                 "transition": "2:00",
                 "interval": "2:00",
                 "detail": "Kick on Back: isolate a narrow, fast breaststroke kick, knees underwater"
@@ -407,7 +399,6 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Breaststroke",
-                "activity": "Drill",
                 "transition": "2:00",
                 "interval": "2:00",
                 "detail": "Hands-at-Sides Kick: keep the head still and drive a narrow snap kick."
@@ -417,7 +408,6 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Breaststroke",
-                "activity": "Drill",
                 "transition": "2:00",
                 "interval": "2:00",
                 "detail": "breaststroke pull w/ dolphin kick"
@@ -427,7 +417,6 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Breaststroke",
-                "activity": "Drill",
                 "transition": "2:00",
                 "interval": "2:00",
                 "detail": "2 Kicks, 1 Pull: take two narrow, fast kicks for every pull."
@@ -437,7 +426,6 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Breaststroke",
-                "activity": "Drill",
                 "transition": "2:00",
                 "interval": "2:00",
                 "detail": "Pull-Kick-Glide: emphasize the sequence and a long line after each kick."
@@ -447,7 +435,6 @@
                 "count": 2,
                 "distance": 50,
                 "stroke": "Breaststroke",
-                "activity": "Drill",
                 "transition": "2:00",
                 "interval": "2:00",
                 "detail": "Breaststroke Pullout: practice a powerful pullout and tight line before breakout."
@@ -457,7 +444,6 @@
                 "count": 1,
                 "distance": 200,
                 "stroke": "Breaststroke",
-                "activity": "Swim",
                 "transition": "2:00",
                 "interval": "5:00",
                 "detail": "Perfect breaststroke: carry the timing and line into full stroke."
@@ -467,8 +453,6 @@
           {
             "name": "Breaststroke Build",
             "note": "",
-            "focus": "Breaststroke Technique",
-            "pool": "",
             "repeat": 1,
             "roundInstructions": [],
             "items": [
@@ -477,7 +461,6 @@
                 "count": 4,
                 "distance": 50,
                 "stroke": "Breaststroke",
-                "activity": "Swim",
                 "transition": "2:00",
                 "interval": "1:30",
                 "detail": "Build each 50"
@@ -485,10 +468,25 @@
             ]
           },
           {
+            "name": "Endurance ",
+            "note": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 200,
+                "stroke": "Freestyle",
+                "transition": "2:00",
+                "interval": "3:00",
+                "detail": "Descend w paddles"
+              }
+            ]
+          },
+          {
             "name": "Sprints",
             "note": "",
-            "focus": "Cardio",
-            "pool": "",
             "repeat": 1,
             "roundInstructions": [],
             "items": [
@@ -496,8 +494,7 @@
                 "type": "rep",
                 "count": 20,
                 "distance": 25,
-                "stroke": "Freestyle, Backstroke, Breaststroke",
-                "activity": "Swim",
+                "stroke": "",
                 "transition": "2:00",
                 "interval": "0:30",
                 "detail": ""
@@ -507,8 +504,6 @@
           {
             "name": "Cool Down",
             "note": "",
-            "focus": "Cool Down",
-            "pool": "",
             "repeat": 1,
             "roundInstructions": [],
             "items": [
@@ -517,16 +512,13 @@
                 "count": 1,
                 "distance": 100,
                 "stroke": "Choice",
-                "activity": "Swim",
                 "transition": "2:00",
                 "interval": "2:00",
                 "detail": ""
               }
             ]
           }
-        ],
-        "savedAt": 1786922103096,
-        "id": 18
+        ]
       }
     }
   ]
