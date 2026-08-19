@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T18:01:36.169Z",
+  "updatedAt": "2026-08-19T18:02:22.132Z",
   "sets": [
     {
       "title": "Freestyle Cardio Base",
@@ -64,10 +64,20 @@
           "note": "",
           "repeat": 1,
           "roundInstructions": [],
-          "items": []
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": ""
+            }
+          ]
         }
       ],
-      "savedAt": 1787162495461,
+      "savedAt": 1787162541425,
       "id": 22
     },
     {
