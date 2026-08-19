@@ -1,7 +1,201 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T17:49:33.665Z",
+  "updatedAt": "2026-08-19T17:50:27.269Z",
   "sets": [
+    {
+      "title": "Freestyle Build up 2",
+      "focus": "Freestyle technique",
+      "tags": "Freestyle drills",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "4:00",
+              "detail": ""
+            },
+            {
+              "type": "rep",
+              "count": 8,
+              "distance": 25,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "1:00",
+              "detail": "20 sec vertical kick then swim, rest 10 sec"
+            },
+            {
+              "type": "rep",
+              "count": 3,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Rt Lt cu sw"
+            }
+          ]
+        },
+        {
+          "name": "Freestyle Build Up 2",
+          "note": "Propulsion focus",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills:vertical sculling "
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills:front sculling "
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills:arms underneath sculling "
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills:doggie paddle"
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 0,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "3:00",
+              "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills:fingertip drag"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills:thumb drag"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills:upside down paddles"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "2:00",
+              "detail": "Free drills: perfect stroke"
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "5:00",
+              "detail": "catch up / swim by 25"
+            }
+          ]
+        },
+        {
+          "name": "Kick Set",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 8,
+              "distance": 50,
+              "stroke": "Kick",
+              "transition": "2:00",
+              "interval": "1:15",
+              "detail": "no fins"
+            }
+          ]
+        },
+        {
+          "name": "Freestyle",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 5,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": "w fins and paddles"
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "savedAt": 1787161826566,
+      "id": 20
+    },
     {
       "title": "Freestyle Build 1",
       "focus": "Freestyle technique",
