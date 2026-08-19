@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T18:02:22.132Z",
+  "updatedAt": "2026-08-19T18:04:31.909Z",
   "sets": [
     {
       "title": "Freestyle Cardio Base",
@@ -13,7 +13,35 @@
           "note": "",
           "repeat": 1,
           "roundInstructions": [],
-          "items": []
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": ""
+            },
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 75,
+              "stroke": "Breaststroke",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": "Double pull out / 2 kick 1 pull / swim"
+            },
+            {
+              "type": "rep",
+              "count": 6,
+              "distance": 50,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "1:10",
+              "detail": "Build"
+            }
+          ]
         },
         {
           "name": "Main Set",
@@ -77,7 +105,7 @@
           ]
         }
       ],
-      "savedAt": 1787162541425,
+      "savedAt": 1787162671206,
       "id": 22
     },
     {
