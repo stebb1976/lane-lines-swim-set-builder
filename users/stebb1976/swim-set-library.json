@@ -1,7 +1,192 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T23:15:03.800Z",
+  "updatedAt": "2026-08-19T17:49:33.665Z",
   "sets": [
+    {
+      "title": "Freestyle Build 1",
+      "focus": "Freestyle technique",
+      "tags": "Freestyle drills",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 50,
+              "stroke": "Kick",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": "Streamline kick w fins"
+            },
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 75,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": "pull w paddles"
+            }
+          ]
+        },
+        {
+          "name": "Freestyle Build Up",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: balance- arms at side"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: balance- pull every 3rd rotation"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: one arm, other arm at side"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: 6 kick switch"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: swordfish, exaggerate rotation and glide "
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: catchup"
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "5:00",
+              "detail": "catchup 25, swim 25"
+            }
+          ]
+        },
+        {
+          "name": "Kick Set",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 8,
+              "distance": 50,
+              "stroke": "Kick",
+              "transition": "2:00",
+              "interval": "1:00",
+              "detail": "w fins 25 dophin 25 flutter"
+            }
+          ]
+        },
+        {
+          "name": "Freestyle",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "2:00",
+              "detail": "rt/lt/sf/sw"
+            },
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": "Sprint"
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 100,
+              "stroke": "Choice",
+              "transition": "2:00",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "savedAt": 1787161772957,
+      "id": 19
+    },
     {
       "title": "Backstroke Build Up",
       "focus": "Backstroke",
