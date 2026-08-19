@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T17:53:00.062Z",
+  "updatedAt": "2026-08-19T18:01:36.169Z",
   "sets": [
     {
       "title": "Freestyle Cardio Base",
@@ -18,9 +18,46 @@
         {
           "name": "Main Set",
           "note": "",
-          "repeat": 1,
-          "roundInstructions": [],
-          "items": []
+          "repeat": 8,
+          "roundInstructions": [
+            "Free",
+            "Choice",
+            "Free",
+            "IM",
+            "Free",
+            "Choice",
+            "Free",
+            "IM"
+          ],
+          "items": [
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 25,
+              "stroke": "Freestyle",
+              "transition": "O",
+              "interval": "0:45",
+              "detail": ""
+            },
+            {
+              "type": "rep",
+              "count": 2,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "1:30",
+              "detail": ""
+            },
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "transition": "0:00",
+              "interval": "3:00",
+              "detail": ""
+            }
+          ]
         },
         {
           "name": "Cool Down",
@@ -30,7 +67,7 @@
           "items": []
         }
       ],
-      "savedAt": 1787161979359,
+      "savedAt": 1787162495461,
       "id": 22
     },
     {
