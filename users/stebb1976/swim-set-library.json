@@ -1,7 +1,38 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T17:51:28.029Z",
+  "updatedAt": "2026-08-19T17:53:00.062Z",
   "sets": [
+    {
+      "title": "Freestyle Cardio Base",
+      "focus": "",
+      "tags": "",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": []
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": []
+        }
+      ],
+      "savedAt": 1787161979359,
+      "id": 22
+    },
     {
       "title": "Freestyle Build Up 1",
       "focus": "Freestyle technique",
