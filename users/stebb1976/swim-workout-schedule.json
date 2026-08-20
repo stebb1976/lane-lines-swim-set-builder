@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T20:46:28.608Z",
+  "updatedAt": "2026-08-20T20:46:45.043Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_mst7x196iz35oi",
@@ -523,7 +523,7 @@
     },
     {
       "id": "calendar_mt0jsz0t1h66ug",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "notes": "",
       "set": {
         "title": "Freestyle Cardio Base",
@@ -627,9 +627,7 @@
               }
             ]
           }
-        ],
-        "savedAt": 1787171562317,
-        "id": 22
+        ]
       }
     }
   ]
