@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T20:46:45.043Z",
+  "updatedAt": "2026-08-21T18:57:16.277Z",
   "scheduledWorkouts": [
     {
       "id": "calendar_mst7x196iz35oi",
@@ -628,6 +628,145 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "calendar_mt3b9xcwm6v7r7",
+      "date": "2026-08-21",
+      "notes": "",
+      "set": {
+        "title": "Butterfly Build Up",
+        "focus": "Backstroke",
+        "tags": "",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up 5",
+            "note": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "transition": "0:00",
+                "interval": "4:00",
+                "detail": ""
+              },
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 75,
+                "stroke": "Freestyle",
+                "transition": "0:00",
+                "interval": "2:00",
+                "detail": "Rt/lt/sw by 25 on 10-15 sec rest"
+              }
+            ]
+          },
+          {
+            "name": "Butterfly Build Up",
+            "note": "With Fins",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Streamline kick w fins"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Dolphin dives"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Underwater fly"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "One arm"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "3-3-3"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Swim"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "3-3-3 no fins"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Swim"
+              },
+              {
+                "type": "block",
+                "name": "Fly sprints",
+                "note": "",
+                "repeat": 1,
+                "roundInstructions": [],
+                "items": [
+                  {
+                    "type": "rep",
+                    "count": 8,
+                    "distance": 25,
+                    "stroke": "Butterfly",
+                    "transition": "2:00",
+                    "interval": "0:45",
+                    "detail": "Long strokes"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "savedAt": 1787338635295,
+        "id": 24
       }
     }
   ]
