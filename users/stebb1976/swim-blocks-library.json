@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T15:24:26.428Z",
+  "updatedAt": "2026-08-21T18:45:42.720Z",
   "blocks": [
     {
       "id": "block_mt33o7z7t4gorx",
@@ -23,6 +23,50 @@
         ]
       },
       "savedAt": 1787325865315
+    },
+    {
+      "id": "block_msv4mq5hnio2if",
+      "name": "Challenge Set",
+      "source": "Day 4",
+      "focus": "Freestyle",
+      "pool": "25",
+      "block": {
+        "name": "Challenge Set",
+        "note": "",
+        "focus": "Freestyle",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "block",
+            "name": "Free Step Down",
+            "note": "",
+            "focus": "",
+            "pool": "",
+            "repeat": 5,
+            "roundInstructions": [
+              "1:00 Interval",
+              "0:55 Interval",
+              "0:50 Interval",
+              "0:45 Interval",
+              "0:40 Interval"
+            ],
+            "items": [
+              {
+                "type": "rep",
+                "count": 3,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "transition": "2:00",
+                "interval": "1:00",
+                "detail": ""
+              }
+            ]
+          }
+        ]
+      },
+      "savedAt": 1786911746299
     },
     {
       "id": "block_mt33o7z7pupii0",
@@ -128,6 +172,198 @@
       "savedAt": 1787325865315
     },
     {
+      "id": "block_msv4mq5h7pxwww",
+      "name": "Cool Down",
+      "source": "Day 4",
+      "focus": "Cool Down",
+      "pool": "25",
+      "block": {
+        "name": "Cool Down",
+        "note": "",
+        "focus": "Cool Down",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 100,
+            "stroke": "Choice",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": ""
+          }
+        ]
+      },
+      "savedAt": 1786911222439
+    },
+    {
+      "id": "block_msv4mq5hme4uyd",
+      "name": "Evaluation 1",
+      "source": "Day 1",
+      "focus": "Evaluation",
+      "pool": "25",
+      "block": {
+        "name": "Evaluation 1",
+        "note": "",
+        "focus": "Evaluation",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 8,
+            "distance": 25,
+            "stroke": "Kick",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": ""
+          },
+          {
+            "type": "rep",
+            "count": 10,
+            "distance": 25,
+            "stroke": "Choice",
+            "transition": "2:00",
+            "interval": "0:30",
+            "detail": ""
+          }
+        ]
+      },
+      "savedAt": 1786913619367
+    },
+    {
+      "id": "block_msv4mq5hccsh7c",
+      "name": "Evaluation 2",
+      "source": "Day 1",
+      "focus": "Evaluation",
+      "pool": "25",
+      "block": {
+        "name": "Evaluation 2",
+        "note": "",
+        "focus": "Evaluation",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 10,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": "build"
+          },
+          {
+            "type": "rep",
+            "count": 16,
+            "distance": 25,
+            "stroke": "IM",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": "(4 x 25 IM Order) x 4"
+          }
+        ]
+      },
+      "savedAt": 1786913612016
+    },
+    {
+      "id": "block_msv4mq5h9nv244",
+      "name": "Free 50 Increasing Intervals",
+      "source": "Fun Friday 1",
+      "focus": "Freestyle Sprint",
+      "pool": "25",
+      "block": {
+        "name": "Free 50 Increasing Intervals",
+        "note": "",
+        "focus": "Freestyle Sprint",
+        "pool": "",
+        "repeat": 5,
+        "roundInstructions": [
+          "0:50 interval",
+          "1:00 interval",
+          "1:10 interval",
+          "1:20 interval",
+          "1:30 interval"
+        ],
+        "items": [
+          {
+            "type": "rep",
+            "count": 4,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:20",
+            "detail": ""
+          }
+        ]
+      },
+      "savedAt": 1786850470040
+    },
+    {
+      "id": "block_msv4mq5h0kk1yb",
+      "name": "Free Step Down",
+      "source": "Day 4",
+      "focus": "Freestyle",
+      "pool": "25",
+      "block": {
+        "name": "Free Step Down",
+        "note": "",
+        "focus": "Freestyle",
+        "pool": "",
+        "repeat": 5,
+        "roundInstructions": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "items": [
+          {
+            "type": "rep",
+            "count": 3,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": "Reduce interval by 5 sec after each 3"
+          }
+        ]
+      },
+      "savedAt": 1786911781798
+    },
+    {
+      "id": "block_msv4mq5hipmbyi",
+      "name": "Freestyle 5x100",
+      "source": "Day 3",
+      "focus": "Freestyle",
+      "pool": "25",
+      "block": {
+        "name": "Freestyle 5x100",
+        "note": "",
+        "focus": "Freestyle",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 5,
+            "distance": 100,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:30",
+            "detail": "w fins and paddles"
+          }
+        ]
+      },
+      "savedAt": 1786911981548
+    },
+    {
       "id": "block_mt33o7z72e0i9w",
       "name": "Freestyle Build Up",
       "source": "Day 2",
@@ -149,6 +385,299 @@
         "children": []
       },
       "savedAt": 1787325865315
+    },
+    {
+      "id": "block_msv4mq5hypipgi",
+      "name": "Freestyle Build Up",
+      "source": "Day 2",
+      "focus": "Freestyle Technique",
+      "pool": "25",
+      "block": {
+        "name": "Freestyle Build Up",
+        "note": "",
+        "focus": "Freestyle Technique",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "Free drills: balance- arms at side"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "Free drills: balance- pull every 3rd rotation"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "Free drills: one arm, other arm at side"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "Free drills: 6 kick switch"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "Free drills: swordfish, exaggerate rotation and glide "
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "Free drills: catchup"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
+          },
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 200,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "5:00",
+            "detail": "catchup 25, swim 25"
+          }
+        ]
+      },
+      "savedAt": 1786913428385
+    },
+    {
+      "id": "block_msv4mq5hk5szzq",
+      "name": "Freestyle Build Up - Sprint",
+      "source": "Day 2",
+      "focus": "Freestyle",
+      "pool": "25",
+      "block": {
+        "name": "Freestyle Build Up - Sprint",
+        "note": "",
+        "focus": "Freestyle",
+        "pool": "",
+        "repeat": 4,
+        "roundInstructions": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "items": [
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 100,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "2:00",
+            "detail": "rt/lt/sf/sw"
+          },
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:30",
+            "detail": "Sprint"
+          }
+        ]
+      },
+      "savedAt": 1786913406568
+    },
+    {
+      "id": "block_msv4mq5hu5ub8n",
+      "name": "Freestyle Build Up 2",
+      "source": "Day 3",
+      "focus": "Freestyle Technique",
+      "pool": "25",
+      "block": {
+        "name": "Freestyle Build Up 2",
+        "note": "Propulsion focus",
+        "focus": "Freestyle Technique",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills:vertical sculling "
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills:front sculling "
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills:arms underneath sculling "
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills:doggie paddle"
+          },
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 0,
+            "stroke": "Instruction",
+            "transition": "0:00",
+            "interval": "3:00",
+            "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills:fingertip drag"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills:thumb drag"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills:upside down paddles"
+          },
+          {
+            "type": "rep",
+            "count": 2,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "2:00",
+            "detail": "Free drills: perfect stroke"
+          },
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 200,
+            "stroke": "Freestyle",
+            "transition": "0:00",
+            "interval": "5:00",
+            "detail": "catch up / swim by 25"
+          }
+        ]
+      },
+      "savedAt": 1786913449352
+    },
+    {
+      "id": "block_msv4mq5h7hb9de",
+      "name": "Fun Friday 1",
+      "source": "Fun Friday 1",
+      "focus": "Fun",
+      "pool": "25",
+      "block": {
+        "name": "Fun Friday 1",
+        "note": "",
+        "focus": "Fun",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 25,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "5:00",
+            "detail": "Spoon in mouth w wiggle ball"
+          },
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 25,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "5:00",
+            "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
+          },
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 25,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "5:00",
+            "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
+          },
+          {
+            "type": "rep",
+            "count": 4,
+            "distance": 100,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "5:00",
+            "detail": "Sharks and minnows "
+          }
+        ]
+      },
+      "savedAt": 1786911584018
     },
     {
       "id": "block_mt33o7z796tah9",
@@ -185,6 +714,33 @@
         ]
       },
       "savedAt": 1787325865315
+    },
+    {
+      "id": "block_msv4mq5hipe9o0",
+      "name": "Kick Set 8x50",
+      "source": "Day 2",
+      "focus": "Kicking",
+      "pool": "25",
+      "block": {
+        "name": "Kick Set 8x50",
+        "note": "",
+        "focus": "Kicking",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 8,
+            "distance": 50,
+            "stroke": "Kick",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": "w fins 25 dophin 25 flutter"
+          }
+        ]
+      },
+      "savedAt": 1786911904931
     },
     {
       "id": "block_mt33o7z73y8e0b",
@@ -327,6 +883,33 @@
       "savedAt": 1787325865315
     },
     {
+      "id": "block_msv4mq5hcvzn9x",
+      "name": "Relays",
+      "source": "Day 4",
+      "focus": "Fun",
+      "pool": "25",
+      "block": {
+        "name": "Relays",
+        "note": "",
+        "focus": "Fun",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 8,
+            "distance": 25,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "4:00",
+            "detail": ""
+          }
+        ]
+      },
+      "savedAt": 1786911766949
+    },
+    {
       "id": "block_mt33o7z7smigif",
       "name": "Streamline Drills",
       "source": "First Day",
@@ -370,6 +953,33 @@
         ]
       },
       "savedAt": 1787325865315
+    },
+    {
+      "id": "block_msv4mq5hsue39j",
+      "name": "Turns",
+      "source": "Day 4",
+      "focus": "Turns",
+      "pool": "25",
+      "block": {
+        "name": "Turns",
+        "note": "",
+        "focus": "Turns",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 20,
+            "distance": 0,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": ""
+          }
+        ]
+      },
+      "savedAt": 1786911634984
     },
     {
       "id": "block_mt33o7z7etv0ds",
@@ -556,13 +1166,13 @@
       "savedAt": 1786914300628
     },
     {
-      "id": "block_msv4mq5hguhsk8",
-      "name": "Warm Up 5",
-      "source": "Fun Friday 1",
+      "id": "block_msv4mq5hcl3mzd",
+      "name": "Warm Up 2",
+      "source": "Day 4",
       "focus": "Warm Up",
       "pool": "25",
       "block": {
-        "name": "Warm Up 5",
+        "name": "Warm Up 2",
         "note": "",
         "focus": "Warm Up",
         "pool": "",
@@ -577,15 +1187,6 @@
             "transition": "2:00",
             "interval": "4:00",
             "detail": ""
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 200,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "4:00",
-            "detail": "Upside down paddles"
           },
           {
             "type": "rep",
@@ -593,667 +1194,12 @@
             "distance": 75,
             "stroke": "Freestyle",
             "transition": "2:00",
-            "interval": "2:00",
-            "detail": "kick/cu/sw by 25 on 10-15 sec rest"
-          }
-        ]
-      },
-      "savedAt": 1786914271145
-    },
-    {
-      "id": "block_msv4mq5hme4uyd",
-      "name": "Evaluation 1",
-      "source": "Day 1",
-      "focus": "Evaluation",
-      "pool": "25",
-      "block": {
-        "name": "Evaluation 1",
-        "note": "",
-        "focus": "Evaluation",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 8,
-            "distance": 25,
-            "stroke": "Kick",
-            "transition": "2:00",
             "interval": "1:00",
-            "detail": ""
-          },
-          {
-            "type": "rep",
-            "count": 10,
-            "distance": 25,
-            "stroke": "Choice",
-            "transition": "2:00",
-            "interval": "0:30",
-            "detail": ""
+            "detail": "Rt/lt/sw, rest 10 sec"
           }
         ]
       },
-      "savedAt": 1786913619367
-    },
-    {
-      "id": "block_msv4mq5hccsh7c",
-      "name": "Evaluation 2",
-      "source": "Day 1",
-      "focus": "Evaluation",
-      "pool": "25",
-      "block": {
-        "name": "Evaluation 2",
-        "note": "",
-        "focus": "Evaluation",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 10,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "1:00",
-            "detail": "build"
-          },
-          {
-            "type": "rep",
-            "count": 16,
-            "distance": 25,
-            "stroke": "IM",
-            "transition": "2:00",
-            "interval": "1:00",
-            "detail": "(4 x 25 IM Order) x 4"
-          }
-        ]
-      },
-      "savedAt": 1786913612016
-    },
-    {
-      "id": "block_msv4mq5hu5ub8n",
-      "name": "Freestyle Build Up 2",
-      "source": "Day 3",
-      "focus": "Freestyle Technique",
-      "pool": "25",
-      "block": {
-        "name": "Freestyle Build Up 2",
-        "note": "Propulsion focus",
-        "focus": "Freestyle Technique",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills:vertical sculling "
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills:front sculling "
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills:arms underneath sculling "
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills:doggie paddle"
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 0,
-            "stroke": "Instruction",
-            "transition": "0:00",
-            "interval": "3:00",
-            "detail": "Free Discuss:  Discuss proper hand entry, don't cross over, early vertical forearm, hand pulls along middle of body"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills:fingertip drag"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills:thumb drag"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills:upside down paddles"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "2:00",
-            "detail": "Free drills: perfect stroke"
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 200,
-            "stroke": "Freestyle",
-            "transition": "0:00",
-            "interval": "5:00",
-            "detail": "catch up / swim by 25"
-          }
-        ]
-      },
-      "savedAt": 1786913449352
-    },
-    {
-      "id": "block_msv4mq5hypipgi",
-      "name": "Freestyle Build Up",
-      "source": "Day 2",
-      "focus": "Freestyle Technique",
-      "pool": "25",
-      "block": {
-        "name": "Freestyle Build Up",
-        "note": "",
-        "focus": "Freestyle Technique",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "Free drills: balance- arms at side"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "Free drills: balance- pull every 3rd rotation"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "Free drills: one arm, other arm at side"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "Free drills: 6 kick switch"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "Free drills: swordfish, exaggerate rotation and glide "
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "Free drills: catchup"
-          },
-          {
-            "type": "rep",
-            "count": 2,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "Free drills: perfect stroke exaggerate rotation, glide and length"
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 200,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "5:00",
-            "detail": "catchup 25, swim 25"
-          }
-        ]
-      },
-      "savedAt": 1786913428385
-    },
-    {
-      "id": "block_msv4mq5hk5szzq",
-      "name": "Freestyle Build Up - Sprint",
-      "source": "Day 2",
-      "focus": "Freestyle",
-      "pool": "25",
-      "block": {
-        "name": "Freestyle Build Up - Sprint",
-        "note": "",
-        "focus": "Freestyle",
-        "pool": "",
-        "repeat": 4,
-        "roundInstructions": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "items": [
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 100,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": "rt/lt/sf/sw"
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "1:30",
-            "detail": "Sprint"
-          }
-        ]
-      },
-      "savedAt": 1786913406568
-    },
-    {
-      "id": "block_msv4mq5hipmbyi",
-      "name": "Freestyle 5x100",
-      "source": "Day 3",
-      "focus": "Freestyle",
-      "pool": "25",
-      "block": {
-        "name": "Freestyle 5x100",
-        "note": "",
-        "focus": "Freestyle",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 5,
-            "distance": 100,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "1:30",
-            "detail": "w fins and paddles"
-          }
-        ]
-      },
-      "savedAt": 1786911981548
-    },
-    {
-      "id": "block_msv4mq5hipe9o0",
-      "name": "Kick Set 8x50",
-      "source": "Day 2",
-      "focus": "Kicking",
-      "pool": "25",
-      "block": {
-        "name": "Kick Set 8x50",
-        "note": "",
-        "focus": "Kicking",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 8,
-            "distance": 50,
-            "stroke": "Kick",
-            "transition": "2:00",
-            "interval": "1:00",
-            "detail": "w fins 25 dophin 25 flutter"
-          }
-        ]
-      },
-      "savedAt": 1786911904931
-    },
-    {
-      "id": "block_msv4mq5h0kk1yb",
-      "name": "Free Step Down",
-      "source": "Day 4",
-      "focus": "Freestyle",
-      "pool": "25",
-      "block": {
-        "name": "Free Step Down",
-        "note": "",
-        "focus": "Freestyle",
-        "pool": "",
-        "repeat": 5,
-        "roundInstructions": [
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        "items": [
-          {
-            "type": "rep",
-            "count": 3,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "1:00",
-            "detail": "Reduce interval by 5 sec after each 3"
-          }
-        ]
-      },
-      "savedAt": 1786911781798
-    },
-    {
-      "id": "block_msv4mq5hcvzn9x",
-      "name": "Relays",
-      "source": "Day 4",
-      "focus": "Fun",
-      "pool": "25",
-      "block": {
-        "name": "Relays",
-        "note": "",
-        "focus": "Fun",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 8,
-            "distance": 25,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "4:00",
-            "detail": ""
-          }
-        ]
-      },
-      "savedAt": 1786911766949
-    },
-    {
-      "id": "block_msv4mq5hnio2if",
-      "name": "Challenge Set",
-      "source": "Day 4",
-      "focus": "Freestyle",
-      "pool": "25",
-      "block": {
-        "name": "Challenge Set",
-        "note": "",
-        "focus": "Freestyle",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "block",
-            "name": "Free Step Down",
-            "note": "",
-            "focus": "",
-            "pool": "",
-            "repeat": 5,
-            "roundInstructions": [
-              "1:00 Interval",
-              "0:55 Interval",
-              "0:50 Interval",
-              "0:45 Interval",
-              "0:40 Interval"
-            ],
-            "items": [
-              {
-                "type": "rep",
-                "count": 3,
-                "distance": 50,
-                "stroke": "Freestyle",
-                "transition": "2:00",
-                "interval": "1:00",
-                "detail": ""
-              }
-            ]
-          }
-        ]
-      },
-      "savedAt": 1786911746299
-    },
-    {
-      "id": "block_msv4mq5hsue39j",
-      "name": "Turns",
-      "source": "Day 4",
-      "focus": "Turns",
-      "pool": "25",
-      "block": {
-        "name": "Turns",
-        "note": "",
-        "focus": "Turns",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 20,
-            "distance": 0,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "1:00",
-            "detail": ""
-          }
-        ]
-      },
-      "savedAt": 1786911634984
-    },
-    {
-      "id": "block_msv4mq5h7hb9de",
-      "name": "Fun Friday 1",
-      "source": "Fun Friday 1",
-      "focus": "Fun",
-      "pool": "25",
-      "block": {
-        "name": "Fun Friday 1",
-        "note": "",
-        "focus": "Fun",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 25,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "5:00",
-            "detail": "Spoon in mouth w wiggle ball"
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 25,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "5:00",
-            "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 25,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "5:00",
-            "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
-          },
-          {
-            "type": "rep",
-            "count": 4,
-            "distance": 100,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "5:00",
-            "detail": "Sharks and minnows "
-          }
-        ]
-      },
-      "savedAt": 1786911584018
-    },
-    {
-      "id": "block_msv4mq5h7pxwww",
-      "name": "Cool Down",
-      "source": "Day 4",
-      "focus": "Cool Down",
-      "pool": "25",
-      "block": {
-        "name": "Cool Down",
-        "note": "",
-        "focus": "Cool Down",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 100,
-            "stroke": "Choice",
-            "transition": "2:00",
-            "interval": "2:00",
-            "detail": ""
-          }
-        ]
-      },
-      "savedAt": 1786911222439
-    },
-    {
-      "id": "block_msv4mq5h9nv244",
-      "name": "Free 50 Increasing Intervals",
-      "source": "Fun Friday 1",
-      "focus": "Freestyle Sprint",
-      "pool": "25",
-      "block": {
-        "name": "Free 50 Increasing Intervals",
-        "note": "",
-        "focus": "Freestyle Sprint",
-        "pool": "",
-        "repeat": 5,
-        "roundInstructions": [
-          "0:50 interval",
-          "1:00 interval",
-          "1:10 interval",
-          "1:20 interval",
-          "1:30 interval"
-        ],
-        "items": [
-          {
-            "type": "rep",
-            "count": 4,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "1:20",
-            "detail": ""
-          }
-        ]
-      },
-      "savedAt": 1786850470040
-    },
-    {
-      "id": "block_msv4mq5hxjvq8m",
-      "name": "Warm Up 4",
-      "source": "Day 1",
-      "focus": "Warm Up",
-      "pool": "25",
-      "block": {
-        "name": "Warm Up 4",
-        "note": "",
-        "focus": "Warm Up",
-        "pool": "",
-        "repeat": 1,
-        "roundInstructions": [],
-        "items": [
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 200,
-            "stroke": "Choice",
-            "transition": "2:00",
-            "interval": "5:00",
-            "detail": ""
-          },
-          {
-            "type": "rep",
-            "count": 1,
-            "distance": 200,
-            "stroke": "Kick",
-            "transition": "2:00",
-            "interval": "5:00",
-            "detail": ""
-          },
-          {
-            "type": "rep",
-            "count": 6,
-            "distance": 50,
-            "stroke": "Freestyle",
-            "transition": "2:00",
-            "interval": "1:00",
-            "detail": "25 scull / 25 swim"
-          }
-        ]
-      },
-      "savedAt": 1786850170975
+      "savedAt": 1786849831861
     },
     {
       "id": "block_msv4mq5h3ntgfl",
@@ -1301,13 +1247,58 @@
       "savedAt": 1786849848027
     },
     {
-      "id": "block_msv4mq5hcl3mzd",
-      "name": "Warm Up 2",
-      "source": "Day 4",
+      "id": "block_msv4mq5hxjvq8m",
+      "name": "Warm Up 4",
+      "source": "Day 1",
       "focus": "Warm Up",
       "pool": "25",
       "block": {
-        "name": "Warm Up 2",
+        "name": "Warm Up 4",
+        "note": "",
+        "focus": "Warm Up",
+        "pool": "",
+        "repeat": 1,
+        "roundInstructions": [],
+        "items": [
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 200,
+            "stroke": "Choice",
+            "transition": "2:00",
+            "interval": "5:00",
+            "detail": ""
+          },
+          {
+            "type": "rep",
+            "count": 1,
+            "distance": 200,
+            "stroke": "Kick",
+            "transition": "2:00",
+            "interval": "5:00",
+            "detail": ""
+          },
+          {
+            "type": "rep",
+            "count": 6,
+            "distance": 50,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "1:00",
+            "detail": "25 scull / 25 swim"
+          }
+        ]
+      },
+      "savedAt": 1786850170975
+    },
+    {
+      "id": "block_msv4mq5hguhsk8",
+      "name": "Warm Up 5",
+      "source": "Fun Friday 1",
+      "focus": "Warm Up",
+      "pool": "25",
+      "block": {
+        "name": "Warm Up 5",
         "note": "",
         "focus": "Warm Up",
         "pool": "",
@@ -1325,16 +1316,25 @@
           },
           {
             "type": "rep",
+            "count": 1,
+            "distance": 200,
+            "stroke": "Freestyle",
+            "transition": "2:00",
+            "interval": "4:00",
+            "detail": "Upside down paddles"
+          },
+          {
+            "type": "rep",
             "count": 4,
             "distance": 75,
             "stroke": "Freestyle",
             "transition": "2:00",
-            "interval": "1:00",
-            "detail": "Rt/lt/sw, rest 10 sec"
+            "interval": "2:00",
+            "detail": "kick/cu/sw by 25 on 10-15 sec rest"
           }
         ]
       },
-      "savedAt": 1786849831861
+      "savedAt": 1786914271145
     }
   ]
 }
