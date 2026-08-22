@@ -1,7 +1,214 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T16:49:14.516Z",
+  "updatedAt": "2026-08-22T16:51:14.598Z",
   "logs": [
+    {
+      "id": "log_mt4m7plxvzy7sf",
+      "title": "Backstroke Build Up",
+      "date": "2026-08-17",
+      "notes": "Backstroke",
+      "total": 2400,
+      "unit": "yd",
+      "set": {
+        "title": "Backstroke Build Up",
+        "focus": "Backstroke",
+        "tags": "",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up 5",
+            "note": "",
+            "focus": "Warm Up",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "activity": "Swim",
+                "transition": "0:00",
+                "interval": "4:00",
+                "detail": ""
+              },
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 200,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "0:00",
+                "interval": "4:00",
+                "detail": "Upside down paddles"
+              },
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 75,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "0:00",
+                "interval": "2:00",
+                "detail": "kick/cu/sw by 25 on 10-15 sec rest"
+              }
+            ]
+          },
+          {
+            "name": "Backstroke Build Up",
+            "note": "With Fins",
+            "focus": "Backstroke Technique",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Back drills: head back - arms at side w rotation"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Back drills: head back - Streamline kick on back"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Back drills: kick with one arm in streamline rt/lt by 25. rotate hips to side of streamline arm"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Back drills: reach for the sky, emphasize rotation and balance"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Single-Arm Backstroke: Keep one arm at the side and use the working arm to focus on clean rotation and entry."
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Back drills: pull every 3rd rotation"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "6-Kick Switch: Six kicks on one side, take one stroke to rotate, then hold the other side for six kicks."
+              },
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 200,
+                "stroke": "Backstroke",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "5:00",
+                "detail": "perfect backstroke"
+              }
+            ]
+          },
+          {
+            "name": "Backstroke Build",
+            "note": "",
+            "focus": "Backstroke Technique",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 50,
+                "stroke": "Backstroke",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "1:30",
+                "detail": "build"
+              }
+            ]
+          },
+          {
+            "name": "Sprints",
+            "note": "",
+            "focus": "Cardio",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 20,
+                "distance": 25,
+                "stroke": "Freestyle, Backstroke",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "0:30",
+                "detail": ""
+              }
+            ]
+          },
+          {
+            "name": "Cool Down",
+            "note": "",
+            "focus": "Cool Down",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 100,
+                "stroke": "Choice",
+                "activity": "Swim",
+                "transition": "0:00",
+                "interval": "2:00",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "id": 25
+      }
+    },
     {
       "id": "log_mt4jqbpdwyaqek",
       "title": "50 Race Pace",
