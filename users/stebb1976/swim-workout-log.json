@@ -1,7 +1,282 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T16:51:25.333Z",
+  "updatedAt": "2026-08-22T16:51:37.824Z",
   "logs": [
+    {
+      "id": "log_mt4m855nhmxxjw",
+      "title": "Butterfly Build Up",
+      "date": "2026-08-21",
+      "notes": "Backstroke",
+      "total": 1500,
+      "unit": "yd",
+      "set": {
+        "title": "Butterfly Build Up",
+        "focus": "Backstroke",
+        "tags": "",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up 5",
+            "note": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "transition": "0:00",
+                "interval": "4:00",
+                "detail": ""
+              },
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 75,
+                "stroke": "Freestyle",
+                "transition": "0:00",
+                "interval": "2:00",
+                "detail": "Rt/lt/sw by 25 on 10-15 sec rest"
+              }
+            ]
+          },
+          {
+            "name": "Butterfly Build Up",
+            "note": "With Fins",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Streamline kick w fins"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Dolphin dives"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Underwater fly"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "One arm"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "3-3-3"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Swim"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "3-3-3 no fins"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 50,
+                "stroke": "Butterfly",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Swim"
+              },
+              {
+                "type": "block",
+                "name": "Fly sprints",
+                "note": "",
+                "repeat": 1,
+                "roundInstructions": [],
+                "items": [
+                  {
+                    "type": "rep",
+                    "count": 8,
+                    "distance": 25,
+                    "stroke": "Butterfly",
+                    "transition": "2:00",
+                    "interval": "0:45",
+                    "detail": "Long strokes"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "savedAt": 1787338635295,
+        "id": 24
+      }
+    },
+    {
+      "id": "log_mt4m83pa38p2c0",
+      "title": "Fun Friday 1",
+      "date": "2026-08-21",
+      "notes": "Fun",
+      "total": 2075,
+      "unit": "yd",
+      "set": {
+        "title": "Fun Friday 1",
+        "focus": "Fun",
+        "tags": "Fun",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "",
+            "focus": "new focus",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "4:00",
+                "detail": ""
+              },
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 200,
+                "stroke": "IM",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "4:00",
+                "detail": "Drill"
+              },
+              {
+                "type": "rep",
+                "count": 2,
+                "distance": 100,
+                "stroke": "Freestyle",
+                "activity": "Drill",
+                "transition": "2:00",
+                "interval": "2:00",
+                "detail": "Rt/lt/cu/sw"
+              }
+            ]
+          },
+          {
+            "name": "Main Set",
+            "note": "",
+            "focus": "",
+            "pool": "",
+            "repeat": 5,
+            "roundInstructions": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "items": [
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "1:20",
+                "detail": "Start at 50 sec (15 sec rest), add 10 sec each round "
+              }
+            ]
+          },
+          {
+            "name": "Fun Friday ",
+            "note": "",
+            "focus": "",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 25,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "5:00",
+                "detail": "Spoon in mouth w wiggle ball"
+              },
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 25,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "5:00",
+                "detail": "Fill the bucket with cup. Start from the yellow mark.  Sit on kickboard everyone must touch cup."
+              },
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 25,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "5:00",
+                "detail": "Fill the bucket with cup on tray. Start from the yellow mark. Sit on kickboard.  Everyone must touch tray."
+              },
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 100,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "5:00",
+                "detail": "Sharks and minnows "
+              }
+            ]
+          }
+        ],
+        "id": 28
+      }
+    },
     {
       "id": "log_mt4m7xw3fnc0gl",
       "title": "Freestyle Cardio Base",
