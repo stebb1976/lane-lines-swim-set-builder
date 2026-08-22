@@ -1,7 +1,108 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T20:46:29.758Z",
+  "updatedAt": "2026-08-22T16:49:14.516Z",
   "logs": [
+    {
+      "id": "log_mt4jqbpdwyaqek",
+      "title": "50 Race Pace",
+      "date": "2026-08-24",
+      "notes": "Speed, walls, and recovery",
+      "total": 1400,
+      "unit": "yd",
+      "set": {
+        "title": "50 Race Pace",
+        "focus": "Speed, walls, and recovery",
+        "tags": "sprint, race pace, speed",
+        "pool": "25",
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "Build speed through the walls.",
+            "focus": "",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 500,
+                "stroke": "Choice",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "",
+                "detail": "swim / drill / kick"
+              }
+            ]
+          },
+          {
+            "name": "Race pace",
+            "note": "Quality first. Take the easy repeats seriously.",
+            "focus": "",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 8,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "1:15",
+                "detail": "odds race pace, evens easy"
+              }
+            ]
+          },
+          {
+            "name": "Breakout work",
+            "note": "Fast into a clean breakout.",
+            "focus": "",
+            "pool": "",
+            "repeat": 2,
+            "roundInstructions": [
+              "",
+              ""
+            ],
+            "items": [
+              {
+                "type": "rep",
+                "count": 4,
+                "distance": 25,
+                "stroke": "Choice",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": ":40",
+                "detail": "15 m fast, easy in"
+              }
+            ]
+          },
+          {
+            "name": "Cool Down",
+            "note": "Easy choice.",
+            "focus": "",
+            "pool": "",
+            "repeat": 1,
+            "roundInstructions": [],
+            "items": [
+              {
+                "type": "rep",
+                "count": 1,
+                "distance": 300,
+                "stroke": "Choice",
+                "activity": "Swim",
+                "transition": "2:00",
+                "interval": "",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "savedAt": 1787413275992,
+        "id": 1
+      }
+    },
     {
       "id": "log_mss8syslvn9oqd",
       "title": "Day 4",
@@ -568,6 +669,231 @@
         ],
         "savedAt": 1786411188051,
         "id": 11
+      }
+    },
+    {
+      "title": "Freestyle Pace Ladder",
+      "date": "2026-08-08",
+      "total": 1500,
+      "unit": "yd",
+      "notes": "Strong pacing through the middle 300; held stroke count well.",
+      "set": {
+        "title": "Freestyle Pace Ladder",
+        "focus": "Aerobic pacing and control",
+        "tags": "freestyle, aerobic, pacing",
+        "pool": "25",
+        "savedAt": 1786298400000,
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "Build gradually and establish a calm breathing pattern.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 400,
+                "stroke": "Choice",
+                "interval": "1:30",
+                "detail": "swim / kick / drill"
+              }
+            ]
+          },
+          {
+            "name": "Pace ladder",
+            "note": "Hold a steady stroke count as the distance changes.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 100,
+                "stroke": "Freestyle",
+                "interval": "1:35",
+                "detail": "smooth"
+              },
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Freestyle",
+                "interval": "3:05",
+                "detail": "steady"
+              },
+              {
+                "count": 1,
+                "distance": 300,
+                "stroke": "Freestyle",
+                "interval": "4:35",
+                "detail": "strong"
+              },
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Freestyle",
+                "interval": "3:00",
+                "detail": "steady"
+              },
+              {
+                "count": 1,
+                "distance": 100,
+                "stroke": "Freestyle",
+                "interval": "1:30",
+                "detail": "build"
+              }
+            ]
+          },
+          {
+            "name": "Cool Down",
+            "note": "Easy choice.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 200,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "id": 4
+      }
+    },
+    {
+      "title": "IM Transitions",
+      "date": "2026-08-06",
+      "total": 1200,
+      "unit": "yd",
+      "notes": "Better breaststroke-to-free transitions by the final round.",
+      "set": {
+        "title": "IM Transitions",
+        "focus": "IM skills and clean turns",
+        "tags": "IM, technique, turns",
+        "pool": "25",
+        "savedAt": 1786298400001,
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "Prepare each stroke with good body line.",
+            "reps": [
+              {
+                "count": 4,
+                "distance": 75,
+                "stroke": "IM",
+                "interval": "1:25",
+                "detail": "25 drill / 50 swim"
+              }
+            ]
+          },
+          {
+            "name": "IM circuit",
+            "note": "Make every transition deliberate.",
+            "reps": [
+              {
+                "count": 4,
+                "distance": 100,
+                "stroke": "IM",
+                "interval": "1:45",
+                "detail": "descend 1–4"
+              }
+            ],
+            "children": [
+              {
+                "name": "Transition skills",
+                "note": "Reset and focus on the wall.",
+                "reps": [
+                  {
+                    "count": 4,
+                    "distance": 50,
+                    "stroke": "Choice",
+                    "interval": "1:05",
+                    "detail": "25 fast into turn + 25 easy"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cool Down",
+            "note": "Easy choice.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 300,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "id": 5
+      }
+    },
+    {
+      "title": "50 Race Pace",
+      "date": "2026-08-04",
+      "total": 1400,
+      "unit": "yd",
+      "notes": "High-quality 50s with focused turns and underwater breakouts.",
+      "set": {
+        "title": "50 Race Pace",
+        "focus": "Speed, walls, and recovery",
+        "tags": "sprint, race pace, speed",
+        "pool": "25",
+        "savedAt": 1786298400002,
+        "blocks": [
+          {
+            "name": "Warm Up",
+            "note": "Build speed through the walls.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 500,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": "swim / drill / kick"
+              }
+            ]
+          },
+          {
+            "name": "Race pace",
+            "note": "Quality first. Take the easy repeats seriously.",
+            "reps": [
+              {
+                "count": 8,
+                "distance": 50,
+                "stroke": "Freestyle",
+                "interval": "1:15",
+                "detail": "odds race pace, evens easy"
+              }
+            ]
+          },
+          {
+            "name": "Breakout work",
+            "note": "Fast into a clean breakout.",
+            "repeat": 2,
+            "reps": [
+              {
+                "count": 4,
+                "distance": 25,
+                "stroke": "Choice",
+                "interval": ":40",
+                "detail": "15 m fast, easy in"
+              }
+            ]
+          },
+          {
+            "name": "Cool Down",
+            "note": "Easy choice.",
+            "reps": [
+              {
+                "count": 1,
+                "distance": 300,
+                "stroke": "Choice",
+                "interval": "",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "id": 6
       }
     }
   ]
