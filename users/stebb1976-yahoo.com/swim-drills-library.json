@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-22T16:26:53.359Z",
+  "drills": [
+    {
+      "id": "drill_mt4j7la2ea4go",
+      "stroke": "Breast",
+      "name": "2 Kicks, 1 Pull",
+      "description": "Take two narrow, fast kicks for every pull to emphasize line and kick timing."
+    },
+    {
+      "id": "drill_mt4j7la2350rw",
+      "name": "3-3-3 Butterfly",
+      "stroke": "Fly",
+      "description": "3 right-arm, 3 left-arm, then 3 full-stroke butterfly cycles with a steady rhythm."
+    },
+    {
+      "id": "drill_mt4j7la222hq1",
+      "stroke": "Back",
+      "name": "6-Kick Switch",
+      "description": "Six kicks on one side, take one stroke to rotate, then hold the other side for six kicks."
+    },
+    {
+      "id": "drill_mt4j7la2pv4fy",
+      "stroke": "Free",
+      "name": "6-Kick Switch",
+      "description": "Six kicks on the side, one stroke to switch sides; maintain one goggle in the water."
+    },
+    {
+      "id": "drill_mt4j7la20eoaa",
+      "stroke": "Back",
+      "name": "Arms-at-Sides Rotation",
+      "description": "Keep the head back and arms at the sides while rotating through the hips and shoulders."
+    },
+    {
+      "id": "drill_mt4j7la2tt2v0",
+      "stroke": "Back",
+      "name": "Backstroke Rotation",
+      "description": "Kick on the side with one arm extended; rotate through the hips and shoulders every six kicks."
+    },
+    {
+      "id": "drill_mt4j7la2hyqzh",
+      "stroke": "Fly",
+      "name": "Body Dolphin",
+      "description": "Alternate 4–6 underwater dolphin kicks on the stomach and back; keep the kick driven from the core."
+    },
+    {
+      "id": "drill_mt4j7la2l8adn",
+      "stroke": "Breast",
+      "name": "Breaststroke Pullout",
+      "description": "Practice a legal, powerful pullout with a tight line before the first breakout stroke."
+    },
+    {
+      "id": "drill_mt4j7la28vg9u",
+      "stroke": "Free",
+      "name": "Catch-Up Freestyle",
+      "description": "Keep the lead hand extended until the recovering hand meets it, then switch smoothly."
+    },
+    {
+      "id": "drill_mt4j7la2f7n9o",
+      "stroke": "Back",
+      "name": "Double-Arm Backstroke",
+      "description": "Use both arms together to reinforce a tall body line and simultaneous finish."
+    },
+    {
+      "id": "drill_mt4j7la2luzh7",
+      "stroke": "Free",
+      "name": "Fingertip Drag",
+      "description": "Lightly drag the fingertips during recovery to encourage a relaxed, high-elbow return."
+    },
+    {
+      "id": "drill_mt4j7la22j6u3",
+      "stroke": "Breast",
+      "name": "Kick on Back",
+      "description": "Lie on the back with hands at the sides and isolate a narrow, fast breaststroke kick."
+    },
+    {
+      "id": "drill_mt4j7la2atdpi",
+      "stroke": "Back",
+      "name": "One-Arm Streamline Back Kick",
+      "description": "Kick on the back with one arm in streamline, alternating right and left by 25; rotate the hips toward the streamline arm."
+    },
+    {
+      "id": "drill_mt4j7la2nrcws",
+      "stroke": "Breast",
+      "name": "Pause Breaststroke",
+      "description": "Pause for one count in the glide after each kick to feel the line before the next pull."
+    },
+    {
+      "id": "drill_mt4j7la2damfi",
+      "stroke": "Back",
+      "name": "Pull Every Third Rotation",
+      "description": "Maintain a steady backstroke rotation pattern and take a pull on every third rotation."
+    },
+    {
+      "id": "drill_mt4j7la2szstd",
+      "stroke": "Back",
+      "name": "Reach for the Sky",
+      "description": "Reach upward through the recovery while emphasizing balanced rotation and body position."
+    },
+    {
+      "id": "drill_mt4j7la277uy2",
+      "stroke": "Fly",
+      "name": "Scull to Fly",
+      "description": "Scull through the front of the stroke, then take one controlled butterfly stroke."
+    },
+    {
+      "id": "drill_mt4j7la2lxw67",
+      "stroke": "Back",
+      "name": "Single-Arm Backstroke",
+      "description": "Keep one arm at the side and use the working arm to focus on clean rotation and entry."
+    },
+    {
+      "id": "drill_mt4j7la2pt52m",
+      "stroke": "Fly",
+      "name": "Single-Arm Butterfly",
+      "description": "One arm stays forward while the working arm focuses on a relaxed recovery and strong catch."
+    },
+    {
+      "id": "drill_mt4j7la2f9dy1",
+      "stroke": "Free",
+      "name": "Single-Arm Freestyle",
+      "description": "One arm stays forward while the working arm focuses on an early vertical forearm catch."
+    },
+    {
+      "id": "drill_mt4j7la2ht3x4",
+      "stroke": "Back",
+      "name": "Streamline Kick on Back",
+      "description": "Hold a long streamline while kicking on the back with the head relaxed and hips high."
+    }
+  ]
+}
