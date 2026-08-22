@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-22T16:27:18.168Z",
+  "sets": [
+    {
+      "title": "50 Race Pace",
+      "focus": "Speed, walls, and recovery",
+      "tags": "sprint, race pace, speed",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "Build speed through the walls.",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 500,
+              "stroke": "Choice",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "",
+              "detail": "swim / drill / kick"
+            }
+          ]
+        },
+        {
+          "name": "Race pace",
+          "note": "Quality first. Take the easy repeats seriously.",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 8,
+              "distance": 50,
+              "stroke": "Freestyle",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "1:15",
+              "detail": "odds race pace, evens easy"
+            }
+          ]
+        },
+        {
+          "name": "Breakout work",
+          "note": "Fast into a clean breakout.",
+          "focus": "",
+          "pool": "",
+          "repeat": 2,
+          "roundInstructions": [
+            "",
+            ""
+          ],
+          "items": [
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 25,
+              "stroke": "Choice",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": ":40",
+              "detail": "15 m fast, easy in"
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "Easy choice.",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 1,
+              "distance": 300,
+              "stroke": "Choice",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "savedAt": 1787413275992,
+      "id": 1
+    },
+    {
+      "id": 7,
+      "title": "First Day",
+      "focus": "Evaluation",
+      "tags": "Evaluation",
+      "pool": "25",
+      "savedAt": 1787412429451,
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Kick",
+              "interval": "5:00",
+              "detail": ""
+            },
+            {
+              "count": 4,
+              "distance": 50,
+              "stroke": "Choice",
+              "interval": "1:00",
+              "detail": "25 scull / 25 swim"
+            }
+          ]
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "reps": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "reps": []
+        }
+      ]
+    },
+    {
+      "title": "Freestyle Pace Ladder",
+      "focus": "Aerobic pacing and control",
+      "tags": "freestyle, aerobic, pacing",
+      "pool": "25",
+      "savedAt": 1786298400000,
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "Build gradually and establish a calm breathing pattern.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 400,
+              "stroke": "Choice",
+              "interval": "1:30",
+              "detail": "swim / kick / drill"
+            }
+          ]
+        },
+        {
+          "name": "Pace ladder",
+          "note": "Hold a steady stroke count as the distance changes.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "interval": "1:35",
+              "detail": "smooth"
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "interval": "3:05",
+              "detail": "steady"
+            },
+            {
+              "count": 1,
+              "distance": 300,
+              "stroke": "Freestyle",
+              "interval": "4:35",
+              "detail": "strong"
+            },
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Freestyle",
+              "interval": "3:00",
+              "detail": "steady"
+            },
+            {
+              "count": 1,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "interval": "1:30",
+              "detail": "build"
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "Easy choice.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 200,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "IM Transitions",
+      "focus": "IM skills and clean turns",
+      "tags": "IM, technique, turns",
+      "pool": "25",
+      "savedAt": 1786298400001,
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "Prepare each stroke with good body line.",
+          "reps": [
+            {
+              "count": 4,
+              "distance": 75,
+              "stroke": "IM",
+              "interval": "1:25",
+              "detail": "25 drill / 50 swim"
+            }
+          ]
+        },
+        {
+          "name": "IM circuit",
+          "note": "Make every transition deliberate.",
+          "reps": [
+            {
+              "count": 4,
+              "distance": 100,
+              "stroke": "IM",
+              "interval": "1:45",
+              "detail": "descend 1–4"
+            }
+          ],
+          "children": [
+            {
+              "name": "Transition skills",
+              "note": "Reset and focus on the wall.",
+              "reps": [
+                {
+                  "count": 4,
+                  "distance": 50,
+                  "stroke": "Choice",
+                  "interval": "1:05",
+                  "detail": "25 fast into turn + 25 easy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cool Down",
+          "note": "Easy choice.",
+          "reps": [
+            {
+              "count": 1,
+              "distance": 300,
+              "stroke": "Choice",
+              "interval": "",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "Untitled set",
+      "focus": "",
+      "tags": "",
+      "pool": "25",
+      "blocks": [
+        {
+          "name": "Warm Up",
+          "note": "",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": [
+            {
+              "type": "rep",
+              "count": 4,
+              "distance": 100,
+              "stroke": "Freestyle",
+              "activity": "Swim",
+              "transition": "2:00",
+              "interval": "1:30",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "name": "Main Set",
+          "note": "",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": []
+        },
+        {
+          "name": "Cool Down",
+          "note": "",
+          "focus": "",
+          "pool": "",
+          "repeat": 1,
+          "roundInstructions": [],
+          "items": []
+        }
+      ],
+      "savedAt": 1787413110022,
+      "id": 8
+    }
+  ]
+}
