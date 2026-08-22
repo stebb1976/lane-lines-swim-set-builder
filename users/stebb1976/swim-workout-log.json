@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T16:51:37.824Z",
+  "updatedAt": "2026-08-22T16:51:41.848Z",
   "logs": [
     {
       "id": "log_mt4m855nhmxxjw",
@@ -786,107 +786,6 @@
           }
         ],
         "id": 25
-      }
-    },
-    {
-      "id": "log_mt4jqbpdwyaqek",
-      "title": "50 Race Pace",
-      "date": "2026-08-24",
-      "notes": "Speed, walls, and recovery",
-      "total": 1400,
-      "unit": "yd",
-      "set": {
-        "title": "50 Race Pace",
-        "focus": "Speed, walls, and recovery",
-        "tags": "sprint, race pace, speed",
-        "pool": "25",
-        "blocks": [
-          {
-            "name": "Warm Up",
-            "note": "Build speed through the walls.",
-            "focus": "",
-            "pool": "",
-            "repeat": 1,
-            "roundInstructions": [],
-            "items": [
-              {
-                "type": "rep",
-                "count": 1,
-                "distance": 500,
-                "stroke": "Choice",
-                "activity": "Swim",
-                "transition": "2:00",
-                "interval": "",
-                "detail": "swim / drill / kick"
-              }
-            ]
-          },
-          {
-            "name": "Race pace",
-            "note": "Quality first. Take the easy repeats seriously.",
-            "focus": "",
-            "pool": "",
-            "repeat": 1,
-            "roundInstructions": [],
-            "items": [
-              {
-                "type": "rep",
-                "count": 8,
-                "distance": 50,
-                "stroke": "Freestyle",
-                "activity": "Swim",
-                "transition": "2:00",
-                "interval": "1:15",
-                "detail": "odds race pace, evens easy"
-              }
-            ]
-          },
-          {
-            "name": "Breakout work",
-            "note": "Fast into a clean breakout.",
-            "focus": "",
-            "pool": "",
-            "repeat": 2,
-            "roundInstructions": [
-              "",
-              ""
-            ],
-            "items": [
-              {
-                "type": "rep",
-                "count": 4,
-                "distance": 25,
-                "stroke": "Choice",
-                "activity": "Swim",
-                "transition": "2:00",
-                "interval": ":40",
-                "detail": "15 m fast, easy in"
-              }
-            ]
-          },
-          {
-            "name": "Cool Down",
-            "note": "Easy choice.",
-            "focus": "",
-            "pool": "",
-            "repeat": 1,
-            "roundInstructions": [],
-            "items": [
-              {
-                "type": "rep",
-                "count": 1,
-                "distance": 300,
-                "stroke": "Choice",
-                "activity": "Swim",
-                "transition": "2:00",
-                "interval": "",
-                "detail": ""
-              }
-            ]
-          }
-        ],
-        "savedAt": 1787413275992,
-        "id": 1
       }
     },
     {
